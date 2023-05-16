@@ -29,6 +29,5 @@ bin/
 ### Mac OS ###
 .DS_Store
 
-ficheros/
-*.xml
-!plazas.xml
+ficheros/*.xml
+!ficheros/plazas.xml
