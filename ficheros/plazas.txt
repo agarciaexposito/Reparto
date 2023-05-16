@@ -1,0 +1,3033 @@
+ANDALUCÍA
+
+  590001       FILOSOFÍA                                                              1        28
+                                                                                      2         3
+
+  590002       GRIEGO                                                                 1        23
+                                                                                      2         3
+
+  590003       LATÍN                                                                  1        22
+                                                                                      2         3
+
+   590004      LENGUA CASTELLANA Y LITERATURA                                         1       154
+                                                                                      2        17
+
+   590005      GEOGRAFÍA E HISTORIA                                                   1       232
+                                                                                      2        26
+
+   590006      MATEMÁTICAS                                                            1       171
+                                                                                      2        19
+
+  590007       FÍSICA Y QUÍMICA                                                       1        64
+                                                                                      2         7
+
+  590008       BIOLOGÍA Y GEOLOGÍA                                                    1        52
+                                                                                      2         6
+
+  590009       DIBUJO                                                                 1        31
+                                                                                      2         3
+
+  590010       FRANCÉS                                                                1        63
+                                                                                      2         7
+
+   590011      INGLÉS                                                                 1       138
+                                                                                      2        15
+
+   590012      ALEMÁN                                                                 1         4
+                                                                                      2         1
+
+  590013    ITALIANO                                                              1            1
+
+   590016      MÚSICA                                                                 1         7
+                                                                                      2         1
+
+  590017       EDUCACIÓN FÍSICA                                                       1        63
+                                                                                      2         7
+
+  590018       ORIENTACIÓN EDUCATIVA                                                  1        53
+                                                                                      2         6
+
+  590019       TECNOLOGÍA                                                             1        40
+                                                                                      2         4
+
+  590061       ECONOMÍA                                                               1        52
+                                                                                      2         6
+
+  590101       ADMINISTRACIÓN DE EMPRESAS                                             1        21
+                                                                                      2         2
+
+  590102    ANÁLISIS Y QUÍMICA INDUSTRIAL                                         1            2
+
+  590103       ASESORÍA DE PROCESOS DE IMAGEN PERSONAL                                1        10
+                                                                                      2         1
+
+  590104    CONSTRUCCIONES CIVILES Y EDIFICACIÓN                                  1            2
+
+  590105       FORMACIÓN Y ORIENTACIÓN LABORAL                                        1        27
+                                                                                      2         3
+
+   590106      HOSTELERÍA Y TURISMO                                                    1         7
+                                                                                       2         1
+
+  590107       INFORMÁTICA                                                             1        38
+                                                                                       2         4
+
+  590108       INTERVENCIÓN SOCIOCOMUNITARIA                                           1        18
+                                                                                       2         2
+
+   590110      ORGANIZACIÓN Y GESTIÓN COMERCIAL                                        1         9
+                                                                                       2         1
+
+  590111    ORGANIZACIÓN Y PROCESOS DE MANTENIMIENTO DE  VEHÍCULOS                          1            9
+                                                                          2            1
+
+  590112    ORGANIZACIÓN Y PROYECTOS DE FABRICACIÓN MECÁNICA                       1            2
+
+   590113      ORGANIZACIÓN Y PROYECTOS DE SÍSTEMAS ENERGÉTICOS                        1         7
+                                                                                       2         1
+
+   590115      PROCESOS DE PRODUCCIÓN AGRARIA                                          1         5
+                                                                                       2         1
+
+   590116      PROCESOS EN LA INDUSTRIA ALIMENTARIA                                    1         8
+                                                                                       2         1
+
+  590117    PROCESOS DE DIAGNÓSTICOS CLÍNICOS Y PRODUCTOS  ORTOPROTÉSICOS         1            4
+                                                                     2            1
+
+  590118       PROCESOS SANITARIOS                                                     1        10
+                                                                                       2         1
+
+   590119      PROCESOS Y MEDIOS DE COMUNICACIÓN                                       1         6
+                                                                                       2         1
+
+  590120    PROCESOS Y PRODUCTOS DE TEXTIL, CONFECCIÓN Y PIEL                      1            1
+
+   590122      PROCESOS Y PRODUCTOS EN ARTES GRÁFICAS                                  1         4
+                                                                                       2         1
+
+   590123      PROCESOS Y PRODUCTOS EN MADERA Y MUEBLE                                 1         8
+                                                                                       2         1
+
+   590124      SISTEMAS ELECTRÓNICOS                                                   1         4
+                                                                                       2         1
+
+  590125       SISTEMAS ELECTROTÉCNICOS Y AUTOMÁTICOS                                  1        12
+                                                                                       2         1
+
+  590205       INSTALACIÓN DE DE EQUIPOS TÉRMICOS Y DE FLUÍDOS                         1        13
+                                                                                       2         2
+
+  590206       INSTALACIONES ELECTROTÉCNICAS                                           1        20
+                                                                                       2         2
+
+  590208    LABORATORIO                                                            1            2
+
+  590210    MÁQUINAS, SERVICIOS Y PRODUCCIÓN                                       1            1
+
+  590212    OFICINA DE PROYECTOS DE CONSTRUCCIÓN                                   1            3
+
+  590214    OPERACIONES Y EQUIPOS DE ELABORACIÓN DE PRODUCTOS ALIMENTARIOS       1            2
+            
+  590216    OPERACIONES Y EQUIPOS DE PRODUCCIÓN AGRARIA                            1           13
+                                                                                      2         1
+
+  590219    PROCEDIMIENTOS DE DIAGNÓSTICO CLÍNICO Y ORTOPROTÉSICO               1           14
+                                                                     2            2
+
+  590220       PROCEDIMIENTOS SANITARIOS Y ASISTENCIALES                              1        24
+                                                                                      2         3
+
+  590221       PROCESOS COMERCIALES                                                   1        11
+                                                                                      2         1
+
+  590222       PROCESOS DE GESTIÓN ADMINISTRATIVA                                     1        33
+                                                                                      2         4
+
+  590225       SERVICIOS A LA COMUNIDAD                                               1        32
+                                                                                      2         4
+
+  590227       SISTEMAS Y APLICACIONES INFORMÁTICAS                                   1        32
+                                                                                      2         4
+
+   590229      TÉCNICAS Y PROCEDIMIENTOS DE IMAGEN Y SONIDO                           1         8
+                                                                                      2         1
+
+  590231    EQUIPOS ELECTRÓNICOS                                                  1            4
+
+  592001    ALEMÁN                                              1            2
+
+  592002    ÁRABE                                               1            3
+
+  592004    CHINO                                               1            3
+
+  592006    ESPAÑOL                                             1            1
+
+   592008      FRANCÉS                                              1         6
+                                                                    2         1
+
+   592011      INGLÉS                                               1         4
+                                                                    2         1
+
+  592012    ITALIANO                                            1            1
+
+  592013    JAPONÉS                                             1            2
+
+  592015    PORTUGUÉS                                           1            1
+
+  593005    DANZA CLÁSICA                                                         1            2
+
+  593006    CANTO                                                                 1            1
+
+  593008    CLARINETE                                                             1            1
+
+  593010    COMPOSICIÓN                                                           1            2
+
+  593017    DANZA ESPAÑOLA                                                        1            1
+
+  593018    BAILE FLAMENCO                                                        1            1
+
+  593023    DIRECCIÓN DE ORQUESTA                                                 1            1
+
+  593025    ESCENA LÍRICA                                                         1            1
+
+  593030    FAGOT                                                                 1            1
+
+  593035    GUITARRA                                                              1            1
+
+   593036      GUITARRA FLAMENCA                                                      1         8
+                                                                                      2         1
+
+  593051    MUSICOLOGÍA                                                           1            4
+
+  593058    PERCUSIÓN                                                             1            1
+
+  593066    SAXOFÓN                                                               1            1
+
+  593072    TROMBÓN                                                               1            1
+
+  593074    TROMPA                                                                1            1
+
+  593076    TUBA                                                                  1            1
+
+  593077    VIOLA                                                                 1            1
+
+  593083    CANTE FLAMENCO                                                        1            1
+
+  593089    FLAMENCOLOGÍA                                                         1            1
+
+  593100    TECNOLOGÍA MUSICAL                                                    1            1
+
+  593108    COMPOSICIÓN COREOGRÁFICA                                              1            1
+
+  593109    DANZA CONTEMPORÁNEA                                                   1            2
+
+  593111    ESCENIFICACIÓN APLICADA A LA DANZA                                    1            1
+
+  593115    PRODUCCIÓN Y GESTIÓN DE MÚSICA Y ARTES ESCÉNICAS                      1            2
+
+  593124    INTERPRETACIÓN EN EL TEATRO DE TEXTO                                  1            1
+
+  594007    CARACTERIZACIÓN                                                       1            2
+
+  594116    ACROBACIA APLICADA AL ARTE DRAMÁTICO                                  1            1
+
+  594118    DRAMATURGIA Y ESCRITURA DRAMÁTICA                                     1            2
+
+  594119    ESGRIMA APLICADA AL ARTE DRAMÁTICO                                    1            2
+
+  594123    INTERPRETACIÓN EN EL TEATRO MUSICAL                                   1            2
+
+   594124      INTERPRETACIÓN EN EL TEATRO DE TEXTO                                   1         5
+                                                                                      2         1
+
+  594129    TÉCNICAS GRÁFICAS PARA LA ESCENA                                      1            3
+
+  594402    ARPA                                                                  1            1
+
+   594403      CANTO                                                                  1         5
+                                                                                      2         1
+
+  594404       CLARINETE                                                              1        12
+                                                                                      2         1
+
+  594406    CONTRABAJO                                                            1            1
+
+  594407    CORO                                                                  1            4
+
+   594408      FAGOT                                                                  1         7
+                                                                                      2         1
+
+  594410       FLAUTA TRAVESERA                                                       1        15
+                                                                                      2         2
+
+  594411    FLAUTA DE PICO                                                        1            2
+
+  594412       FUNDAMENTOS DE COMPOSICIÓN                                             1        23
+                                                                                      2         3
+
+  594414       GUITARRA                                                               1        27
+                                                                                      2         3
+
+  594415       GUITARRA FLAMENCA                                                      1        12
+                                                                                      2         1
+
+   594416      HISTORIA DE LA MÚSICA                                                  1         5
+                                                                                      2         1
+
+   594419      OBOE                                                                   1         9
+                                                                                      2         1
+
+   594421      ORQUESTA                                                               1         6
+                                                                                      2         1
+
+   594422      PERCUSIÓN                                                              1         9
+                                                                                      2         1
+
+  594423       PIANO                                                                  1        51
+                                                                                      2         6
+
+  594424       SAXOFÓN                                                                1        12
+                                                                                      2         1
+
+  594426    TROMBÓN                                                               1            2
+
+  594427    TROMPA                                                                1           10
+                                                                                    2         1
+
+   594428      TROMPETA                                                             1         8
+                                                                                    2         1
+
+  594429    TUBA                                                                1            3
+
+   594431      VIOLA                                                                1         4
+                                                                                    2         1
+
+  594432    VIOLA DA GAMBA                                                      1            1
+
+  594433       VIOLÍN                                                               1        25
+                                                                                    2         3
+
+  594434       VIOLONCHELO                                                          1        15
+                                                                                    2         2
+
+  594435    DANZA ESPAÑOLA                                                      1            4
+
+   594436      DANZA CLÁSICA                                                        1         8
+                                                                                    2         1
+
+   594437      DANZA CONTEMPORÁNEA                                                  1         6
+                                                                                    2         1
+
+  594438       FLAMENCO                                                             1        11
+                                                                                    2         1
+
+  594443    DANZA APLICADA AL ARTE DRAMÁTICO                                    1            2
+
+  594444    DICCIÓN Y EXPRESIÓN ORAL                                            1            2
+
+  594445    DIRECCIÓN ESCÉNICA                                                  1            2
+
+  594448    ESPACIO ESCÉNICO                                                    1            2
+
+  594449    EXPRESIÓN CORPORAL                                                  1            4
+
+  594450    ILUMINACIÓN                                                         1            1
+
+  594455    LITERATURA DRAMÁTICA                                                1            4
+
+  594456    TÉCNICAS ESCÉNICAS                                                  1            3
+
+  594460       LENGUAJE MUSICAL                                                     1        20
+                                                                                    2         2
+
+  595501    CERÁMICA                                                               1            2
+
+   595507      DIBUJO ARTÍSTICO Y COLOR                                                1         4
+                                                                                       2         1
+
+   595508      DIBUJO TÉCNICO                                                          1         7
+                                                                                       2         1
+
+  595509    DISEÑO DE INTERIORES                                                   1            2
+
+  595510    DISEÑO DE MODA                                                         1            2
+
+   595512      DISEÑO GRÁFICO                                                          1         9
+                                                                                       2         1
+
+  595515    FOTOGRAFÍA                                                             1            2
+
+   595516      HISTORIA DEL ARTE                                                       1         4
+                                                                                       2         1
+
+   595520      MATERIALES Y TECNOLOGÍA: DISEÑO                                         1         8
+                                                                                       2         1
+
+   595521      MEDIOS AUDIOVISUALES                                                    1         5
+                                                                                       2         1
+
+  595522       MEDIOS INFORMÁTICOS                                                     1        14
+                                                                                       2         2
+
+  595523       ORGANIZACIÓN INDUSTRIAL Y LEGISLACIÓN                                   1        10
+                                                                                       2         1
+
+  595525    VOLUMEN                                                                1            3
+
+  596602   BORDADOS Y ENCAJES                                                   1         1
+
+  596603   COMPLEMENTOS Y ACCESORIOS                                            1         1
+
+  596605   EBANISTERÍA ARTÍSTICA                                                1         3
+
+  596607   ESMALTES                                                             1         1
+
+  596610   MOLDES Y REPRODUCCIONES                                              1         1
+
+  596611   MUSIVARIA                                                            1         1
+
+  596612   TALLA EN PIEDRA Y MADERA                                             1         4
+
+  596614   TÉCNICAS DE GRABADO Y ESTAMPACIÓN                                    1         1
+
+  596616   TÉCNICAS DE ORFEBRERÍA Y PLATERÍA                                    1         1
+
+  596617   TÉCNICAS DE PATRONAJE Y CONFECCIÓN                                   1         3
+
+  597031       EDUCACIÓN INFANTIL                                            1       116
+                                                                             2       13
+
+  597032   LENGUA EXTRANJERA: INGLÉS                                         1      170
+                                                                             2       19
+
+  597033   LENGUA EXTRANJERA: FRANCÉS                                        1       64
+                                                                             2        7
+
+  597034   EDUCACIÓN FÍSICA                                                  1       86
+                                                                             2       10
+
+  597035   MÚSICA                                                            1       53
+                                                                             2        6
+
+  597036   PEDAGOGÍA TERAPÉUTICA                                             1       59
+                                                                             2        7
+
+  597037   AUDICIÓN Y LENGUAJE                                               1        9
+                                                                             2        1
+
+  597038   EDUCACIÓN PRIMARIA                                                1      175
+                                                                             2       19
+
+  597039   LENGUA EXTRANJERA: ALEMÁN                                         1        5
+                                                                             2        1
+
+  598001   COCINA Y PASTELERÍA                                                     1       12
+                                                                                   2        1
+
+  598002   ESTÉTICA                                                                1        9
+                                                                                   2        1
+
+  598003   FABRICACIÓN E INSTALACIÓN DE CARPINTERÍA Y MUEBLE                       1        3
+
+  598004   MANTENIMIENTO DE VEHÍCULOS                                              1       21
+                                                                                   2        2
+
+  598005   MECANIZADO Y MANTENIMIENTO DE MÁQUINAS                                  1       10
+                                                                                   2        1
+
+  598006   PATRONAJE Y CONFECCIÓN                                                  1        2
+
+  598007   PELUQUERÍA                                                              1        7
+                                                                                   2        1
+
+  598008   PRODUCCIÓN DE ARTES GRÁFICAS                                            1        3
+
+  598009   SERVICIOS DE RESTAURACIÓN                                               1       20
+                                                                                   2        2
+
+  598010   SOLDADURA                                                               1        8
+                                                                                   2        1
+
+ARAGÓN
+
+  590002   GRIEGO                                                              1         2
+
+  590003   LATÍN                                                               1         1
+
+  590004   LENGUA CASTELLANA Y LITERATURA                                      1         7
+
+  590005   GEOGRAFÍA E HISTORIA                                                1         6
+
+  590006   MATEMÁTICAS                                                         1         5
+
+  590008   BIOLOGÍA Y GEOLOGÍA                                                 1         5
+
+  590009   DIBUJO                                                              1         2
+
+  590011   INGLÉS                                                              1         3
+
+  590012   ALEMÁN                                                              1         3
+
+  590016   MÚSICA                                                              1         3
+
+  590017   EDUCACIÓN FÍSICA                                                    1         3
+
+  590018   ORIENTACIÓN EDUCATIVA                                               1         4
+
+  590019   TECNOLOGÍA                                                          1         7
+
+  590061   ECONOMÍA                                                            1         2
+
+  590101   ADMINISTRACIÓN DE EMPRESAS                                          1         2
+
+  590102   ANÁLISIS Y QUÍMICA INDUSTRIAL                                       1         3
+
+  590104   CONSTRUCCIONES CIVILES Y EDIFICACIÓN                                1         1
+
+  590106   HOSTELERÍA Y TURISMO                                                1         2
+
+  590107   INFORMÁTICA                                                         1         4
+
+  590108   INTERVENCIÓN SOCIOCOMUNITARIA                                       1         4
+
+  590110   ORGANIZACIÓN Y GESTIÓN COMERCIAL                                    1         2
+
+  590111   ORGANIZACIÓN Y PROCESOS DE MANTENIMIENTO DE VEHÍCULOS          1         2
+           
+  590112   ORGANIZACIÓN Y PROYECTOS DE FABRICACIÓN MECÁNICA                    1         3
+
+  590113   ORGANIZACIÓN Y PROYECTOS DE SÍSTEMAS ENERGÉTICOS                    1         3
+
+  590115   PROCESOS DE PRODUCCIÓN AGRARIA                                      1         4
+
+  590116   PROCESOS EN LA INDUSTRIA ALIMENTARIA                                1         5
+
+  590117   PROCESOS DE DIAGNÓSTICOS CLÍNICOS Y PRODUCTOS ORTOPROTÉSICOS       1         5
+           
+  590119   PROCESOS Y MEDIOS DE COMUNICACIÓN                                   1         1
+
+  590120   PROCESOS Y PRODUCTOS DE TEXTIL, CONFECCIÓN Y PIEL                   1         1
+
+  590122   PROCESOS Y PRODUCTOS EN ARTES GRÁFICAS                              1         1
+
+  590124   SISTEMAS ELECTRÓNICOS                                               1         4
+
+  590125   SISTEMAS ELECTROTÉCNICOS Y AUTOMÁTICOS                              1         4
+
+  590205   INSTALACIÓN DE DE EQUIPOS TÉRMICOS Y DE FLUÍDOS                     1         3
+
+  590206   INSTALACIONES ELECTROTÉCNICAS                                      1         6
+
+  590208   LABORATORIO                                                        1         5
+
+  590212   OFICINA DE PROYECTOS DE CONSTRUCCIÓN                               1         3
+
+  590214   OPERACIONES Y EQUIPOS DE ELABORACIÓN DE PRODUCTOS ALIMENTARIOS    1         6
+           
+  590215   OPERACIONES DE PROCESOS                                            1         3
+
+  590216   OPERACIONES Y EQUIPOS DE PRODUCCIÓN AGRARIA                        1        10
+
+  590220   PROCEDIMIENTOS SANITARIOS Y ASISTENCIALES                          1         5
+
+  590221   PROCESOS COMERCIALES                                               1         3
+
+  590222   PROCESOS DE GESTIÓN ADMINISTRATIVA                                 1        10
+
+  590225   SERVICIOS A LA COMUNIDAD                                           1         8
+
+  590227   SISTEMAS Y APLICACIONES INFORMÁTICAS                               1         4
+
+  590229   TÉCNICAS Y PROCEDIMIENTOS DE IMAGEN Y SONIDO                       1         1
+
+  590231   EQUIPOS ELECTRÓNICOS                                               1         1
+
+  592001   ALEMÁN                                               1         3
+
+  592003   CATALÁN                                              1         3
+
+  592004   CHINO                                                1         2
+
+  592006   ESPAÑOL                                              1         1
+
+  592008   FRANCÉS                                              1         3
+
+  592011   INGLÉS                                               1         2
+
+  592012   ITALIANO                                             1         2
+
+  592017   RUSO                                                 1         1
+
+  593010   COMPOSICIÓN                                                       1         2
+
+  593020   DIRECCIÓN DE CORO                                                 1         2
+
+  593023   DIRECCIÓN DE ORQUESTA                                             1         1
+
+  593050   MÚSICA DE CÁMARA                                                  1         2
+
+  593057   PEDAGOGÍA                                                         1         1
+
+  593059   PIANO                                                             1         2
+
+  593061   IMPROVISACIÓN Y ACOMPAÑAMIENTO                                    1         2
+
+  593072   TROMBÓN                                                           1         1
+
+  593074   TROMPA                                                            1         1
+
+  593075   TROMPETA                                                          1         1
+
+  593076   TUBA                                                              1         1
+
+  593078   VIOLÍN                                                            1         2
+
+  593098   REPERTORIO CON PIANO PARA INSTRUMENTOS                            1         5
+
+  594401   ACORDEÓN                                                      1         1
+
+  594404   CLARINETE                                                     1         1
+
+  594405   CLAVE                                                         1         1
+
+  594406   CONTRABAJO                                                    1         1
+
+  594408   FAGOT                                                         1         1
+
+  594410   FLAUTA TRAVESERA                                              1         1
+
+  594412   FUNDAMENTOS DE COMPOSICIÓN                                    1         3
+
+  594414   GUITARRA                                                      1         1
+
+  594418   INSTRUMENTOS DE PÚA                                           1         1
+
+  594419   OBOE                                                          1         1
+
+  594422   PERCUSIÓN                                                     1         2
+
+  594423   PIANO                                                         1         4
+
+  594424   SAXOFÓN                                                       1         1
+
+  594426   TROMBÓN                                                       1         1
+
+  594428   TROMPETA                                                      1         1
+
+  594431   VIOLA                                                         1         2
+
+  594432   VIOLA DA GAMBA                                                1         1
+
+  594433   VIOLÍN                                                        1         2
+
+  594434   VIOLONCHELO                                                   1         1
+
+  594460   LENGUAJE MUSICAL                                              1         2
+
+  595503   CONSERVACIÓN Y RESTAURACIÓN DE OBRAS ESCULTÓRICAS                   1         2
+
+  595504   CONSERVACIÓN Y RESTAURACIÓN DE OBRAS PICTÓRICAS                     1         1
+
+  595507   DIBUJO ARTÍSTICO Y COLOR                                            1         1
+
+  595509   DISEÑO DE INTERIORES                                                1         2
+
+  595511   DISEÑO DE PRODUCTO                                                  1         1
+
+  595512   DISEÑO GRÁFICO                                                      1         4
+
+  595515   FOTOGRAFÍA                                                          1         2
+
+  595516   HISTORIA DEL ARTE                                                   1         5
+
+  595517   JOYERÍA Y ORFEBRERÍA                                                1         1
+
+  595519   MATERIALES Y TECNOLOGÍA: CONSERVACIÓN Y  RESTAURACIÓN      1         1
+           
+  595520   MATERIALES Y TECNOLOGÍA: DISEÑO                                     1         2
+
+  595521   MEDIOS AUDIOVISUALES                                                1         4
+
+  595522   MEDIOS INFORMÁTICOS                                                 1         1
+
+  595523   ORGANIZACIÓN INDUSTRIAL Y LEGISLACIÓN                               1         1
+
+  596613   TÉCNICAS CERÁMICAS                                                    1         1
+
+  596614   TÉCNICAS DE GRABADO Y ESTAMPACIÓN                                     1         2
+
+  596615   TÉCNICAS DE DE JOYERÍA Y BISUTERÍA                                    1         1
+
+  597039   LENGUA EXTRANJERA: ALEMÁN                                    1         4
+
+  598001   COCINA Y PASTELERÍA                                                     1        8
+
+  598002   ESTÉTICA                                                                1        3
+
+  598003   FABRICACIÓN E INSTALACIÓN DE CARPINTERÍA Y MUEBLE                       1        4
+
+  598004   MANTENIMIENTO DE VEHÍCULOS                                              1        6
+
+  598005   MECANIZADO Y MANTENIMIENTO DE MÁQUINAS                                  1        4
+
+  598006   PATRONAJE Y CONFECCIÓN                                                  1        7
+
+  598007   PELUQUERÍA                                                              1        3
+
+  598008   PRODUCCIÓN DE ARTES GRÁFICAS                                            1        2
+
+  598009   SERVICIOS DE RESTAURACIÓN                                               1        3
+
+  598010   SOLDADURA                                                               1        4
+
+
+ASTURIAS
+
+   590001   FILOSOFÍA                                                           1         6
+
+   590002   GRIEGO                                                              1         4
+
+   590003   LATÍN                                                               1         8
+
+   590004   LENGUA CASTELLANA Y LITERATURA                                      1         8
+
+   590005   GEOGRAFÍA E HISTORIA                                                1         7
+
+   590006   MATEMÁTICAS                                                         1        23
+
+   590007   FÍSICA Y QUÍMICA                                                    1        11
+
+   590008   BIOLOGÍA Y GEOLOGÍA                                                 1         8
+
+   590010   FRANCÉS                                                             1         1
+
+   590011   INGLÉS                                                              1        12
+
+   590013   ITALIANO                                                            1         1
+
+   590016   MÚSICA                                                              1         1
+
+   590017   EDUCACIÓN FÍSICA                                                    1         4
+
+   590018   ORIENTACIÓN EDUCATIVA                                               1         6
+
+   590019   TECNOLOGÍA                                                          1         2
+
+   590061   ECONOMÍA                                                            1         2
+
+   590101   ADMINISTRACIÓN DE EMPRESAS                                          1         3
+
+   590102   ANÁLISIS Y QUÍMICA INDUSTRIAL                                       1         2
+
+   590103   ASESORÍA DE PROCESOS DE IMAGEN PERSONAL                             1         4
+
+   590104   CONSTRUCCIONES CIVILES Y EDIFICACIÓN                                1         1
+
+   590106   HOSTELERÍA Y TURISMO                                                1         3
+
+   590108   INTERVENCIÓN SOCIOCOMUNITARIA                                       1         5
+
+   590111   ORGANIZACIÓN Y PROCESOS DE MANTENIMIENTO DE VEHÍCULOS     1         1
+            
+   590112   ORGANIZACIÓN Y PROYECTOS DE FABRICACIÓN MECÁNICA                    1         1
+
+   590113   ORGANIZACIÓN Y PROYECTOS DE SÍSTEMAS ENERGÉTICOS                    1         1
+
+   590117   PROCESOS DE DIAGNÓSTICOS CLÍNICOS Y PRODUCTOS ORTOPROTÉSICOS      1         2
+            
+   590118   PROCESOS SANITARIOS                                                 1         4
+
+   590122   PROCESOS Y PRODUCTOS EN ARTES GRÁFICAS                              1         2
+
+   590124   SISTEMAS ELECTRÓNICOS                                               1         2
+
+   590125   SISTEMAS ELECTROTÉCNICOS Y AUTOMÁTICOS                              1         4
+
+   592008   FRANCÉS                                             1         3
+
+   592011   INGLÉS                                              1         7
+
+   592012   ITALIANO                                            1         1
+
+   594119   ESGRIMA APLICADA AL ARTE DRAMÁTICO                                    1         1
+
+   594124   INTERPRETACIÓN EN EL TEATRO DE TEXTO                                  1         2
+
+   594404   CLARINETE                                                             1         2
+
+   594405   CLAVE                                                                 1         1
+
+   594407   CORO                                                                  1         1
+
+   594410   FLAUTA TRAVESERA                                                      1         1
+
+   594412   FUNDAMENTOS DE COMPOSICIÓN                                            1         2
+
+   594420   ÓRGANO                                                                1         1
+
+   594422   PERCUSIÓN                                                             1         1
+
+   594423   PIANO                                                                 1         2
+
+   594424   SAXOFÓN                                                               1         1
+
+   594428   TROMPETA                                                              1         1
+
+   594433   VIOLÍN                                                                1         2
+
+   594435   DANZA ESPAÑOLA                                                        1         1
+
+   594436   DANZA CLÁSICA                                                         1         2
+
+   594437   DANZA CONTEMPORÁNEA                                                   1         1
+
+   594444   DICCIÓN Y EXPRESIÓN ORAL                                              1         1
+
+   594445   DIRECCIÓN ESCÉNICA                                                    1         2
+
+   594449   EXPRESIÓN CORPORAL                                                    1         1
+
+   594460   LENGUAJE MUSICAL                                                      1         2
+
+   595503   CONSERVACIÓN Y RESTAURACIÓN DE OBRAS ESCULTÓRICAS                   1         1
+
+   595504   CONSERVACIÓN Y RESTAURACIÓN DE OBRAS PICTÓRICAS                     1         1
+
+   595506   CONSERVACIÓN Y RESTAURACIÓN DEL DOCUMENTO GRÁFICO                   1         1
+
+   595507   DIBUJO ARTÍSTICO Y COLOR                                            1         3
+
+   595508   DIBUJO TÉCNICO                                                      1         1
+
+   595509   DISEÑO DE INTERIORES                                                1         1
+
+   595511   DISEÑO DE PRODUCTO                                                  1         4
+
+   595512   DISEÑO GRÁFICO                                                      1         2
+
+   595515   FOTOGRAFÍA                                                          1         3
+
+   595516   HISTORIA DEL ARTE                                                   1         3
+
+   595520   MATERIALES Y TECNOLOGÍA: DISEÑO                                     1         2
+
+   595522   MEDIOS INFORMÁTICOS                                                 1         3
+
+   595523   ORGANIZACIÓN INDUSTRIAL Y LEGISLACIÓN                               1         2
+
+   597031   EDUCACIÓN INFANTIL                                           1         6
+
+   597032   LENGUA EXTRANJERA: INGLÉS                                    1         5
+
+   597034   EDUCACIÓN FÍSICA                                             1         1
+
+   597035   MÚSICA                                                       1         1
+
+   597036   PEDAGOGÍA TERAPÉUTICA                                        1         4
+
+   597037   AUDICIÓN Y LENGUAJE                                          1         3
+
+   597038   EDUCACIÓN PRIMARIA                                           1         9
+
+ILLES BALEARS
+
+   590001       FILOSOFÍA                                                              1        21
+                                                                                       2         1
+
+   590002    GRIEGO                                                                1            1
+
+   590003       LATÍN                                                                  1        15
+                                                                                       2         1
+
+   590004       LENGUA CASTELLANA Y LITERATURA                                         1        96
+                                                                                       2         4
+
+    590005      GEOGRAFÍA E HISTORIA                                                   1       108
+                                                                                       2         6
+
+    590006      MATEMÁTICAS                                                            1       172
+                                                                                       2         6
+
+   590007       FÍSICA Y QUÍMICA                                                       1        76
+                                                                                       2         4
+
+   590008       BIOLOGÍA Y GEOLOGÍA                                                    1        90
+                                                                                       2         4
+
+   590009       DIBUJO                                                                 1        23
+                                                                                       2         1
+
+   590010       FRANCÉS                                                                1        15
+                                                                                       2         1
+
+    590011      INGLÉS                                                                 1       159
+                                                                                       2         6
+
+   590012       ALEMÁN                                                                 1        28
+                                                                                       2         1
+
+    590014      LENGUA Y LITERATURA CATALANA (ISLAS BALEARES)                          1       113
+                                                                                       2         6
+
+   590016       MÚSICA                                                                 1        19
+                                                                                       2         1
+
+   590017       EDUCACIÓN FÍSICA                                                       1        80
+                                                                                       2         4
+
+   590018       ORIENTACIÓN EDUCATIVA                                                  1        71
+                                                                                       2         4
+
+   590019       TECNOLOGÍA                                                             1        68
+                                                                                       2         4
+
+   590061       ECONOMÍA                                                               1        26
+                                                                                       2         1
+
+   590101       ADMINISTRACIÓN DE EMPRESAS                                             1        28
+                                                                                       2         1
+
+    590103      ASESORÍA DE PROCESOS DE IMAGEN PERSONAL                                1         6
+                                                                                       2         1
+
+   590104    CONSTRUCCIONES CIVILES Y EDIFICACIÓN                                  1            5
+
+   590105       FORMACIÓN Y ORIENTACIÓN LABORAL                                        1        38
+                                                                                       2         1
+
+   590106    HOSTELERÍA Y TURISMO                                                  1           13
+
+   590107   INFORMÁTICA                                                         1        58
+                                                                                2         2
+
+   590108   INTERVENCIÓN SOCIOCOMUNITARIA                                       1        21
+                                                                                2         1
+
+   590109   NAVEGACIÓN E INSTALACIONES MARINAS                                  1         7
+
+   590110   ORGANIZACIÓN Y GESTIÓN COMERCIAL                                    1        14
+                                                                                2         1
+
+   590111   ORGANIZACIÓN Y PROCESOS DE MANTENIMIENTO DE VEHÍCULOS        1         3
+            
+   590112   ORGANIZACIÓN Y PROYECTOS DE FABRICACIÓN MECÁNICA                    1         2
+
+   590113   ORGANIZACIÓN Y PROYECTOS DE SÍSTEMAS ENERGÉTICOS                    1         4
+
+   590115   PROCESOS DE PRODUCCIÓN AGRARIA                                      1         7
+
+   590116   PROCESOS EN LA INDUSTRIA ALIMENTARIA                                1         2
+
+   590117   PROCESOS DE DIAGNÓSTICOS CLÍNICOS Y PRODUCTOS ORTOPROTÉSICOS       1         3
+                                                                  2         1
+
+   590118   PROCESOS SANITARIOS                                                 1        14
+                                                                                2         1
+
+   590119   PROCESOS Y MEDIOS DE COMUNICACIÓN                                   1         1
+
+   590122   PROCESOS Y PRODUCTOS EN ARTES GRÁFICAS                              1         1
+
+   590124   SISTEMAS ELECTRÓNICOS                                               1         1
+
+   590125   SISTEMAS ELECTROTÉCNICOS Y AUTOMÁTICOS                              1        10
+
+   590205   INSTALACIÓN DE DE EQUIPOS TÉRMICOS Y DE FLUÍDOS                     1        11
+
+   590206   INSTALACIONES ELECTROTÉCNICAS                                       1        18
+                                                                                2         1
+
+   590210   MÁQUINAS, SERVICIOS Y PRODUCCIÓN OFICINA DE                         1         2
+
+   590212   PROYECTOS DE CONSTRUCCIÓN OPERACIONES Y                             1         5
+
+   590216   EQUIPOS DE PRODUCCIÓN AGRARIA                                       1        22
+                                                                                2         1
+
+   590219   PROCEDIMIENTOS DE DIAGNÓSTICO CLÍNICO Y ORTOPROTÉSICO          1        14
+            
+   590220   PROCEDIMIENTOS SANITARIOS Y ASISTENCIALES                           1        29
+                                                                                2         1
+
+   590221   PROCESOS COMERCIALES                                                1        11
+
+   590222   PROCESOS DE GESTIÓN ADMINISTRATIVA                                  1        41
+                                                                                2         1
+
+   590225   SERVICIOS A LA COMUNIDAD                                            1        49
+                                                                                2         1
+
+   590227   SISTEMAS Y APLICACIONES INFORMÁTICAS                                1        28
+                                                                                2         1
+
+   590229   TÉCNICAS Y PROCEDIMIENTOS DE IMAGEN Y SONIDO                        1         5
+
+   590231   EQUIPOS ELECTRÓNICOS                                    1         2
+
+    592001      ALEMÁN                                              1         5
+                                                                    2         1
+
+   592002    ÁRABE                                              1            1
+
+   592003    CATALÁN                                            1            4
+
+   592004    CHINO                                              1            2
+
+   592006    ESPAÑOL                                            1            2
+
+   592008    FRANCÉS                                            1            3
+
+    592011      INGLÉS                                              1         7
+                                                                    2         1
+
+   592012    ITALIANO                                           1            2
+
+   592017    RUSO                                               1            2
+
+   594403    CANTO                                                         1            1
+
+   594405    CLAVE                                                         1            1
+
+   594406    CONTRABAJO                                                    1            1
+
+   594412    FUNDAMENTOS DE COMPOSICIÓN                                    1            2
+
+   594414    GUITARRA                                                      1            1
+
+   594415    GUITARRA FLAMENCA                                             1            1
+
+   594416    HISTORIA DE LA MÚSICA                                         1            1
+
+   594419    OBOE                                                          1            1
+
+    594423      PIANO                                                          1         6
+                                                                               2         1
+
+   594424    SAXOFÓN                                                       1            1
+
+   594426    TROMBÓN                                                       1            1
+
+   594433    VIOLÍN                                                        1            2
+
+   594434    VIOLONCHELO                                                   1            2
+
+   594435    DANZA ESPAÑOLA                                                1            1
+
+   594436    DANZA CLÁSICA                                                 1            3
+
+    594460      LENGUAJE MUSICAL                                               1         3
+                                                                               2         1
+
+   594465    CANTE FLAMENCO                                                1            1
+
+   595501    CERÁMICA                                                            1            1
+
+    595507      DIBUJO ARTÍSTICO Y COLOR                                             1         3
+                                                                                     2         1
+
+   595508    DIBUJO TÉCNICO                                                      1            1
+
+   595509    DISEÑO DE INTERIORES                                                1            1
+
+   595510    DISEÑO DE MODA                                                      1            1
+
+    595512      DISEÑO GRÁFICO                                                       1         2
+                                                                                     2         1
+
+   595515    FOTOGRAFÍA                                                          1            1
+
+   595516    HISTORIA DEL ARTE                                                   1            1
+
+   595517    JOYERÍA Y ORFEBRERÍA                                                1            1
+
+   595520    MATERIALES Y TECNOLOGÍA: DISEÑO                                     1            1
+
+   595522    MEDIOS INFORMÁTICOS                                                 1            3
+
+   595523    ORGANIZACIÓN INDUSTRIAL Y LEGISLACIÓN                               1            2
+
+   595525    VOLUMEN                                                             1            1
+
+   596605   EBANISTERÍA ARTÍSTICA                                                 1         1
+
+   596615   TÉCNICAS DE DE JOYERÍA Y BISUTERÍA                                    1         2
+
+   596618   TÉCNICAS DEL METAL                                                    1         1
+
+
+   597031       EDUCACIÓN INFANTIL                                           1       184
+                                                                             2        6
+
+   597032   LENGUA EXTRANJERA: INGLÉS                                        1       73
+                                                                             2        4
+
+   597034   EDUCACIÓN FÍSICA                                                 1       35
+                                                                             2        1
+
+   597035   MÚSICA                                                           1       41
+                                                                             2        1
+
+   597036   PEDAGOGÍA TERAPÉUTICA                                            1      106
+                                                                             2        6
+
+   597037   AUDICIÓN Y LENGUAJE                                              1       89
+                                                                             2        4
+
+   597038   EDUCACIÓN PRIMARIA                                               1      142
+                                                                             2        6
+
+   598001   COCINA Y PASTELERÍA                                                     1       20
+                                                                                    2        1
+
+   598002   ESTÉTICA                                                                1        6
+
+   598003   FABRICACIÓN E INSTALACIÓN DE CARPINTERÍA Y MUEBLE                       1        2
+
+   598004   MANTENIMIENTO DE VEHÍCULOS                                              1       13
+
+   598005   MECANIZADO Y MANTENIMIENTO DE MÁQUINAS                                  1        3
+
+   598007   PELUQUERÍA                                                              1       11
+
+   598008   PRODUCCIÓN DE ARTES GRÁFICAS                                            1        5
+
+   598009   SERVICIOS DE RESTAURACIÓN                                               1       12
+
+CANTABRIA
+
+  590001   FILOSOFÍA                                                             1            9
+
+  590003   LATÍN                                                                 1            2
+
+  590004       LENGUA CASTELLANA Y LITERATURA                                        1        37
+                                                                                     2         3
+
+  590005       GEOGRAFÍA E HISTORIA                                                  1        14
+                                                                                     2         2
+
+  590006       MATEMÁTICAS                                                           1        26
+                                                                                     2         4
+
+  590007       FÍSICA Y QUÍMICA                                                      1        17
+                                                                                     2         1
+
+  590008       BIOLOGÍA Y GEOLOGÍA                                                   1        15
+                                                                                     2         1
+
+  590009       DIBUJO                                                                1        12
+                                                                                     2         1
+
+  590010   FRANCÉS                                                               1            9
+
+  590011       INGLÉS                                                                1        20
+                                                                                     2         3
+
+  590012   ALEMÁN                                                                1            2
+
+  590016   MÚSICA                                                                1            2
+
+  590017   EDUCACIÓN FÍSICA                                                      1           12
+
+  590018       ORIENTACIÓN EDUCATIVA                                                 1        11
+                                                                                     2         1
+
+  590019       TECNOLOGÍA                                                            1        21
+                                                                                     2         1
+
+  590061   ECONOMÍA                                                              1            4
+
+  590101   ADMINISTRACIÓN DE EMPRESAS                                            1            5
+
+  590102   ANÁLISIS Y QUÍMICA INDUSTRIAL                                         1            2
+
+  590103   ASESORÍA DE PROCESOS DE IMAGEN PERSONAL                               1            3
+
+  590105   FORMACIÓN Y ORIENTACIÓN LABORAL                                       1            5
+
+  590106   HOSTELERÍA Y TURISMO                                                  1            3
+
+  590107   INFORMÁTICA                                                           1            9
+
+  590108   INTERVENCIÓN SOCIOCOMUNITARIA                                         1            9
+
+  590109   NAVEGACIÓN E INSTALACIONES MARINAS                                    1            1
+
+  590110   ORGANIZACIÓN Y GESTIÓN COMERCIAL                                      1            5
+
+  590111   ORGANIZACIÓN Y PROCESOS DE MANTENIMIENTO DE VEHÍCULOS         1            2
+           
+  590112   ORGANIZACIÓN Y PROYECTOS DE FABRICACIÓN MECÁNICA                      1            3
+
+  590113   ORGANIZACIÓN Y PROYECTOS DE SÍSTEMAS ENERGÉTICOS                      1            1
+
+  590115   PROCESOS DE PRODUCCIÓN AGRARIA                                        1            4
+
+  590117   PROCESOS DE DIAGNÓSTICOS CLÍNICOS Y PRODUCTOS ORTOPROTÉSICOS     1         1
+           
+  590118   PROCESOS SANITARIOS                                                 1         1
+
+  590120   PROCESOS Y PRODUCTOS DE TEXTIL, CONFECCIÓN Y PIEL                   1         1
+
+  590122   PROCESOS Y PRODUCTOS EN ARTES GRÁFICAS                              1         1
+
+  590124   SISTEMAS ELECTRÓNICOS                                               1         3
+
+  590125   SISTEMAS ELECTROTÉCNICOS Y AUTOMÁTICOS                              1         7
+
+  590205   INSTALACIÓN DE DE EQUIPOS TÉRMICOS Y DE FLUÍDOS                     1         4
+
+  590206   INSTALACIONES ELECTROTÉCNICAS                                       1         5
+
+  590210   MÁQUINAS, SERVICIOS Y PRODUCCIÓN                                    1         1
+
+  590214   OPERACIONES Y EQUIPOS DE ELABORACIÓN DE PRODUCTOS ALIMENTARIOS      1         1
+           
+  590215   OPERACIONES DE PROCESOS                                             1         1
+
+  590216   OPERACIONES Y EQUIPOS DE PRODUCCIÓN AGRARIA                         1         7
+
+  590219   PROCEDIMIENTOS DE DIAGNÓSTICO CLÍNICO Y ORTOPROTÉSICO            1         1
+           
+  590220   PROCEDIMIENTOS SANITARIOS Y ASISTENCIALES                           1         2
+
+  590221   PROCESOS COMERCIALES                                                1         4
+
+  590222   PROCESOS DE GESTIÓN ADMINISTRATIVA                                  1         5
+
+  590224   PRODUCCIÓN TEXTIL Y TRATAMIENTO FÍSICO-QUÍMICOS                     1         1
+
+  590225   SERVICIOS A LA COMUNIDAD                                            1        17
+                                                                               2         1
+
+  590227   SISTEMAS Y APLICACIONES INFORMÁTICAS                                1         7
+
+  592011   INGLÉS                                               1         7
+
+  592012   ITALIANO                                             1         1
+
+  594403   CANTO                                                         1         1
+
+  594404   CLARINETE                                                     1         2
+
+  594406   CONTRABAJO                                                    1         1
+
+  594408   FAGOT                                                         1         1
+
+  594412   FUNDAMENTOS DE COMPOSICIÓN                                    1         1
+
+  594419   OBOE                                                          1         1
+
+  594422   PERCUSIÓN                                                     1         1
+
+  594423   PIANO                                                         1        11
+
+  594424   SAXOFÓN                                                       1         1
+
+  594426   TROMBÓN                                                       1         2
+
+  594427   TROMPA                                                        1         1
+
+  594428   TROMPETA                                                      1         1
+
+  594433   VIOLÍN                                                        1         3
+
+  594434   VIOLONCHELO                                                   1         1
+
+  594460   LENGUAJE MUSICAL                                              1         2
+
+  595507   DIBUJO ARTÍSTICO Y COLOR                                    1         1
+
+  595512   DISEÑO GRÁFICO                                              1         1
+
+  595522   MEDIOS INFORMÁTICOS                                         1         1
+
+   596615   TÉCNICAS DE DE JOYERÍA Y BISUTERÍA                                    1         2
+
+  597031       EDUCACIÓN INFANTIL                                           1        80
+                                                                            2         8
+
+  597032   LENGUA EXTRANJERA: INGLÉS                                    1            5
+
+  597034   EDUCACIÓN FÍSICA                                             1            7
+
+  597035   MÚSICA                                                       1           12
+
+  597036       PEDAGOGÍA TERAPÉUTICA                                        1        24
+                                                                            2         3
+
+  597037       AUDICIÓN Y LENGUAJE                                          1        21
+                                                                            2         4
+
+  597038       EDUCACIÓN PRIMARIA                                           1        60
+                                                                            2        12
+
+  598001   COCINA Y PASTELERÍA                                                     1       10
+
+  598002   ESTÉTICA                                                                1        5
+
+  598003   FABRICACIÓN E INSTALACIÓN DE CARPINTERÍA Y MUEBLE                       1        4
+
+  598004   MANTENIMIENTO DE VEHÍCULOS                                              1        7
+
+  598005   MECANIZADO Y MANTENIMIENTO DE MÁQUINAS                                  1        4
+                                                                                   2        1
+
+  598006   PATRONAJE Y CONFECCIÓN                                                  1        3
+
+  598007   PELUQUERÍA                                                              1        2
+
+  598008   PRODUCCIÓN DE ARTES GRÁFICAS                                            1        3
+
+  598009   SERVICIOS DE RESTAURACIÓN                                               1        3
+
+  598010   SOLDADURA                                                               1        1
+
+CASTILLA Y LEÓN
+
+   590001    FILOSOFÍA                                                             1            2
+
+   590003    LATÍN                                                                 1            1
+
+   590004       LENGUA CASTELLANA Y LITERATURA                                         1        29
+                                                                                       2         7
+
+   590005       GEOGRAFÍA E HISTORIA                                                   1        10
+                                                                                       2         2
+
+   590006       MATEMÁTICAS                                                            1        42
+                                                                                       2         9
+
+    590007      FÍSICA Y QUÍMICA                                                       1         8
+                                                                                       2         1
+
+    590008      BIOLOGÍA Y GEOLOGÍA                                                    1         6
+                                                                                       2         1
+
+   590010    FRANCÉS                                                               1            2
+
+   590011       INGLÉS                                                                 1        19
+                                                                                       2         4
+
+   590015    PORTUGUÉS                                                             1            2
+
+   590016    MÚSICA                                                                1            3
+
+   590017    EDUCACIÓN FÍSICA                                                      1            2
+
+   590018       ORIENTACIÓN EDUCATIVA                                                  1        16
+                                                                                       2         4
+
+   590019       TECNOLOGÍA                                                             1        12
+                                                                                       2         2
+
+   590053    LENGUA Y LITERATURA GALLEGA                                           1            3
+
+   590061       ECONOMÍA                                                               1        10
+                                                                                       2         2
+
+   590101    ADMINISTRACIÓN DE EMPRESAS                                            1            2
+
+    590103      ASESORÍA DE PROCESOS DE IMAGEN PERSONAL                                1         4
+                                                                                       2         1
+
+   590104    CONSTRUCCIONES CIVILES Y EDIFICACIÓN                                  1            2
+
+    590105      FORMACIÓN Y ORIENTACIÓN LABORAL                                        1         8
+                                                                                       2         1
+
+    590106      HOSTELERÍA Y TURISMO                                                   1         9
+                                                                                       2         2
+
+    590107      INFORMÁTICA                                                            1         6
+                                                                                       2         1
+
+   590108    INTERVENCIÓN SOCIOCOMUNITARIA                                         1            4
+
+   590110    ORGANIZACIÓN Y GESTIÓN COMERCIAL                                      1            3
+
+   590111    ORGANIZACIÓN Y PROCESOS DE MANTENIMIENTO DE VEHÍCULOS          1            1
+             
+   590112    ORGANIZACIÓN Y PROYECTOS DE FABRICACIÓN MECÁNICA                      1            3
+
+   590113   ORGANIZACIÓN Y PROYECTOS DE SÍSTEMAS ENERGÉTICOS                    1            1
+
+   590115   PROCESOS DE PRODUCCIÓN AGRARIA                                      1            1
+
+   590116   PROCESOS EN LA INDUSTRIA ALIMENTARIA                                1            3
+
+   590117   PROCESOS DE DIAGNÓSTICOS CLÍNICOS Y PRODUCTOS ORTOPROTÉSICOS         1            4
+                                                                  2            1
+
+   590118   PROCESOS SANITARIOS                                                 1            4
+                                                                                    2         1
+
+   590119   PROCESOS Y MEDIOS DE COMUNICACIÓN                                   1            4
+                                                                                    2         1
+
+   590120   PROCESOS Y PRODUCTOS DE TEXTIL, CONFECCIÓN Y PIEL                   1            1
+
+   590122   PROCESOS Y PRODUCTOS EN ARTES GRÁFICAS                              1            2
+
+   590205   INSTALACIÓN DE DE EQUIPOS TÉRMICOS Y DE FLUÍDOS                     1            1
+
+   590206   INSTALACIONES ELECTROTÉCNICAS                                       1            3
+
+   590208   LABORATORIO                                                         1            1
+
+   590212   OFICINA DE PROYECTOS DE CONSTRUCCIÓN                                1            1
+
+   590214   OPERACIONES Y EQUIPOS DE ELABORACIÓN DE PRODUCTOS ALIMENTARIOS     1            1
+            
+   590215   OPERACIONES DE PROCESOS                                             1            1
+
+   590216   OPERACIONES Y EQUIPOS DE PRODUCCIÓN AGRARIA                         1            1
+
+   590219   PROCEDIMIENTOS DE DIAGNÓSTICO CLÍNICO Y ORTOPROTÉSICO           1            2
+            
+   590220   PROCEDIMIENTOS SANITARIOS Y ASISTENCIALES                           1            2
+
+   590221   PROCESOS COMERCIALES                                                1            2
+
+   590222   PROCESOS DE GESTIÓN ADMINISTRATIVA                                  1            4
+                                                                                    2         1
+
+   590225   SERVICIOS A LA COMUNIDAD                                            1            4
+
+   590227   SISTEMAS Y APLICACIONES INFORMÁTICAS                                1            4
+                                                                                    2         1
+
+   590229   TÉCNICAS Y PROCEDIMIENTOS DE IMAGEN Y SONIDO                        1            1
+
+   590231   EQUIPOS ELECTRÓNICOS                                                1            1
+
+   592001   ALEMÁN                                              1         2
+
+   592004   CHINO                                               1         1
+
+   592009   GALLEGO                                             1         1
+
+   592011   INGLÉS                                              1         3
+
+   592017   RUSO                                                1         1
+
+   593006   CANTO                                                             1         1
+
+   593008   CLARINETE                                                         1         2
+
+   593009   CLAVE                                                             1         1
+
+   593010   COMPOSICIÓN                                                       1         5
+
+   593014   CONTRABAJO                                                        1         1
+
+   593020   DIRECCIÓN DE CORO                                                 1         1
+
+   593023   DIRECCIÓN DE ORQUESTA                                             1         1
+
+   593025   ESCENA LÍRICA                                                     1         1
+
+   593030   FAGOT                                                             1         1
+
+   593033   ETNOMUSICOLOGÍA                                                   1         2
+
+   593035   GUITARRA                                                          1         1
+
+   593039   HISTORIA DE LA MÚSICA                                             1         2
+
+   593050   MÚSICA DE CÁMARA                                                  1         3
+
+   593051   MUSICOLOGÍA                                                       1         2
+
+   593052   OBOE                                                              1         1
+
+   593053   ÓRGANO                                                            1         1
+
+   593057   PEDAGOGÍA                                                         1         1
+
+   593058   PERCUSIÓN                                                         1         1
+
+   593059   PIANO                                                             1         4
+
+   593061   IMPROVISACIÓN Y ACOMPAÑAMIENTO                                    1         6
+
+   593066   SAXOFÓN                                                           1         1
+
+   593072   TROMBÓN                                                           1         1
+
+   593074   TROMPA                                                            1         1
+
+   593075   TROMPETA                                                          1         1
+
+   593077   VIOLA                                                             1         1
+
+   593078   VIOLÍN                                                            1         2
+
+   594402    ARPA                                                          1            2
+
+   594404    CLARINETE                                                     1            3
+
+   594405    CLAVE                                                         1            2
+
+   594406    CONTRABAJO                                                    1            3
+
+   594408    FAGOT                                                         1            1
+
+   594412    FUNDAMENTOS DE COMPOSICIÓN                                    1            4
+
+   594419    OBOE                                                          1            1
+
+   594420    ÓRGANO                                                        1            2
+
+   594423    PIANO                                                         1            4
+
+    594424      SAXOFÓN                                                        1         4
+                                                                               2         1
+
+   594426    TROMBÓN                                                       1            3
+
+   594428    TROMPETA                                                      1            4
+
+    594429      TUBA                                                           1         4
+                                                                               2         1
+
+   594431    VIOLA                                                         1            1
+
+   594433    VIOLÍN                                                        1            1
+
+   594434    VIOLONCHELO                                                   1            2
+
+   594460    LENGUAJE MUSICAL                                              1            4
+
+
+   595502   CONSERVACIÓN Y RESTAURAURACIÓN DE MATERIALES ARQUEOLÓGICOS          1         2
+            
+   595503   CONSERVACIÓN Y RESTAURACIÓN DE OBRAS ESCULTÓRICAS                   1         3
+
+   595504   CONSERVACIÓN Y RESTAURACIÓN DE OBRAS PICTÓRICAS                     1         3
+
+   595505   CONSERVACIÓN Y RESTAURACIÓN DE TEXTILES                             1         2
+
+   595506   CONSERVACIÓN Y RESTAURACIÓN DEL DOCUMENTO GRÁFICO                   1         3
+
+   595509   DISEÑO DE INTERIORES                                                1         4
+
+   595510   DISEÑO DE MODA                                                      1         4
+
+   595511   DISEÑO DE PRODUCTO                                                  1         4
+
+   595512   DISEÑO GRÁFICO                                                      1         3
+
+   595515   FOTOGRAFÍA                                                          1         1
+
+   595516   HISTORIA DEL ARTE                                                   1         4
+                                                                                 2        1
+
+   595519   MATERIALES Y TECNOLOGÍA: CONSERVACIÓN Y RESTAURACIÓN                1         1
+            
+   595520   MATERIALES Y TECNOLOGÍA: DISEÑO                                     1         1
+
+   595521   MEDIOS AUDIOVISUALES                                                1         2
+
+   595522   MEDIOS INFORMÁTICOS                                                 1         1
+
+   595523   ORGANIZACIÓN INDUSTRIAL Y LEGISLACIÓN                               1         3
+
+   595525   VOLUMEN                                                             1         1
+
+   596608   FOTOGRAFÍA Y PROCESOS DE REPRODUCCIÓN                            1         1
+
+   596619   TÉCNICAS MURALES                                                 1         1
+
+   596620   TÉCNICAS TEXTILES                                                1         1
+
+   597031       EDUCACIÓN INFANTIL                                               1        15
+                                                                                 2         2
+
+   597032       LENGUA EXTRANJERA: INGLÉS                                        1        11
+                                                                                 2         2
+
+   597034   EDUCACIÓN FÍSICA                                                 1            5
+
+   597035   MÚSICA                                                           1            3
+
+   597036   PEDAGOGÍA TERAPÉUTICA                                            1            6
+
+   597037   AUDICIÓN Y LENGUAJE                                              1            1
+
+   597038       EDUCACIÓN PRIMARIA                                               1        40
+                                                                                 2         6
+
+   598001   COCINA Y PASTELERÍA                                                     1        5
+                                                                                    2        1
+
+   598002   ESTÉTICA                                                                1        1
+
+   598003   FABRICACIÓN E INSTALACIÓN DE CARPINTERÍA Y MUEBLE                       1        1
+
+   598004   MANTENIMIENTO DE VEHÍCULOS                                              1        4
+                                                                                    2        1
+
+   598005   MECANIZADO Y MANTENIMIENTO DE MÁQUINAS                                  1        3
+
+   598006   PATRONAJE Y CONFECCIÓN                                                  1        1
+
+   598007   PELUQUERÍA                                                              1        2
+
+   598008   PRODUCCIÓN DE ARTES GRÁFICAS                                            1        1
+
+   598009   SERVICIOS DE RESTAURACIÓN                                               1        2
+
+   598010   SOLDADURA                                                               1        2
+
+CASTILLA-LA MANCHA
+
+   590102   ANÁLISIS Y QUÍMICA INDUSTRIAL                                       1         1
+
+   590106   HOSTELERÍA Y TURISMO                                                1         1
+
+   590111   ORGANIZACIÓN Y PROCESOS DE MANTENIMIENTO DE VEHÍCULOS           1         2
+            
+   590112   ORGANIZACIÓN Y PROYECTOS DE FABRICACIÓN MECÁNICA                    1         4
+
+   590113   ORGANIZACIÓN Y PROYECTOS DE SÍSTEMAS ENERGÉTICOS                    1         2
+
+   590115   PROCESOS DE PRODUCCIÓN AGRARIA                                      1         4
+
+   590116   PROCESOS EN LA INDUSTRIA ALIMENTARIA                                1         2
+
+   590119   PROCESOS Y MEDIOS DE COMUNICACIÓN                                   1         3
+
+   590120   PROCESOS Y PRODUCTOS DE TEXTIL, CONFECCIÓN Y PIEL                   1         1
+
+   590205   INSTALACIÓN DE DE EQUIPOS TÉRMICOS Y DE FLUÍDOS                     1         3
+
+   590208   LABORATORIO                                                         1         4
+
+   590214   OPERACIONES Y EQUIPOS DE ELABORACIÓN DE PRODUCTOS ALIMENTARIOS     1         1
+            
+   590215   OPERACIONES DE PROCESOS                                             1         1
+
+   590216   OPERACIONES Y EQUIPOS DE PRODUCCIÓN AGRARIA                         1         5
+
+   590225   SERVICIOS A LA COMUNIDAD                                            1         2
+
+   590229   TÉCNICAS Y PROCEDIMIENTOS DE IMAGEN Y SONIDO                        1         5
+
+   590231   EQUIPOS ELECTRÓNICOS                                                1         3
+
+   592001   ALEMÁN                                              1         1
+
+   592008   FRANCÉS                                             1         2
+
+   592011   INGLÉS                                              1         4
+
+   594403   CANTO                                                         1         2
+
+   594404   CLARINETE                                                     1         3
+
+   594412   FUNDAMENTOS DE COMPOSICIÓN                                    1         1
+
+   594415   GUITARRA FLAMENCA                                             1         3
+
+   594416   HISTORIA DE LA MÚSICA                                         1         1
+
+   594418   INSTRUMENTOS DE PÚA                                           1         2
+
+   594422   PERCUSIÓN                                                     1         2
+
+   594424   SAXOFÓN                                                       1         1
+
+   594426   TROMBÓN                                                       1         1
+
+   594428   TROMPETA                                                      1         1
+
+   594433   VIOLÍN                                                        1         4
+
+   594435   DANZA ESPAÑOLA                                                1         3
+
+   594436   DANZA CLÁSICA                                                 1         5
+
+   594437   DANZA CONTEMPORÁNEA                                           1         1
+
+   595507   DIBUJO ARTÍSTICO Y COLOR                                            1         2
+
+   595508   DIBUJO TÉCNICO                                                      1         1
+
+   595512   DISEÑO GRÁFICO                                                      1         3
+
+   595515   FOTOGRAFÍA                                                          1         2
+
+   595516   HISTORIA DEL ARTE                                                   1         3
+
+   595520   MATERIALES Y TECNOLOGÍA: DISEÑO                                     1         1
+
+   595521   MEDIOS AUDIOVISUALES                                                1         1
+
+   595522   MEDIOS INFORMÁTICOS                                                 1         1
+
+   595523   ORGANIZACIÓN INDUSTRIAL Y LEGISLACIÓN                               1         2
+
+   596613   TÉCNICAS CERÁMICAS                                    1         3
+
+   598005   MECANIZADO Y MANTENIMIENTO DE MÁQUINAS                                1        3
+
+   598006   PATRONAJE Y CONFECCIÓN                                                1        1
+
+   598008   PRODUCCIÓN DE ARTES GRÁFICAS                                          1        1
+
+   598009   SERVICIOS DE RESTAURACIÓN                                             1        8
+
+   598010   SOLDADURA                                                             1        3
+
+EXTREMADURA
+
+  590002       GRIEGO                                                                 1        2
+
+  590004       LENGUA CASTELLANA Y LITERATURA                                     1           12
+                                                                                  2            2
+
+  590006       MATEMÁTICAS                                                        1           37
+                                                                                      2        6
+
+  590007       FÍSICA Y QUÍMICA                                                       1        3
+
+  590008       BIOLOGÍA Y GEOLOGÍA                                                    1        5
+                                                                                      2        1
+
+  590009       DIBUJO                                                                 1        3
+                                                                                      2        1
+
+  590010       FRANCÉS                                                                1        3
+                                                                                      2        1
+
+  590012       ALEMÁN                                                                 1        1
+
+  590016       MÚSICA                                                                 1        4
+                                                                                      2        1
+
+  590017       EDUCACIÓN FÍSICA                                                       1        8
+                                                                                      2        1
+
+  590101       ADMINISTRACIÓN DE EMPRESAS                                             1        1
+
+  590103       ASESORÍA DE PROCESOS DE IMAGEN PERSONAL                                1        3
+
+  590104       CONSTRUCCIONES CIVILES Y EDIFICACIÓN                                   1        2
+
+  590105       FORMACIÓN Y ORIENTACIÓN LABORAL                                        1        4
+                                                                                      2        1
+
+  590106       HOSTELERÍA Y TURISMO                                                   1        3
+                                                                                      2        1
+
+  590107       INFORMÁTICA                                                            1        3
+                                                                                      2        1
+
+  590111   ORGANIZACIÓN Y PROCESOS DE MANTENIMIENTO DE VEHÍCULOS            1            2
+           
+  590113   ORGANIZACIÓN Y PROYECTOS DE SÍSTEMAS ENERGÉTICOS                       1            1
+
+  590116   PROCESOS EN LA INDUSTRIA ALIMENTARIA                                   1            1
+
+  590118   PROCESOS SANITARIOS                                                    1            3
+
+  590119   PROCESOS Y MEDIOS DE COMUNICACIÓN                                      1            3
+
+  590120   PROCESOS Y PRODUCTOS DE TEXTIL, CONFECCIÓN Y PIEL                      1            1
+
+  590122   PROCESOS Y PRODUCTOS EN ARTES GRÁFICAS                                 1            2
+
+  590124   SISTEMAS ELECTRÓNICOS                                                  1            2
+
+  590125   SISTEMAS ELECTROTÉCNICOS Y AUTOMÁTICOS                                 1            1
+
+  590208   LABORATORIO                                                            1            1
+
+  590212   OFICINA DE PROYECTOS DE CONSTRUCCIÓN                                   1            3
+
+  590219   PROCEDIMIENTOS DE DIAGNÓSTICO CLÍNICO Y ORTOPROTÉSICO                  1            1
+           
+
+  590220    PROCEDIMIENTOS SANITARIOS Y ASISTENCIALES                            1            2
+
+   590222      PROCESOS DE GESTIÓN ADMINISTRATIVA                                    1         6
+                                                                                     2         1
+
+  590229    TÉCNICAS Y PROCEDIMIENTOS DE IMAGEN Y SONIDO                         1            3
+
+  590231    EQUIPOS ELECTRÓNICOS                                                 1            1
+
+  592001   ALEMÁN                                               1         3
+
+  592008   FRANCÉS                                              1         2
+
+  592011   INGLÉS                                               1         2
+
+  592012   ITALIANO                                             1         3
+
+  592015   PORTUGUÉS                                            1         1
+
+  594124    INTERPRETACIÓN EN EL TEATRO DE TEXTO                                1            1
+
+  594403    CANTO                                                               1            1
+
+  594406    CONTRABAJO                                                          1            1
+
+  594408    FAGOT                                                               1            1
+
+  594410    FLAUTA TRAVESERA                                                    1            1
+
+  594414    GUITARRA                                                            1            1
+
+  594419    OBOE                                                                1            1
+
+  594427    TROMPA                                                              1            1
+
+  594428    TROMPETA                                                            1            1
+
+  594431    VIOLA                                                               1            1
+
+  594434    VIOLONCHELO                                                         1            1
+
+  594436    DANZA CLÁSICA                                                       1            1
+
+  594441    CANTO APLICADO AL ARTE DRAMÁTICO                                    1            1
+
+   594445      DIRECCIÓN ESCÉNICA                                                   1         3
+                                                                                    2         1
+
+  594460    LENGUAJE MUSICAL                                                    1            1
+
+  594463    GUITARRA ELÉCTRICA                                                  1            1
+
+  595507   DIBUJO ARTÍSTICO Y COLOR                                           1         2
+
+  595509   DISEÑO DE INTERIORES                                               1         1
+
+  595512   DISEÑO GRÁFICO                                                     1         1
+
+  595516   HISTORIA DEL ARTE                                                  1         2
+
+  595520   MATERIALES Y TECNOLOGÍA: DISEÑO                                    1         2
+
+  595521   MEDIOS AUDIOVISUALES                                               1         2
+
+  595522   MEDIOS INFORMÁTICOS                                                1         1
+
+  595525   VOLUMEN                                                            1         1
+
+  596611   MUSIVARIA                                                   1         1
+
+  596612   TALLA EN PIEDRA Y MADERA                                    1         1
+
+  596613   TÉCNICAS CERÁMICAS                                          1         1
+
+
+  597031       EDUCACIÓN INFANTIL                                               1        50
+                                                                                2         8
+
+  597032       LENGUA EXTRANJERA: INGLÉS                                        1        12
+                                                                                2         2
+
+  597033    LENGUA EXTRANJERA: FRANCÉS                                      1            2
+
+   597034      EDUCACIÓN FÍSICA                                                 1         5
+                                                                                2         1
+
+   597035      MÚSICA                                                           1         5
+                                                                                2         1
+
+   597036      PEDAGOGÍA TERAPÉUTICA                                            1         6
+                                                                                2         1
+
+  597037       AUDICIÓN Y LENGUAJE                                              1        16
+                                                                                2         2
+
+   597038      EDUCACIÓN PRIMARIA                                               1         7
+                                                                                2         1
+
+  598002   ESTÉTICA                                                              1        3
+
+  598004   MANTENIMIENTO DE VEHÍCULOS                                            1        1
+
+  598005   MECANIZADO Y MANTENIMIENTO DE MÁQUINAS                                1        2
+
+  598006   PATRONAJE Y CONFECCIÓN                                                1        2
+
+  598007   PELUQUERÍA                                                            1        3
+                                                                                 2        1
+
+  598008   PRODUCCIÓN DE ARTES GRÁFICAS                                          1        1
+
+  598010   SOLDADURA                                                             1        1
+
+
+LA RIOJA
+
+   590001   FILOSOFÍA                                                           1         1
+
+   590004   LENGUA CASTELLANA Y LITERATURA                                      1         6
+
+   590005   GEOGRAFÍA E HISTORIA                                                1        10
+
+   590006   MATEMÁTICAS                                                         1         3
+
+   590007   FÍSICA Y QUÍMICA                                                    1         4
+
+   590008   BIOLOGÍA Y GEOLOGÍA                                                 1         2
+
+   590010   FRANCÉS                                                             1         1
+
+   590011   INGLÉS                                                              1         7
+
+   590017   EDUCACIÓN FÍSICA                                                    1         2
+
+   590018   ORIENTACIÓN EDUCATIVA                                               1        12
+
+   590019   TECNOLOGÍA                                                          1         5
+
+   590061   ECONOMÍA                                                            1         5
+
+   590101   ADMINISTRACIÓN DE EMPRESAS                                          1         5
+
+   590102   ANÁLISIS Y QUÍMICA INDUSTRIAL                                       1         1
+
+   590104   CONSTRUCCIONES CIVILES Y EDIFICACIÓN                                1         1
+
+   590105   FORMACIÓN Y ORIENTACIÓN LABORAL                                     1         1
+
+   590106   HOSTELERÍA Y TURISMO                                                1         2
+
+   590107   INFORMÁTICA                                                         1         2
+
+   590108   INTERVENCIÓN SOCIOCOMUNITARIA                                       1         3
+
+   590112   ORGANIZACIÓN Y PROYECTOS DE FABRICACIÓN MECÁNICA                    1         1
+
+   590113   ORGANIZACIÓN Y PROYECTOS DE SÍSTEMAS ENERGÉTICOS                    1         1
+
+   590115   PROCESOS DE PRODUCCIÓN AGRARIA                                      1         3
+
+   590116   PROCESOS EN LA INDUSTRIA ALIMENTARIA                                1         2
+
+   590117   PROCESOS DE DIAGNÓSTICOS CLÍNICOS Y PRODUCTOS  ORTOPROTÉSICOS        1         3
+            
+   590120   PROCESOS Y PRODUCTOS DE TEXTIL, CONFECCIÓN Y PIEL                   1         1
+
+   590122   PROCESOS Y PRODUCTOS EN ARTES GRÁFICAS                              1         1
+
+   590123   PROCESOS Y PRODUCTOS EN MADERA Y MUEBLE                             1         1
+
+   590124   SISTEMAS ELECTRÓNICOS                                               1         1
+
+   590125   SISTEMAS ELECTROTÉCNICOS Y AUTOMÁTICOS                              1         2
+
+   590206   INSTALACIONES ELECTROTÉCNICAS                                       1         1
+
+   590216   OPERACIONES Y EQUIPOS DE PRODUCCIÓN AGRARIA                         1         2
+
+   590219   PROCEDIMIENTOS DE DIAGNÓSTICO CLÍNICO Y ORTOPROTÉSICO               1         2
+            
+   590220   PROCEDIMIENTOS SANITARIOS Y ASISTENCIALES                           1         5
+
+   590221   PROCESOS COMERCIALES                                               1         2
+
+   590222   PROCESOS DE GESTIÓN ADMINISTRATIVA                                 1         3
+
+   590225   SERVICIOS A LA COMUNIDAD                                           1        10
+
+   590227   SISTEMAS Y APLICACIONES INFORMÁTICAS                               1         1
+
+   590231   EQUIPOS ELECTRÓNICOS                                               1         2
+
+   592001   ALEMÁN                                              1         1
+
+   592008   FRANCÉS                                             1         1
+
+   594404   CLARINETE                                                     1         1
+
+   594406   CONTRABAJO                                                    1         2
+
+   594410   FLAUTA TRAVESERA                                              1         2
+
+   594412   FUNDAMENTOS DE COMPOSICIÓN                                    1         2
+
+   594414   GUITARRA                                                      1         1
+
+   594416   HISTORIA DE LA MÚSICA                                         1         2
+
+   594418   INSTRUMENTOS DE PÚA                                           1         2
+
+   594419   OBOE                                                          1         2
+
+   594421   ORQUESTA                                                      1         1
+
+   594423   PIANO                                                         1         2
+
+   594424   SAXOFÓN                                                       1         1
+
+   594431   VIOLA                                                         1         1
+
+   594433   VIOLÍN                                                        1         2
+
+   594434   VIOLONCHELO                                                   1         2
+
+   594460   LENGUAJE MUSICAL                                              1         1
+
+   595511   DISEÑO DE PRODUCTO                                                  1         3
+
+   595512   DISEÑO GRÁFICO                                                      1         1
+
+   595515   FOTOGRAFÍA                                                          1         1
+
+   595520   MATERIALES Y TECNOLOGÍA: DISEÑO                                     1         2
+
+   595522   MEDIOS INFORMÁTICOS                                                 1         1
+
+   595523   ORGANIZACIÓN INDUSTRIAL Y LEGISLACIÓN                               1         2
+
+   596617   TÉCNICAS DE PATRONAJE Y CONFECCIÓN                                1         1
+
+   597031   EDUCACIÓN INFANTIL                                               1       14
+
+   597032   LENGUA EXTRANJERA: INGLÉS                                        1       13
+
+   597034   EDUCACIÓN FÍSICA                                                 1        6
+
+   597035   MÚSICA                                                           1        4
+
+   597036   PEDAGOGÍA TERAPÉUTICA                                            1       21
+
+   597037   AUDICIÓN Y LENGUAJE                                              1        2
+
+   597038   EDUCACIÓN PRIMARIA                                               1       32
+
+   598001   COCINA Y PASTELERÍA                                                     1        3
+
+   598003   FABRICACIÓN E INSTALACIÓN DE CARPINTERÍA Y MUEBLE                       1        4
+
+   598005   MECANIZADO Y MANTENIMIENTO DE MÁQUINAS                                  1        3
+
+   598007   PELUQUERÍA                                                              1        2
+
+MADRID
+
+   590001    FILOSOFÍA                                                              1            6
+
+   590003    LATÍN                                                                  1            1
+
+   590004       LENGUA CASTELLANA Y LITERATURA                                          1        54
+                                                                                        2         6
+
+   590005       GEOGRAFÍA E HISTORIA                                                    1        65
+                                                                                        2         5
+
+    590006      MATEMÁTICAS                                                             1       113
+                                                                                        2        10
+
+   590007       FÍSICA Y QUÍMICA                                                        1        52
+                                                                                        2         4
+
+   590008       BIOLOGÍA Y GEOLOGÍA                                                     1        21
+                                                                                        2         2
+
+   590009    DIBUJO                                                                 1            6
+
+   590010    FRANCÉS                                                                1            2
+
+   590011       INGLÉS                                                                  1        76
+                                                                                        2         6
+
+   590016    MÚSICA                                                                 1            1
+
+   590017       EDUCACIÓN FÍSICA                                                        1        42
+                                                                                        2         3
+
+    590018      ORIENTACIÓN EDUCATIVA                                                   1         8
+                                                                                        2         1
+
+   590019       TECNOLOGÍA                                                              1        21
+                                                                                        2         2
+
+   590061       ECONOMÍA                                                                1        10
+                                                                                        2         1
+
+   590101    ADMINISTRACIÓN DE EMPRESAS                                             1            4
+
+   590102    ANÁLISIS Y QUÍMICA INDUSTRIAL                                          1            6
+
+   590103    ASESORÍA DE PROCESOS DE IMAGEN PERSONAL                                1            2
+
+   590104    CONSTRUCCIONES CIVILES Y EDIFICACIÓN                                   1            1
+
+   590105    FORMACIÓN Y ORIENTACIÓN LABORAL                                        1            6
+
+    590106      HOSTELERÍA Y TURISMO                                                    1         7
+                                                                                        2         1
+
+   590107       INFORMÁTICA                                                             1        16
+                                                                                        2         1
+
+   590108    INTERVENCIÓN SOCIOCOMUNITARIA                                          1            2
+
+   590110       ORGANIZACIÓN Y GESTIÓN COMERCIAL                                        1        10
+                                                                                        2         1
+
+   590111    ORGANIZACIÓN Y PROCESOS DE MANTENIMIENTO DE VEHÍCULOS            1            2
+             
+   590112    ORGANIZACIÓN Y PROYECTOS DE FABRICACIÓN MECÁNICA                       1            2
+
+   590113    ORGANIZACIÓN Y PROYECTOS DE SÍSTEMAS ENERGÉTICOS                      1            1
+
+   590115    PROCESOS DE PRODUCCIÓN AGRARIA                                        1            2
+
+   590117    PROCESOS DE DIAGNÓSTICOS CLÍNICOS Y PRODUCTOS ORTOPROTÉSICOS          1            5
+             
+   590118    PROCESOS SANITARIOS                                                   1            2
+
+   590119    PROCESOS Y MEDIOS DE COMUNICACIÓN                                     1            3
+
+   590120    PROCESOS Y PRODUCTOS DE TEXTIL, CONFECCIÓN Y PIEL                     1            2
+
+   590122    PROCESOS Y PRODUCTOS EN ARTES GRÁFICAS                                1            4
+
+   590124    SISTEMAS ELECTRÓNICOS                                                 1            1
+
+   590125    SISTEMAS ELECTROTÉCNICOS Y AUTOMÁTICOS                                1            1
+
+    590206      INSTALACIONES ELECTROTÉCNICAS                                          1         8
+                                                                                       2         1
+
+   590208    LABORATORIO                                                           1            1
+
+   590214    OPERACIONES Y EQUIPOS DE ELABORACIÓN DE PRODUCTOS ALIMENTARIOS        1            1
+             
+   590216    OPERACIONES Y EQUIPOS DE PRODUCCIÓN AGRARIA                           1            4
+
+   590219    PROCEDIMIENTOS DE DIAGNÓSTICO CLÍNICO Y ORTOPROTÉSICO                 1            1
+             
+   590220    PROCEDIMIENTOS SANITARIOS Y ASISTENCIALES                             1            2
+
+   590221    PROCESOS COMERCIALES                                                  1            6
+
+   590222       PROCESOS DE GESTIÓN ADMINISTRATIVA                                     1        15
+                                                                                       2         1
+
+   590227       SISTEMAS Y APLICACIONES INFORMÁTICAS                                   1        16
+                                                                                       2         1
+
+   590229    TÉCNICAS Y PROCEDIMIENTOS DE IMAGEN Y SONIDO                          1            2
+
+   590231    EQUIPOS ELECTRÓNICOS                                                  1            3
+
+   592011   INGLÉS                                              1         1
+
+   592013   JAPONÉS                                             1         1
+
+   593005    DANZA CLÁSICA                                                       1            1
+
+   593006    CANTO                                                               1            3
+
+   593008    CLARINETE                                                           1            2
+
+   593009    CLAVE                                                               1            2
+
+    593010      COMPOSICIÓN                                                          1         3
+                                                                                     2         1
+
+   593014    CONTRABAJO                                                          1            2
+
+   593017    DANZA ESPAÑOLA                                                      1            3
+
+   593018    BAILE FLAMENCO                                                      1            1
+
+   593025    ESCENA LÍRICA                                                       1            1
+
+   593030    FAGOT                                                               1            1
+
+   593032    FLAUTA TRAVESERA                                                    1            1
+
+   593033    ETNOMUSICOLOGÍA                                                     1            1
+
+   593035    GUITARRA                                                            1            1
+
+    593039      HISTORIA DE LA MÚSICA                                                1         2
+                                                                                     2         1
+
+   593045    LENGUA ALEMANA                                                      1            2
+
+   593046    LENGUA FRANCESA                                                     1            1
+
+   593048    LENGUA ITALIANA                                                     1            2
+
+   593050    MÚSICA DE CÁMARA                                                    1            3
+
+   593051    MUSICOLOGÍA                                                         1            1
+
+   593052    OBOE                                                                1            2
+
+   593057    PEDAGOGÍA                                                           1            2
+
+    593059      PIANO                                                                1         5
+                                                                                     2         1
+
+   593061    IMPROVISACIÓN Y ACOMPAÑAMIENTO                                      1            1
+
+    593063      REPERTORIO CON PIANO PARA VOZ                                        1         5
+                                                                                     2         1
+
+   593066    SAXOFÓN                                                             1            1
+
+   593072    TROMBÓN                                                             1            1
+
+   593074    TROMPA                                                              1            1
+
+   593077    VIOLA                                                               1            1
+
+   593078    VIOLÍN                                                              1            2
+
+    593098      REPERTORIO CON PIANO PARA INSTRUMENTOS                               1         7
+                                                                                     2         1
+
+   593100    TECNOLOGÍA MUSICAL                                                  1            1
+
+   593106   ANÁLISIS Y PRÁCTICA DEL REPERTORIO DE LA DANZA ESPAÑOLA          1         1
+            
+   593107   CIENCIAS DE LA SALUD APLICADAS A LA DANZA                           1         1
+
+   593108   COMPOSICIÓN COREOGRÁFICA                                            1         1
+
+   593109   DANZA CONTEMPORÁNEA                                                 1         2
+
+   593110   DANZA EDUCATIVA                                                     1         1
+
+   593112   HISTORIA DE LA DANZA                                                1         1
+
+   593113   PSICOPEDAGOGÍA Y GESTIÓN EDUCATIVA                                  1         2
+
+   594124    INTERPRETACIÓN EN EL TEATRO DE TEXTO                               1            1
+
+   594404    CLARINETE                                                          1            2
+
+   594405    CLAVE                                                              1            2
+
+   594408    FAGOT                                                              1            1
+
+   594412    FUNDAMENTOS DE COMPOSICIÓN                                         1            1
+
+   594415    GUITARRA FLAMENCA                                                  1            1
+
+   594419    OBOE                                                               1            1
+
+   594422    PERCUSIÓN                                                          1            1
+
+    594423      PIANO                                                               1         3
+                                                                                    2         1
+
+   594424    SAXOFÓN                                                            1            1
+
+   594434    VIOLONCHELO                                                        1            1
+
+   594435    DANZA ESPAÑOLA                                                     1            1
+
+   594436    DANZA CLÁSICA                                                      1            1
+
+   595503    CONSERVACIÓN Y RESTAURACIÓN DE OBRAS ESCULTÓRICAS                   1            2
+
+   595504    CONSERVACIÓN Y RESTAURACIÓN DE OBRAS PICTÓRICAS                     1            2
+
+   595506    CONSERVACIÓN Y RESTAURACIÓN DEL DOCUMENTO GRÁFICO                   1            1
+
+   595507    DIBUJO ARTÍSTICO Y COLOR                                            1            2
+
+   595509    DISEÑO DE INTERIORES                                                1            2
+
+   595510    DISEÑO DE MODA                                                      1            1
+
+   595511    DISEÑO DE PRODUCTO                                                  1            2
+
+   595512    DISEÑO GRÁFICO                                                      1            1
+
+   595515    FOTOGRAFÍA                                                          1            2
+
+   595516    HISTORIA DEL ARTE                                                   1            1
+
+   595521    MEDIOS AUDIOVISUALES                                                1            1
+
+   595522    MEDIOS INFORMÁTICOS                                                 1            1
+
+   595523    ORGANIZACIÓN INDUSTRIAL Y LEGISLACIÓN                               1            1
+
+    595525      VOLUMEN                                                              1         1
+                                                                                     2         1
+
+    597031      EDUCACIÓN INFANTIL                                               1       142
+                                                                                 2        11
+
+    597032      LENGUA EXTRANJERA: INGLÉS                                        1       272
+                                                                                 2        20
+
+   597034       EDUCACIÓN FÍSICA                                                 1        23
+                                                                                 2         2
+
+    597035      MÚSICA                                                           1         9
+                                                                                 2         1
+
+   597036       PEDAGOGÍA TERAPÉUTICA                                            1        45
+                                                                                 2         3
+
+   597037    AUDICIÓN Y LENGUAJE                                             1            5
+
+   597038       EDUCACIÓN PRIMARIA                                               1        38
+                                                                                 2         3
+
+   598001   COCINA Y PASTELERÍA                                                     1        7
+                                                                                    2        1
+
+   598002   ESTÉTICA                                                                1        3
+
+   598003   FABRICACIÓN E INSTALACIÓN DE CARPINTERÍA Y MUEBLE                       1        2
+
+   598004   MANTENIMIENTO DE VEHÍCULOS                                              1        7
+                                                                                    2        1
+
+   598005   MECANIZADO Y MANTENIMIENTO DE MÁQUINAS                                  1        4
+                                                                                    2        1
+
+   598006   PATRONAJE Y CONFECCIÓN                                                  1        4
+
+   598007   PELUQUERÍA                                                              1       14
+                                                                                    2        2
+
+   598008   PRODUCCIÓN DE ARTES GRÁFICAS                                            1        5
+                                                                                    2        1
+
+   598009   SERVICIOS DE RESTAURACIÓN                                               1        3
+
+
+MURCIA
+
+   590001    FILOSOFÍA                                                            1            3
+
+   590004    LENGUA CASTELLANA Y LITERATURA                                       1            7
+
+   590005    GEOGRAFÍA E HISTORIA                                                 1            5
+
+    590006      MATEMÁTICAS                                                           1         7
+                                                                                      2         1
+
+   590007    FÍSICA Y QUÍMICA                                                     1            4
+
+   590008    BIOLOGÍA Y GEOLOGÍA                                                  1            1
+
+   590010    FRANCÉS                                                              1            2
+
+   590011       INGLÉS                                                                1        18
+                                                                                      2         1
+
+   590017    EDUCACIÓN FÍSICA                                                     1            3
+
+   590018    ORIENTACIÓN EDUCATIVA                                                1            3
+
+   590101    ADMINISTRACIÓN DE EMPRESAS                                           1            2
+
+   590103    ASESORÍA DE PROCESOS DE IMAGEN PERSONAL                              1            1
+
+   590105    FORMACIÓN Y ORIENTACIÓN LABORAL                                      1            1
+
+   590106    HOSTELERÍA Y TURISMO                                                 1            1
+
+   590108    INTERVENCIÓN SOCIOCOMUNITARIA                                        1            1
+
+   590117    PROCESOS DE DIAGNÓSTICOS CLÍNICOS Y PRODUCTOS ORTOPROTÉSICOS           1            2
+             
+   590118    PROCESOS SANITARIOS                                                  1            1
+
+   590124    SISTEMAS ELECTRÓNICOS                                                1            2
+
+   590206    INSTALACIONES ELECTROTÉCNICAS                                        1            1
+
+   590208    LABORATORIO                                                          1            1
+
+   590216    OPERACIONES Y EQUIPOS DE PRODUCCIÓN AGRARIA                          1            4
+
+   590220    PROCEDIMIENTOS SANITARIOS Y ASISTENCIALES                            1            1
+
+   590221    PROCESOS COMERCIALES                                                 1            3
+
+    590222      PROCESOS DE GESTIÓN ADMINISTRATIVA                                    1         9
+                                                                                      2         1
+
+   590225    SERVICIOS A LA COMUNIDAD                                             1            1
+
+   590227    SISTEMAS Y APLICACIONES INFORMÁTICAS                                 1            4
+
+   592011   INGLÉS                                              1         1
+
+
+   593036   GUITARRA FLAMENCA                                    1         1
+
+   593074   TROMPA                                               1         1
+
+   594404   CLARINETE                                                           1         1
+
+   594412   FUNDAMENTOS DE COMPOSICIÓN                                          1         2
+
+   594420   ÓRGANO                                                              1         1
+
+   594422   PERCUSIÓN                                                           1         1
+
+   594423   PIANO                                                               1         4
+
+   594428   TROMPETA                                                            1         1
+
+   594433   VIOLÍN                                                              1         1
+
+   594443   DANZA APLICADA AL ARTE DRAMÁTICO                                    1         1
+
+   594460   LENGUAJE MUSICAL                                                    1         1
+
+
+   595507   DIBUJO ARTÍSTICO Y COLOR                                    1         1
+
+   595512   DISEÑO GRÁFICO                                              1         1
+
+   595515   FOTOGRAFÍA                                                  1         1
+
+   595522   MEDIOS INFORMÁTICOS                                         1         1
+
+   596609   MODELISMO Y MAQUETISMO                                    1         1
+
+   597031       EDUCACIÓN INFANTIL                                                1        38
+                                                                                  2         3
+
+   597032       LENGUA EXTRANJERA: INGLÉS                                         1        24
+                                                                                  2         2
+
+   597033       LENGUA EXTRANJERA: FRANCÉS                                        1        13
+                                                                                  2         1
+
+   597034       EDUCACIÓN FÍSICA                                                  1        12
+                                                                                  2         1
+
+    597035      MÚSICA                                                            1         7
+                                                                                  2         1
+
+   597036    PEDAGOGÍA TERAPÉUTICA                                            1            6
+
+   597037    AUDICIÓN Y LENGUAJE                                              1            7
+
+   597038       EDUCACIÓN PRIMARIA                                                1        16
+                                                                                  2         1
+
+   597039    LENGUA EXTRANJERA: ALEMÁN                                        1            2
+
+    598001   COCINA Y PASTELERÍA                                                     1        1
+
+   598002   ESTÉTICA                                                                1        1
+
+   598003   FABRICACIÓN E INSTALACIÓN DE CARPINTERÍA Y MUEBLE                       1        2
+
+   598004   MANTENIMIENTO DE VEHÍCULOS                                              1        3
+
+   598007   PELUQUERÍA                                                              1        8
+                                                                                    2        1
+
+   598008   PRODUCCIÓN DE ARTES GRÁFICAS                                            1        1
+
+   598009   SERVICIOS DE RESTAURACIÓN                                               1        3
+
+NAVARRA
+    590001      FILOSOFÍA                                                    0        1         2
+                                                                             1      1           2
+
+    590004      LENGUA CASTELLANA Y LITERATURA                               0        1         8
+                                                                             1      1           7
+
+    590005      GEOGRAFÍA E HISTORIA                                         0        1         3
+                                                                             1      1           1
+
+    590006      MATEMÁTICAS                                                  0        1         8
+                                                                             1        1        10
+
+   590007       FÍSICA Y QUÍMICA                                             0        1        12
+                                                                             1      1           5
+
+   590008    BIOLOGÍA Y GEOLOGÍA                                            1       1          2
+
+   590009    DIBUJO                                                         0       1          2
+
+   590010    FRANCÉS                                                        1       1          1
+
+   590011       INGLÉS                                                       0        1        10
+                                                                             1        1        15
+
+   590012    ALEMÁN                                                         0       1          2
+
+   590016    MÚSICA                                                         1       1          1
+
+   590017    EDUCACIÓN FÍSICA                                               0       1          1
+
+   590018    ORIENTACIÓN EDUCATIVA                                          0       1          2
+
+    590019      TECNOLOGÍA                                                   0        1         4
+                                                                             1      1           3
+
+   590057    LENGUA Y LITERATURA VASCA (NAVARRA)                            1       1          1
+
+   590061    ECONOMÍA                                                       0       1          1
+
+   590101    ADMINISTRACIÓN DE EMPRESAS                                     0       1          3
+
+   590105    FORMACIÓN Y ORIENTACIÓN LABORAL                                0       1         10
+
+    590106      HOSTELERÍA Y TURISMO                                         0        1         1
+                                                                             1      1           1
+
+   590107    INFORMÁTICA                                                    0       1          4
+
+   590110    ORGANIZACIÓN Y GESTIÓN COMERCIAL                               0       1          3
+
+    590112      ORGANIZACIÓN Y PROYECTOS DE FABRICACIÓN MECÁNICA             0        1         4
+                                                                             1      1           1
+
+   590113    ORGANIZACIÓN Y PROYECTOS DE SÍSTEMAS ENERGÉTICOS               0       1          3
+
+   590115    PROCESOS DE PRODUCCIÓN AGRARIA                                 0       1          3
+
+   590116    PROCESOS EN LA INDUSTRIA ALIMENTARIA                           0       1          1
+
+   590117    PROCESOS DE DIAGNÓSTICOS CLÍNICOS Y PRODUCTOS ORTOPROTÉSICOS      0       1          2
+             
+   590123    PROCESOS Y PRODUCTOS EN MADERA Y MUEBLE                        0       1          3
+
+   590125    SISTEMAS ELECTROTÉCNICOS Y AUTOMÁTICOS                         0       1          2
+
+   590206   INSTALACIONES ELECTROTÉCNICAS                                1       1         1
+
+   590214   OPERACIONES Y EQUIPOS DE ELABORACIÓN DE PRODUCTOS    ALIMENTARIOS    0       1         2
+            
+   590216   OPERACIONES Y EQUIPOS DE PRODUCCIÓN AGRARIA                  0       1         4
+
+   590219   PROCEDIMIENTOS DE DIAGNÓSTICO CLÍNICO Y ORTOPROTÉSICO     0       1         2
+            
+   590220   PROCEDIMIENTOS SANITARIOS Y ASISTENCIALES                    0       1         6
+
+   590222   PROCESOS DE GESTIÓN ADMINISTRATIVA                           0       1         1
+
+   590225   SERVICIOS A LA COMUNIDAD                                     0       1         1
+
+   590227   SISTEMAS Y APLICACIONES INFORMÁTICAS                         0       1        12
+
+   590231   EQUIPOS ELECTRÓNICOS                                         0       1         2
+
+   592007   EUSKERA                                       1       1         1
+
+   592011   INGLÉS                                        0       1         3
+
+   593008   CLARINETE                                                   0       1         1
+
+   593010   COMPOSICIÓN                                                 0       1         4
+
+   593035   GUITARRA                                                    0       1         1
+
+   593050   MÚSICA DE CÁMARA                                            0       1         1
+
+   593051   MUSICOLOGÍA                                                 0       1         1
+
+   593052   OBOE                                                        0       1         1
+
+   593057   PEDAGOGÍA                                                   0       1         2
+
+   593059   PIANO                                                       0       1         1
+
+   593061   IMPROVISACIÓN Y ACOMPAÑAMIENTO                              0       1         2
+
+   593063   REPERTORIO CON PIANO PARA VOZ                               0       1         1
+
+   593082   BATERÍA DE JAZZ                                             0       1         1
+
+   593084   CANTO DE JAZZ                                               0       1         1
+
+   593085   COMPOSICIÓN DE JAZZ                                         0       1         1
+
+   593091   GUITARRA ELÉCTRICA                                          0       1         1
+
+   593094   INSTRUMENTOS DE VIENTO DE JAZZ                              0       1         1
+
+   593098   REPERTORIO CON PIANO PARA INSTRUMENTOS                      0       1         2
+
+   593099   TECLADOS / PIANO JAZZ                                       0       1         3
+
+   593100   TECNOLOGÍA MUSICAL                                          0       1         1
+
+   594423   PIANO                                         0       1         6
+
+   594424   SAXOFÓN                                       0       1         2
+
+   594435   DANZA ESPAÑOLA                                0       1         1
+
+   594436   DANZA CLÁSICA                                 0       1         3
+
+
+   595507   DIBUJO ARTÍSTICO Y COLOR                                     0       1         2
+
+   595520   MATERIALES Y TECNOLOGÍA: DISEÑO                              0       1         1
+
+   595522   MEDIOS INFORMÁTICOS                                          0       1         2
+
+   596610   MOLDES Y REPRODUCCIONES                                          0       1         1
+
+   596612   TALLA EN PIEDRA Y MADERA                                         0       1         1
+
+   596614   TÉCNICAS DE GRABADO Y ESTAMPACIÓN                                0       1         1
+
+   597032   LENGUA EXTRANJERA: INGLÉS                                1       1         1
+
+   597036   PEDAGOGÍA TERAPÉUTICA                                    0       1        32
+
+   597037       AUDICIÓN Y LENGUAJE                                  0       1         25
+                                                                     1       1          9
+
+   597038   EDUCACIÓN PRIMARIA                                       0       1         1
+
+   597082   EUSKERA (NAVARRA)                                        1       1        13
+
+   598001    COCINA Y PASTELERÍA                                              0       1         1
+
+   598002    ESTÉTICA                                                         0       1         1
+
+    598005      MECANIZADO Y MANTENIMIENTO DE MÁQUINAS                        0       1         3
+                                                                              1       1         2
+
+   598007    PELUQUERÍA                                                       0       1         1
+
+   598009    SERVICIOS DE RESTAURACIÓN                                        0       1         1
+
+VALENCIA
+
+  590001   FILOSOFÍA                                                           1        57
+
+  590002   GRIEGO                                                              1        41
+
+  590003   LATÍN                                                               1        52
+
+  590004   LENGUA CASTELLANA Y LITERATURA                                      1       278
+
+  590005   GEOGRAFÍA E HISTORIA                                                1       266
+
+  590006   MATEMÁTICAS                                                         1       390
+
+  590007   FÍSICA Y QUÍMICA                                                    1       112
+
+  590008   BIOLOGÍA Y GEOLOGÍA                                                 1       145
+
+  590009   DIBUJO                                                              1        68
+
+  590010   FRANCÉS                                                             1        62
+
+  590011   INGLÉS                                                              1       230
+
+  590012   ALEMÁN                                                              1         3
+
+  590016   MÚSICA                                                              1        97
+
+  590017   EDUCACIÓN FÍSICA                                                    1       116
+
+  590018   ORIENTACIÓN EDUCATIVA                                               1       276
+
+  590019   TECNOLOGÍA                                                          1        96
+
+  590056   LENGUA Y LITERATURA VALENCIANA                                      1       273
+
+  590061   ECONOMÍA                                                            1        56
+
+  590101   ADMINISTRACIÓN DE EMPRESAS                                          1        52
+
+  590102   ANÁLISIS Y QUÍMICA INDUSTRIAL                                       1        15
+
+  590103   ASESORÍA DE PROCESOS DE IMAGEN PERSONAL                             1        26
+
+  590105   FORMACIÓN Y ORIENTACIÓN LABORAL                                     1        61
+
+  590106   HOSTELERÍA Y TURISMO                                                1        12
+
+  590107   INFORMÁTICA                                                         1       157
+
+  590108   INTERVENCIÓN SOCIOCOMUNITARIA                                       1        73
+
+  590110   ORGANIZACIÓN Y GESTIÓN COMERCIAL                                    1        31
+
+  590111   ORGANIZACIÓN Y PROCESOS DE MANTENIMIENTO DE VEHÍCULOS           1        24
+           
+  590112   ORGANIZACIÓN Y PROYECTOS DE FABRICACIÓN MECÁNICA                    1        19
+
+  590113   ORGANIZACIÓN Y PROYECTOS DE SÍSTEMAS ENERGÉTICOS                    1        31
+
+  590115   PROCESOS DE PRODUCCIÓN AGRARIA                                      1        38
+
+  590116   PROCESOS EN LA INDUSTRIA ALIMENTARIA                                1        17
+
+  590117   PROCESOS DE DIAGNÓSTICOS CLÍNICOS Y PRODUCTOS ORTOPROTÉSICOS       1        34
+           
+  590118   PROCESOS SANITARIOS                                                 1        18
+
+  590119   PROCESOS Y MEDIOS DE COMUNICACIÓN                                   1         7
+
+  590120   PROCESOS Y PRODUCTOS DE TEXTIL, CONFECCIÓN Y PIEL                   1        13
+
+  590121   PROCESOS Y PRODUCTOS DE VIDRIO Y CERÁMICA                           1        14
+
+  590122   PROCESOS Y PRODUCTOS EN ARTES GRÁFICAS                              1        11
+
+  590123   PROCESOS Y PRODUCTOS EN MADERA Y MUEBLE                             1        10
+
+  590124   SISTEMAS ELECTRÓNICOS                                               1         7
+
+  590125   SISTEMAS ELECTROTÉCNICOS Y AUTOMÁTICOS                              1        22
+
+  590205   INSTALACIÓN DE DE EQUIPOS TÉRMICOS Y DE FLUÍDOS                     1        46
+
+  590206   INSTALACIONES ELECTROTÉCNICAS                                       1        67
+
+  590208   LABORATORIO                                                         1        18
+
+  590212   OFICINA DE PROYECTOS DE CONSTRUCCIÓN                                1         6
+
+  590214   OPERACIONES Y EQUIPOS DE ELABORACIÓN DE PRODUCTOS ALIMENTARIOS       1        24
+           
+  590216   OPERACIONES Y EQUIPOS DE PRODUCCIÓN AGRARIA                         1        81
+
+  590219   PROCEDIMIENTOS DE DIAGNÓSTICO CLÍNICO Y ORTOPROTÉSICO           1        34
+           
+  590220   PROCEDIMIENTOS SANITARIOS Y ASISTENCIALES                           1        43
+
+  590221   PROCESOS COMERCIALES                                                1        44
+
+  590222   PROCESOS DE GESTIÓN ADMINISTRATIVA                                  1        71
+
+  590224   PRODUCCIÓN TEXTIL Y TRATAMIENTO FÍSICO-QUÍMICOS                     1         1
+
+  590225   SERVICIOS A LA COMUNIDAD                                            1        47
+
+  590227   SISTEMAS Y APLICACIONES INFORMÁTICAS                                1        86
+
+  590229   TÉCNICAS Y PROCEDIMIENTOS DE IMAGEN Y SONIDO                        1        21
+
+  590231   EQUIPOS ELECTRÓNICOS                                                1        43
+
+  592001   ALEMÁN                                               1        17
+
+  592002   ÁRABE                                                1         4
+
+  592004   CHINO                                                1         4
+
+  592006   ESPAÑOL                                              1        10
+
+  592008   FRANCÉS                                              1        16
+
+  592010   GRIEGO                                               1         1
+
+  592011   INGLÉS                                               1        53
+
+  592012   ITALIANO                                             1        13
+
+  592015   PORTUGUÉS                                            1         5
+
+  592017   RUSO                                                 1         6
+
+  592018   VALENCIANO                                           1         9
+
+  593005   DANZA CLÁSICA                                                        1         7
+
+  593006   CANTO                                                                1         5
+
+  593008   CLARINETE                                                            1         1
+
+  593010   COMPOSICIÓN                                                          1        12
+
+  593014   CONTRABAJO                                                           1         1
+
+  593017   DANZA ESPAÑOLA                                                       1         6
+
+  593020   DIRECCIÓN DE CORO                                                    1         2
+
+  593023   DIRECCIÓN DE ORQUESTA                                                1         1
+
+  593030   FAGOT                                                                1         2
+
+  593032   FLAUTA TRAVESERA                                                     1         4
+
+  593035   GUITARRA                                                             1         1
+
+  593039   HISTORIA DE LA MÚSICA                                                1         3
+
+  593047   LENGUA INGLESA                                                       1         1
+
+  593050   MÚSICA DE CÁMARA                                                     1         6
+
+  593051   MUSICOLOGÍA                                                          1         5
+
+  593057   PEDAGOGÍA                                                            1         1
+
+  593058   PERCUSIÓN                                                            1         1
+
+  593059   PIANO                                                                1         2
+
+  593061   IMPROVISACIÓN Y ACOMPAÑAMIENTO                                       1         5
+
+  593063   REPERTORIO CON PIANO PARA VOZ                                        1         7
+
+  593072   TROMBÓN                                                              1         2
+
+  593074   TROMPA                                                               1         1
+
+  593075   TROMPETA                                                             1         2
+
+  593078   VIOLÍN                                                               1         4
+
+  593079   VIOLONCHELO                                                          1         1
+
+  593086   CONTRABAJO DE JAZZ                                                   1         1
+
+  593098   REPERTORIO CON PIANO PARA INSTRUMENTOS                               1         1
+
+  593099   TECLADOS / PIANO JAZZ                                                1         2
+
+  593107   CIENCIAS DE LA SALUD APLICADAS A LA DANZA                            1         2
+
+  593109   DANZA CONTEMPORÁNEA                                                  1         8
+
+  593112   HISTORIA DE LA DANZA                                                 1         1
+
+  593113   PSICOPEDAGOGÍA Y GESTIÓN EDUCATIVA                                   1         1
+
+  593115   PRODUCCIÓN Y GESTIÓN DE MÚSICA Y ARTES ESCÉNICAS                     1         2
+
+  593118   DRAMATURGIA Y ESCRITURA DRAMÁTICA                                    1         1
+
+   593124   INTERPRETACIÓN EN EL TEATRO DE TEXTO                               1         1
+
+  594007   CARACTERIZACIÓN                                                     1         1
+
+  594124   INTERPRETACIÓN EN EL TEATRO DE TEXTO                                1         6
+
+  594402   ARPA                                                                1         2
+
+  594403   CANTO                                                               1         2
+
+  594406   CONTRABAJO                                                          1         1
+
+  594407   CORO                                                                1        10
+
+  594410   FLAUTA TRAVESERA                                                    1         3
+
+  594411   FLAUTA DE PICO                                                      1         1
+
+  594412   FUNDAMENTOS DE COMPOSICIÓN                                          1        13
+
+  594414   GUITARRA                                                            1         6
+
+  594415   GUITARRA FLAMENCA                                                   1         2
+
+  594416   HISTORIA DE LA MÚSICA                                               1         6
+
+  594418   INSTRUMENTOS DE PÚA                                                 1         1
+
+  594419   OBOE                                                                1         2
+
+  594421   ORQUESTA                                                            1         2
+
+  594422   PERCUSIÓN                                                           1         3
+
+  594423   PIANO                                                               1        30
+
+  594424   SAXOFÓN                                                             1         4
+
+  594426   TROMBÓN                                                             1         2
+
+  594427   TROMPA                                                              1         2
+
+  594428   TROMPETA                                                            1         5
+
+  594429   TUBA                                                                1         3
+
+  594431   VIOLA                                                               1         1
+
+  594433   VIOLÍN                                                              1         4
+
+  594434   VIOLONCHELO                                                         1         2
+
+  594435   DANZA ESPAÑOLA                                                      1         4
+
+  594436   DANZA CLÁSICA                                                       1         3
+
+  594437   DANZA CONTEMPORÁNEA                                                 1         6
+
+  594441   CANTO APLICADO AL ARTE DRAMÁTICO                                    1         1
+
+  594444   DICCIÓN Y EXPRESIÓN ORAL                                            1         4
+
+  594449   EXPRESIÓN CORPORAL                                                  1         2
+
+  594455   LITERATURA DRAMÁTICA                                                1         1
+
+  594460   LENGUAJE MUSICAL                                                    1        13
+
+  594462   DULZAINA                                                            1         1
+
+  595501   CERÁMICA                                                            1         5
+
+  595507   DIBUJO ARTÍSTICO Y COLOR                                            1        16
+
+  595508   DIBUJO TÉCNICO                                                      1         5
+
+  595509   DISEÑO DE INTERIORES                                                1        16
+
+  595510   DISEÑO DE MODA                                                      1        11
+
+  595511   DISEÑO DE PRODUCTO                                                  1         7
+
+  595512   DISEÑO GRÁFICO                                                      1        22
+
+  595515   FOTOGRAFÍA                                                          1        12
+
+  595516   HISTORIA DEL ARTE                                                   1        21
+
+  595518   MATERIALES Y TECNOLOGÍA: CERÁMICA Y VIDRIO                          1         4
+
+  595520   MATERIALES Y TECNOLOGÍA: DISEÑO                                     1        12
+
+  595521   MEDIOS AUDIOVISUALES                                                1        10
+
+  595522   MEDIOS INFORMÁTICOS                                                 1        23
+
+  595523   ORGANIZACIÓN INDUSTRIAL Y LEGISLACIÓN                               1        15
+
+  595525   VOLUMEN                                                             1         9
+
+  596608   FOTOGRAFÍA Y PROCESOS DE REPRODUCCIÓN                                1         2
+
+  596613   TÉCNICAS CERÁMICAS                                                   1        14
+
+  596614   TÉCNICAS DE GRABADO Y ESTAMPACIÓN                                    1         2
+
+  596617   TÉCNICAS DE PATRONAJE Y CONFECCIÓN                                   1         2
+
+  596620   TÉCNICAS TEXTILES                                                    1         1
+
+  597031   EDUCACIÓN INFANTIL                                           1       811
+
+  597032   LENGUA EXTRANJERA: INGLÉS                                    1       223
+
+  597034   EDUCACIÓN FÍSICA                                             1       110
+
+  597035   MÚSICA                                                       1       110
+
+  597036   PEDAGOGÍA TERAPÉUTICA                                        1       507
+
+  597037   AUDICIÓN Y LENGUAJE                                          1       215
+
+  597038   EDUCACIÓN PRIMARIA                                           1       691
+
+  598001   COCINA Y PASTELERÍA                                                     1       72
+
+  598002   ESTÉTICA                                                                1       20
+
+  598003   FABRICACIÓN E INSTALACIÓN DE CARPINTERÍA Y MUEBLE                       1       24
+
+  598004   MANTENIMIENTO DE VEHÍCULOS                                              1       62
+
+  598005   MECANIZADO Y MANTENIMIENTO DE MÁQUINAS                                  1       63
+
+  598006   PATRONAJE Y CONFECCIÓN                                                  1       20
+
+  598007   PELUQUERÍA                                                              1       32
+
+  598008   PRODUCCIÓN DE ARTES GRÁFICAS                                            1       16
+
+  598009   SERVICIOS DE RESTAURACIÓN                                               1       23
+
+  598010   SOLDADURA                                                               1       15
+
+CEUTA
+
+   590004   LENGUA CASTELLANA Y LITERATURA                                    1         4
+
+   590005   GEOGRAFÍA E HISTORIA                                              1         4
+
+   590006   MATEMÁTICAS                                                       1         4
+
+   590008   BIOLOGÍA Y GEOLOGÍA                                               1         3
+
+   590011   INGLÉS                                                            1         2
+
+   590017   EDUCACIÓN FÍSICA                                                  1         3
+
+   590019   TECNOLOGÍA                                                        1         1
+
+   590107   INFORMÁTICA                                                       1         4
+
+   597031   EDUCACIÓN INFANTIL                                           1         1
+
+   597032   LENGUA EXTRANJERA: INGLÉS                                    1         1
+
+   597036   PEDAGOGÍA TERAPÉUTICA                                        1         1
+
+   597038   EDUCACIÓN PRIMARIA                                           1         4
+
+MELILLA
+
+   590004   LENGUA CASTELLANA Y LITERATURA                                      1         2
+
+   590005   GEOGRAFÍA E HISTORIA                                                1         1
+
+   590006   MATEMÁTICAS                                                         1         2
+
+   590009   DIBUJO                                                              1         1
+
+   590011   INGLÉS                                                              1         2
+
+   590017   EDUCACIÓN FÍSICA                                                    1         1
+
+   590018   ORIENTACIÓN EDUCATIVA                                               1         1
+
+   590106   HOSTELERÍA Y TURISMO                                                1         1
+
+   590108   INTERVENCIÓN SOCIOCOMUNITARIA                                       1         1
+
+   590205   INSTALACIÓN DE DE EQUIPOS TÉRMICOS Y DE FLUÍDOS                     1         2
+
+   590206   INSTALACIONES ELECTROTÉCNICAS                                       1         1
+
+   590225   SERVICIOS A LA COMUNIDAD                                            1         2
+
+   592001   ALEMÁN                                              1         1
+
+   594414   GUITARRA                                            1         1
+
+   594419   OBOE                                                1         1
+
+   594423   PIANO                                               1         1
+
+   594433   VIOLÍN                                              1         1
+
+
+   597031   EDUCACIÓN INFANTIL                                           1         2
+
+   597032   LENGUA EXTRANJERA: INGLÉS                                    1         1
+
+   597034   EDUCACIÓN FÍSICA                                             1         1
+
+   597036   PEDAGOGÍA TERAPÉUTICA                                        1         1
+
+   597037   AUDICIÓN Y LENGUAJE                                          1         1
+
+   597038   EDUCACIÓN PRIMARIA                                           1         2
+
+   598002   ESTÉTICA                                                            1         1
+
+   598003   FABRICACIÓN E INSTALACIÓN DE CARPINTERÍA Y MUEBLE                   1         1
+
+   598004   MANTENIMIENTO DE VEHÍCULOS                                          1         1
