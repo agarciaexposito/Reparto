@@ -8,23 +8,21 @@ import java.util.regex.Matcher;
 
 public class LineaNota {
     public static void main(String[] args) {
-        //String linea = "TOTAL:";
         String linea = "TOTAL:        6,5788             1 4,5788          1.1   2,3915          3 2,0000           3.2    2,0000";
-
         muestra(linea);
-
         String linea2 = "TOTAL:        3,9873             1 1,4873          1.2   1,4873          2 0,5000          2.1     0,5000       3 2,0000          3.2     2,0000";
-
-
         muestra(linea2);
-
         String linea3="TOTAL:       13,0000             1 7,0000          1.1   7,0000          2 1,5000       2.1 0,5000                                      3 4,5000       3.1   2,5000";
         muestra(linea3);
-
         String linea4="                                                   1.2   0,0291                            2.2    1,0000             2.2.2   1,0000";
         muestra("TOTAL:"+linea4);
         String linea5="                                                   1.2   0,0291                            2.2    1,0000             2.2.2   1,0000";
         muestra("TOTAL:"+linea5);
+        String linea6="TOTAL:       11,0621             1 6,5621          1.1   6,1830          2 2,5000         2.1 0,5000                                           3 2,0000         3.2    2,0000";
+        muestra(linea6);
+        String linea7="                                                   1.2   0,3791                           2.2 2,0000                 2.2.2    2,0000";
+        muestra("TOTAL:"+linea7);
+        System.out.printf("Nota1.2: %f\n", Util.troceaLineaSinTotalNota(linea7,"1\\.2"));
     }
 
     private static void muestra(String linea2) {
@@ -54,22 +52,5 @@ public class LineaNota {
         System.out.printf("Nota3: %f\n", Util.troceaLineaNota(linea2,"3"));
         System.out.printf("Nota3.1: %f\n", Util.troceaLineaNota(linea2,"3\\.1"));
         System.out.printf("Nota3.2: %f\n", Util.troceaLineaNota(linea2,"3\\.2"));
-    }
-
-
-    private static void notaNacional(String linea) {
-        String patron = "TOTAL:\\s+([\\d,]+(?:\\.\\d+)?)";
-
-
-        Pattern pattern = Pattern.compile(patron);
-        Matcher matcher = pattern.matcher(linea);
-
-        if (matcher.find()) {
-            String valorTotalStr = matcher.group(1);
-            float valorTotal = Float.parseFloat(valorTotalStr.replace(",", "."));
-            System.out.println("El valor total es: " + valorTotal);
-        } else {
-            System.out.println("No se encontró la cadena TOTAL:");
-        }
     }
 }

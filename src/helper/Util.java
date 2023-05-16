@@ -98,7 +98,7 @@ public class Util {
     }
     public static float troceaLineaSinTotalNota(String linea, String apartado) {
         float nota = 0;
-        linea="TOTAL: "+linea.trim();
+        linea="TOTAL:  "+linea.trim();
         String patron = "TOTAL:\\s+.*\\s+"+apartado+"\\s+([\\d,]+(?:\\.\\d+)?)";
         Pattern pattern = Pattern.compile(patron);
         Matcher matcher = pattern.matcher(linea);
