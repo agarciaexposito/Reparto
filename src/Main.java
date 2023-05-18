@@ -62,7 +62,7 @@ public class Main {
             String nombreArchivo = file.getFileName().toString();
             List<String> ficherosGeneradosCSV=repartosCSV(rutaArchivo, nombreArchivo, repartos);
             repartosExcel(rutaArchivo, nombreArchivo,ficherosGeneradosCSV);
-            if (generarJSON)
+            if (generarJSON) //Pa manuel
                 repartosJSON(rutaArchivo, nombreArchivo, repartos);
         } catch (Exception e) {
             System.err.println(e.getMessage());
@@ -101,7 +101,9 @@ public class Main {
     }
 
     private static void repartosJSON(Path rutaArchivo, String nombreArchivo, Repartos repartos) throws IOException {
-        String fileRepartoJSON = rutaArchivo +"/Reparto_"+ nombreArchivo.replaceAll("\\.txt$", ".json");
+        //String fileRepartoJSON = rutaArchivo +"/Reparto_"+ nombreArchivo.replaceAll("\\.txt$", ".json");
+        // modificado para Manuel
+        String fileRepartoJSON = rutaArchivo +"/"+ nombreArchivo.trim().substring(0,6)+".json";
         repartos.saveJSON(fileRepartoJSON);
     }
 

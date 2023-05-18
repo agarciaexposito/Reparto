@@ -1,15 +1,17 @@
 package modelo;
 
 public class Adjudicacion {
-    private int pos;
+    private final int pos;
 
-    private int numEleccion;
-    private Aspirante adjudicadoA;
+    private final int numEleccion;
+    private final char turno;
+    private final Aspirante adjudicadoA;
 
-    public Adjudicacion(int pos, Aspirante adjudicadoA,int numEleccion) {
+    public Adjudicacion(int pos, Aspirante adjudicadoA,int numEleccion,char turno) {
         this.pos = pos;
         this.adjudicadoA = adjudicadoA;
         this.numEleccion = numEleccion;
+        this.turno = turno;
     }
 
 
@@ -19,9 +21,9 @@ public class Adjudicacion {
     }
 
     public static String cabeceraCSV(){
-        return  "Posición, Num. Elección, " + Aspirante.cabeceraCSV();
+        return  "Posición, Num. Elección, " + Aspirante.cabeceraCSV()+"Elección por turno";
     }
     public String toCSV() {
-        return String.format("%d, %d, %s", pos, numEleccion, adjudicadoA.toCSV());
+        return String.format("%d, %d, %s, %c", pos, numEleccion, adjudicadoA.toCSV(),turno);
     }
 }

@@ -36,6 +36,7 @@ public class Aspirante {
     private int meses=0;
     private int dias=0;
     private final List<Eleccion> elecciones = new ArrayList<>();
+    private boolean asignado=false;
 
     public String getDni() {
         return dni;
@@ -277,8 +278,18 @@ public class Aspirante {
         this.dias = dias;
     }
 
+    public boolean isAsignado() {
+        return asignado;
+    }
+
+    public void setAsignado(boolean asignado) {
+        this.asignado = asignado;
+    }
+
     public List<Eleccion> getElecciones() {
-        return new ArrayList<>(elecciones);
+        return new ArrayList<>(elecciones); // por qué hice una copia preventiva??
+        // ahora tengo que comentarla para poder hacer el reparto de los discapacitados pues tengo que borrarlo
+        //return elecciones;
     }
 
     public void add(Eleccion eleccion){
@@ -292,6 +303,7 @@ public class Aspirante {
         cad.append(String.format("2.1: %f 2.2: %f 2.3: %f 2.4 %f 2.5 %f\n", nota21, nota22, nota23, nota24, nota25));
         cad.append(String.format("3.1: %f 3.2: %f\n", nota31, nota32));
         cad.append(String.format("Años %d meses: %d días: %d\n", anos, meses, dias));
+        cad.append(String.format("Obtiene plaza: %s\n", asignado?"SI":"no"));
         for (Eleccion eleccion:elecciones){
             cad.append(eleccion.toString()).append("\n");
         }

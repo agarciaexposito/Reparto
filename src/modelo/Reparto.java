@@ -47,10 +47,12 @@ public class Reparto {
     public List<Adjudicacion> getAdjudicaciones() {
         return adjudicaciones;
     }
-    public boolean add(Aspirante aspirante,Eleccion eleccion){
+    public boolean add(Aspirante aspirante,int numEleccion,char turno){
         boolean anadido=false;
         if (!isCompleto())
-            anadido=adjudicaciones.add(new Adjudicacion(adjudicaciones.size()+1,aspirante,eleccion.getOrden()));
+            anadido=adjudicaciones.add(new Adjudicacion(adjudicaciones.size()+1,aspirante,numEleccion,turno));
+        if (anadido)
+            aspirante.setAsignado(true);
         return anadido;
     }
 
