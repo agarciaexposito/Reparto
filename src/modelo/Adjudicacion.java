@@ -1,32 +1,27 @@
 package modelo;
 
 public class Adjudicacion {
-    private int pos=0;
-    private Aspirante adjudicadoA=null;
+    private int pos;
 
-    public Adjudicacion(int pos, Aspirante adjudicadoA) {
+    private int numEleccion;
+    private Aspirante adjudicadoA;
+
+    public Adjudicacion(int pos, Aspirante adjudicadoA,int numEleccion) {
         this.pos = pos;
         this.adjudicadoA = adjudicadoA;
+        this.numEleccion = numEleccion;
     }
 
-    public int getPos() {
-        return pos;
-    }
-
-    public void setPos(int pos) {
-        this.pos = pos;
-    }
-
-    public Aspirante getAdjudicadoA() {
-        return adjudicadoA;
-    }
-
-    public void setAdjudicadoA(Aspirante adjudicadoA) {
-        this.adjudicadoA = adjudicadoA;
-    }
 
     @Override
     public String toString() {
         return String.format(" %d. %s",pos,adjudicadoA);
+    }
+
+    public static String cabeceraCSV(){
+        return  "Posición, Num. Elección, " + Aspirante.cabeceraCSV();
+    }
+    public String toCSV() {
+        return String.format("%d, %d, %s", pos, numEleccion, adjudicadoA.toCSV());
     }
 }

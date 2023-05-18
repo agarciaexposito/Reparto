@@ -35,7 +35,7 @@ public class Aspirante {
     private int anos=0;
     private int meses=0;
     private int dias=0;
-    private List<Eleccion> elecciones = new ArrayList<>();
+    private final List<Eleccion> elecciones = new ArrayList<>();
 
     public String getDni() {
         return dni;
@@ -287,14 +287,41 @@ public class Aspirante {
 
     @Override
     public String toString() {
-        String cad = String.format("%f %s %s 1: %f 2: %f 3: %f\n",notaNacional,dni,nombre,nota1,nota2,nota3);
-        cad+=String.format("1.1: %f 1.2: %f 1.3: %f 1.4 %f\n",nota11,nota12,nota13,nota14);
-        cad+=String.format("2.1: %f 2.2: %f 2.3: %f 2.4 %f 2.5 %f\n",nota21,nota22,nota23,nota24,nota25);
-        cad+=String.format("3.1: %f 3.2: %f\n",nota31,nota32);
-        cad+=String.format("Años %d meses: %d días: %d\n",anos,meses,dias);
+        StringBuilder cad = new StringBuilder(String.format("%f %s %s 1: %f 2: %f 3: %f\n", notaNacional, dni, nombre, nota1, nota2, nota3));
+        cad.append(String.format("1.1: %f 1.2: %f 1.3: %f 1.4 %f\n", nota11, nota12, nota13, nota14));
+        cad.append(String.format("2.1: %f 2.2: %f 2.3: %f 2.4 %f 2.5 %f\n", nota21, nota22, nota23, nota24, nota25));
+        cad.append(String.format("3.1: %f 3.2: %f\n", nota31, nota32));
+        cad.append(String.format("Años %d meses: %d días: %d\n", anos, meses, dias));
         for (Eleccion eleccion:elecciones){
-            cad+=eleccion.toString()+"\n";
+            cad.append(eleccion.toString()).append("\n");
         }
-        return cad;
+        return cad.toString();
+    }
+
+    public static String cabeceraCSV(){
+        return "Nota, DNI, NOMBRE, AÑOS, MESES, DÍAS, " +
+                "Nota 1, 1.1, 1.2, 1.3, 1.4, " +
+                "Nota 2, 2.1, 2.2, 2.2.1, 2.2.2, 2.2.3, " +
+                " 2.3, 2.3.1, 2.3.2, " +
+                " 2.4, 2.4.1, 2.4.2, 2.4.3, 2.4.4, 2.4.5, " +
+                " 2.5, " +
+                "Nota 3, 3.1, 3.2";
+    }
+    public String toCSV(){
+        return String.format("%s, %s, %s, %d, %d, %d, " +
+                        "%s, %s, %s, %s, %s, " +
+                        "%s, %s, %s, %s, %s, %s, " +
+                        "%s, %s, %s, "+
+                        "%s, %s, %s, %s, %s, %s, " +
+                        "%s, %s, %s, %s",
+                notaConPunto(notaNacional),dni,nombre.replace(',','.'),anos,meses,dias,
+                notaConPunto(nota1),notaConPunto(nota11),notaConPunto(nota12),notaConPunto(nota13),notaConPunto(nota14),
+                notaConPunto(nota2),notaConPunto(nota21),notaConPunto(nota22),notaConPunto(nota221),notaConPunto(nota222),notaConPunto(nota223),
+                notaConPunto(nota23), notaConPunto(nota231),notaConPunto(nota232),
+                notaConPunto(nota24), notaConPunto(nota241), notaConPunto(nota242), notaConPunto(nota243), notaConPunto(nota244), notaConPunto(nota245),
+                notaConPunto(nota25), notaConPunto(nota3),notaConPunto(nota31),notaConPunto(nota32));
+    }
+    public static String notaConPunto(float nota){
+        return String.format("%.4f",nota).replace(',','.');
     }
 }

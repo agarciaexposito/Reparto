@@ -17,7 +17,7 @@ import java.util.List;
 
 public class Aspirantes {
     private boolean ordenado = false;
-    private List<Aspirante> aspirantes=new ArrayList<>();
+    private final List<Aspirante> aspirantes=new ArrayList<>();
 
     public List<Aspirante> getAspirantes() {
         return aspirantes;
@@ -38,6 +38,17 @@ public class Aspirantes {
                     capturarElecciones = false;
                     continue;
                 }
+                if (Util.isNombre(linea)) {//2º cambio en el orden para hacer funcioanr pdfBOX
+                    if (aspirante != null)      // 1º añadido para hacer funcionar PDFBOX
+                        aspirantes.add(aspirante);
+                    aspirante = new Aspirante();
+                    String[] trozo = Util.troceaLineaNombre(linea);
+                    aspirante.setDni(trozo[0]);
+                    aspirante.setNombre(trozo[1]);
+                    capturaLineaDespuesTotal=false;
+                    capturarElecciones = false;
+                    continue;
+                }
                 if (capturarElecciones) {
                     String[] elecciones = Util.capturaEleccciones(linea);
                     addElecciones(aspirante, elecciones);
@@ -49,15 +60,7 @@ public class Aspirantes {
                     capturaLineaDespuesTotal = false;
                     continue;
                 }
-                if (Util.isNombre(linea)) {
-                    aspirante = new Aspirante();
-                    String[] trozo = Util.troceaLineaNombre(linea);
-                    aspirante.setDni(trozo[0]);
-                    aspirante.setNombre(trozo[1]);
-                    capturaLineaDespuesTotal=false;
-                    capturarElecciones = false;
-                    continue;
-                }
+
                 if (Util.isLineaAntiguedad(linea)){
                     String[] antiguedad=Util.troceaLineaAntigueada(linea);
                     if (antiguedad!=null) {
@@ -70,7 +73,7 @@ public class Aspirantes {
                     capturarElecciones=false;
                     continue;
                 }
-                if (capturaLineaDespuesTotal){;
+                if (capturaLineaDespuesTotal){
                     try {
                         if (aspirante.getNota1()==0)
                             aspirante.setNota1(Util.troceaLineaSinTotalNota(linea,"1"));
@@ -132,6 +135,7 @@ public class Aspirantes {
                         if (aspirante.getNota32()==0)
                             aspirante.setNota32(Util.troceaLineaSinTotalNota(linea,"3\\.2"));
                         capturarElecciones=false;
+                        continue;
                     } catch (Exception e) {
                         System.out.println(linea);
                         System.err.println(e.getMessage());
@@ -206,7 +210,7 @@ public class Aspirantes {
                         }
                     }
                     String[] trozos = valor.trim().split("\\s+");
-                    eleccion.setLibre((trozos[0].equals("L")) ? true : false);
+                    eleccion.setLibre((trozos[0].equals("L")));
                     trozos[1] = trozos[1].trim().replace(",", ".");
                     eleccion.setNota(Float.parseFloat(trozos[1].trim()));
                 }

@@ -9,7 +9,7 @@ public class Reparto {
     private boolean libre=false;
     private boolean euskera=false;
 
-    private List<Adjudicacion> adjudicaciones = new ArrayList<>();
+    private final List<Adjudicacion> adjudicaciones = new ArrayList<>();
 
     public boolean isLibre() {
         return libre;
@@ -44,10 +44,13 @@ public class Reparto {
         this.euskera = euskera;
     }
 
-    public boolean add(Aspirante aspirante){
+    public List<Adjudicacion> getAdjudicaciones() {
+        return adjudicaciones;
+    }
+    public boolean add(Aspirante aspirante,Eleccion eleccion){
         boolean anadido=false;
         if (!isCompleto())
-            anadido=adjudicaciones.add(new Adjudicacion(adjudicaciones.size()+1,aspirante));
+            anadido=adjudicaciones.add(new Adjudicacion(adjudicaciones.size()+1,aspirante,eleccion.getOrden()));
         return anadido;
     }
 
@@ -57,14 +60,15 @@ public class Reparto {
 
     @Override
     public String toString() {
-        String cad = String.format("Autonomía: %s\n",autonomia);
-        cad+=String.format("Turno: %s\n",(libre)?"Libre":"Discapacitado");
-        cad+=String.format("Plazas %d\n",plazas);
+        StringBuilder cad = new StringBuilder(String.format("Autonomía: %s\n", autonomia));
+        cad.append(String.format("Turno: %s\n", (libre) ? "Libre" : "Discapacitado"));
+        cad.append(String.format("Plazas %d\n", plazas));
         if (euskera)
-            cad+="Euskera\n";
+            cad.append("Euskera\n");
         for (Adjudicacion adjudicacion: adjudicaciones) {
-            cad += adjudicacion.toString()+"\n";
+            cad.append(adjudicacion.toString()).append("\n");
         }
-        return cad;
+        return cad.toString();
     }
+
 }

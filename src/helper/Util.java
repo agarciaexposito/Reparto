@@ -6,12 +6,14 @@ import java.util.regex.Pattern;
 public class Util {
     private Util() {}
 
-
+    public static final String URL = "https://www.educacionyfp.gob.es/contenidos/profesorado/no-universitarios/oposiciones-y-ofertas-trabajo/convocatoria-estabilizacion.html";
+    public static final String DOWNLOAD_PATH = "./descargas/";
 
     //Expresiones regulares para el fichero de Baremación
     public static final String REGEX_DNI="\\*{4,5}[0-9A-Z]+";
     public static final String REGEX_NOMBRE="\\s[A-ZÑÇÁÉÍÓÚ][A-ZÑÇÁÉÍÓÚ\\s,]+"; //solo para dentro de la línea donde esté el nombre
     public static final String PROTECCION="*********         *** No se publica por protección de datos ***";
+    public static final String PROTECCION2=".*No se publica por protección de datos.*";
     public static final String REGEX_TOTAL="^TOTAL:\\s*.*";
     public static final String REGEX_ANTES="Plazas convocadas que se solicitan por orden de preferencia:";
     public static final String REGEX_ANTIG="Antigüedad en centros públicos en la especialidad a que se opta:";
@@ -22,7 +24,7 @@ public class Util {
     // Fichero de baremación
     public static boolean isNombre(String linea){
         //"^\\*{4}[0-9A-Z]+.*"
-        return linea.trim().matches("^"+REGEX_DNI+".*") || linea.trim().equals(PROTECCION);
+        return linea.trim().matches("^"+REGEX_DNI+".*") || linea.trim().equals(PROTECCION) || linea.trim().matches(PROTECCION2);
     }
 
     public static boolean isNotaNacionalBaremo(String linea){
