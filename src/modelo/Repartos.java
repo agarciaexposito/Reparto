@@ -14,17 +14,17 @@ import java.util.*;
  public class Repartos {
     private final Aspirantes aspirantes;
 
-    private final int especialidad;
+
 
     private final Map<String,Reparto> autonomias = new TreeMap<>();
 
 
-    public Repartos(Aspirantes aspirantes,Plazas plazas, String especialidad) {
+    public Repartos(Aspirantes aspirantes,Plazas plazas, String especialid) {
         this.aspirantes = aspirantes;
-        this.especialidad=Integer.parseInt(especialidad);
+        int especialidad=Integer.parseInt(especialid);
         plazas.ordenarPorEspecialidad();
         for (Plaza plaza:plazas.getPlazas()){
-            if (plaza.getEspecialidad()==this.especialidad) {
+            if (plaza.getEspecialidad()==especialidad) {
                 Reparto reparto = new Reparto();
                 reparto.setLibre(plaza.isLibre());
                 reparto.setAutonomia(plaza.getAutonomia());
@@ -102,7 +102,7 @@ import java.util.*;
          Path rutaArchivo = Paths.get(file).getParent();
          String nombreArchivo = Paths.get(file).getFileName().toString();
          String soloNombreArchivo = nombreArchivo.substring(0, nombreArchivo.lastIndexOf("."));
-         nombreArchivo = String.format("%s-%s (%d).csv",reparto.getAutonomia(),reparto.isLibre()?"L":"D",reparto.getPlazas());
+         nombreArchivo = String.format("%s-%s%s (%d).csv",reparto.getAutonomia(),reparto.isLibre()?"L":"D",reparto.isEuskera()?"-K":"",reparto.getPlazas());
          Path carpeta=Paths.get(rutaArchivo+"/"+soloNombreArchivo+"/");
          if (!Files.exists(carpeta))
              Files.createDirectories(carpeta);
