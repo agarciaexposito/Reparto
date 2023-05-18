@@ -15,6 +15,4 @@ Hay dos formas de usarlo:
 2. La ejecución de la app necesita de la carpeta data el archivo [plazas.txt](https://github.com/agarciaexposito/Reparto/blob/master/data/plazas.txt) o el archivo [plazas.ser](https://github.com/agarciaexposito/Reparto/blob/master/data/plazas.ser)
 # No contempla:
 - El reparto de plazas de Navarra que tengan como requisito el Eukera 
-- Plazas de discapacitados sin cubrir, es decir, NO realiza el reparto de estas con aspirantes del turno libre.
-- Posible fallo en el algoritmo de reparto a la hora de realizar el reparto del libre y discapacitado. Revisar en futuras versiones
 - Incorporar ficheros de otras especialidades donde el PDF contiene varias. Ver esos casos e intentar abordarlos.
