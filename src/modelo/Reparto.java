@@ -47,17 +47,18 @@ public class Reparto {
     public List<Adjudicacion> getAdjudicaciones() {
         return adjudicaciones;
     }
-    public boolean add(Aspirante aspirante,int numEleccion,char turno){
+    public boolean add(Aspirante aspirante,Eleccion eleccion){
         boolean anadido=false;
-        if (!isCompleto())
-            anadido=adjudicaciones.add(new Adjudicacion(adjudicaciones.size()+1,aspirante,numEleccion,turno));
-        if (anadido)
-            aspirante.setAsignado(true);
+        if (!isCompleto()) {
+            anadido = adjudicaciones.add(new Adjudicacion(adjudicaciones.size() + 1, aspirante, eleccion.getOrden(), eleccion.isLibre()?'L':'D'));
+            if (anadido)
+                aspirante.setAsignado(true);
+        }
         return anadido;
     }
 
     public boolean isCompleto(){
-        return plazas== adjudicaciones.size();
+        return plazas == adjudicaciones.size();
     }
 
     @Override

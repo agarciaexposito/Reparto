@@ -36,12 +36,32 @@ import java.util.*;
     }
     public void ejecuta(){ //no trabajo con las plazas de euskera ÑÑÑÑ
         aspirantes.ordenarPorNotaNacional();
-        repartePlazasDeDiscapacitados();
-        repartePlazasTurnoLibre();
+        reparoDePlazas();
+        //repartePlazasDeDiscapacitados();
+        //repartePlazasTurnoLibre();
         // Ultimo repaso a los discapacitados
         repartePlazasDiscapacitadosSinCubrir();
-
     }
+
+     private void reparoDePlazas() {
+         for (Aspirante aspirante:aspirantes.getAspirantes()){
+             if (!aspirante.isAsignado()) {
+                 for (Eleccion eleccion : aspirante.getElecciones()) { // esto esta en el orden natural de lectura que coincide con el orden de elección
+                     if (!eleccion.isRechazado()) {
+                         Reparto reparto;
+                         if (!eleccion.isLibre()) { // si fuese discapacitado
+                             reparto = autonomias.get(eleccion.getAutonomia() + "_D");
+                             if (reparto != null && reparto.add(aspirante, eleccion))
+                                 break;
+                         }
+                         reparto = autonomias.get(eleccion.getAutonomia() + "_L");
+                         if (reparto != null && reparto.add(aspirante, eleccion))
+                             break;
+                     }
+                 }
+             }
+         }
+     }
 
      private void repartePlazasDeDiscapacitados() {
          for (Aspirante aspirante:aspirantes.getAspirantes()){
@@ -50,10 +70,11 @@ import java.util.*;
                      if (!eleccion.isRechazado()) {
                          if (!eleccion.isLibre()) { // si fuese discapacitado
                              Reparto reparto = autonomias.get(eleccion.getAutonomia() + "_D");
-                             if (reparto != null && reparto.add(aspirante, eleccion.getOrden(), 'D')) {
-                                 // elimino esa elección para que la persona discapcitada en ese reparto ya no vuelva a participar del turno libre
+                             if (reparto != null && reparto.add(aspirante, eleccion))
                                  break;
-                             }
+                             reparto = autonomias.get(eleccion.getAutonomia() + "_L");
+                             if (reparto != null && reparto.add(aspirante, eleccion))
+                                 break;
                          }
                      }
                  }
@@ -67,15 +88,12 @@ import java.util.*;
                  for (Eleccion eleccion : aspirante.getElecciones()) {
                      if (!eleccion.isRechazado()) {
                          Reparto reparto = autonomias.get(eleccion.getAutonomia() + "_L");
-                         if (reparto != null) {
-                             if (reparto.add(aspirante, eleccion.getOrden(), eleccion.isLibre() ? 'L' : 'D'))
-                                 break;
-                             else { //hay que comprobar si quedan en turno D alguna plaza libre
-                                 reparto = autonomias.get(eleccion.getAutonomia() + "_D");
-                                 if (reparto != null && reparto.add(aspirante, eleccion.getOrden(), eleccion.isLibre() ? 'L' : 'D'))
-                                     break;
-                             }
-                         }
+                         if (reparto != null && reparto.add(aspirante, eleccion))
+                             break;
+                         //hay que comprobar si quedan en turno D alguna plaza libre
+                         reparto = autonomias.get(eleccion.getAutonomia() + "_D");
+                         if (reparto != null && reparto.add(aspirante, eleccion))
+                             break;
                      }
                  }
              }
