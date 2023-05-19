@@ -2,8 +2,7 @@
 
 import com.google.gson.Gson;
 
-import java.io.IOException;
-import java.io.Writer;
+import java.io.*;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -11,12 +10,9 @@ import java.nio.file.Paths;
 import java.nio.file.StandardOpenOption;
 import java.util.*;
 
- public class Repartos {
-    private final Aspirantes aspirantes;
-
-
-
-    private final Map<String,Reparto> autonomias = new TreeMap<>();
+ public class Repartos implements Serializable {
+    private Aspirantes aspirantes;
+    private Map<String,Reparto> autonomias = new TreeMap<>();
 
 
     public Repartos(Aspirantes aspirantes,Plazas plazas, String especialid) {
@@ -35,7 +31,7 @@ import java.util.*;
         }
     }
     public void ejecuta(){ //no trabajo con las plazas de euskera ÑÑÑÑ
-        aspirantes.ordenarPorNotaNacional();
+        aspirantes.ordenacionDeMayorAMenor();
         reparoDePlazas();
         //repartePlazasDeDiscapacitados();
         //repartePlazasTurnoLibre();
@@ -62,45 +58,6 @@ import java.util.*;
              }
          }
      }
-
-     private void repartePlazasDeDiscapacitados() {
-         for (Aspirante aspirante:aspirantes.getAspirantes()){
-             if (!aspirante.isAsignado()) {
-                 for (Eleccion eleccion : aspirante.getElecciones()) {
-                     if (!eleccion.isRechazado()) {
-                         if (!eleccion.isLibre()) { // si fuese discapacitado
-                             Reparto reparto = autonomias.get(eleccion.getAutonomia() + "_D");
-                             if (reparto != null && reparto.add(aspirante, eleccion))
-                                 break;
-                             reparto = autonomias.get(eleccion.getAutonomia() + "_L");
-                             if (reparto != null && reparto.add(aspirante, eleccion))
-                                 break;
-                         }
-                     }
-                 }
-             }
-         }
-     }
-
-     private void repartePlazasTurnoLibre() {
-         for (Aspirante aspirante:aspirantes.getAspirantes()){
-             if (!aspirante.isAsignado()) {
-                 for (Eleccion eleccion : aspirante.getElecciones()) {
-                     if (!eleccion.isRechazado()) {
-                         Reparto reparto = autonomias.get(eleccion.getAutonomia() + "_L");
-                         if (reparto != null && reparto.add(aspirante, eleccion))
-                             break;
-                         //hay que comprobar si quedan en turno D alguna plaza libre
-                         reparto = autonomias.get(eleccion.getAutonomia() + "_D");
-                         if (reparto != null && reparto.add(aspirante, eleccion))
-                             break;
-                     }
-                 }
-             }
-         }
-     }
-
-
      private void repartePlazasDiscapacitadosSinCubrir() {
         for (String autonomia: autonomias.keySet()){
             Reparto reparto = autonomias.get(autonomia);
@@ -156,5 +113,21 @@ import java.util.*;
          Files.deleteIfExists(fichero);
          Files.write(fichero, cabecera.getBytes(StandardCharsets.UTF_8), StandardOpenOption.CREATE);
          return fichero;
+     }
+     public void readSer(String file) throws Exception{
+         try (ObjectInputStream entrada = new ObjectInputStream(new FileInputStream(file))) {
+             Object r = entrada.readObject();
+             if (r instanceof Repartos) {
+                 this.autonomias = ((Repartos) r).autonomias;
+                 this.aspirantes = ((Repartos) r).aspirantes;
+             }
+             else throw new Exception(String.format("El archivo %s no contiene los repartos, bórrelo",file));
+         }
+     }
+     public void writeSer(String file) throws IOException{
+         try (ObjectOutputStream salida =new ObjectOutputStream(new FileOutputStream(file))){
+             salida.writeObject(this);
+             salida.flush();
+         }
      }
 }

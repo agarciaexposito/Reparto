@@ -7,7 +7,7 @@ public class Util {
     private Util() {}
 
     public static final String URL = "https://www.educacionyfp.gob.es/contenidos/profesorado/no-universitarios/oposiciones-y-ofertas-trabajo/convocatoria-estabilizacion.html";
-    public static final String DOWNLOAD_PATH = "./descargas/";
+    public static final String DOWNLOAD_PATH = "./descargas";
 
     //Expresiones regulares para el fichero de Baremación
     public static final String REGEX_DNI="\\*{4,5}[0-9A-Z]+";

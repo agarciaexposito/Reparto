@@ -4,8 +4,7 @@ import com.google.gson.Gson;
 import helper.Comun;
 import helper.Util;
 
-import java.io.IOException;
-import java.io.Writer;
+import java.io.*;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -15,9 +14,9 @@ import java.util.Collections;
 import java.util.List;
 
 
-public class Aspirantes {
+public class Aspirantes implements Serializable {
     private boolean ordenado = false;
-    private final List<Aspirante> aspirantes=new ArrayList<>();
+    private List<Aspirante> aspirantes=new ArrayList<>();
 
     public List<Aspirante> getAspirantes() {
         return aspirantes;
@@ -222,15 +221,24 @@ public class Aspirantes {
         }
 
     }
-    public void ordenarPorNotaNacional() {
+    public void ordenacionDeMayorAMenor() {
         if (!ordenado) {
             Collections.sort(aspirantes, new OrdenaAspirantesPorNotaMayorMenor());
             ordenado = true;
         }
     }
-
+    public void readSer(String file) throws Exception{
+        try (ObjectInputStream entrada = new ObjectInputStream(new FileInputStream(file))) {
+            Object a = entrada.readObject();
+            if (a instanceof Aspirantes) {
+                this.ordenado = ((Aspirantes) a).ordenado;
+                this.aspirantes = ((Aspirantes) a).aspirantes;
+            }
+            else throw new Exception(String.format("El archivo %s no contiene los aspirantes, bórrelo",file));
+        }
+    }
     public void saveJSON(String file) throws IOException {
-        ordenarPorNotaNacional();
+        ordenacionDeMayorAMenor();
         // create a writer
         Writer writer = Files.newBufferedWriter(Paths.get(file));
         // convert books object to JSON file
@@ -239,5 +247,12 @@ public class Aspirantes {
         writer.close();
     }
 
+    public void writeSer(String file) throws IOException{
+        ordenacionDeMayorAMenor();
+        try (ObjectOutputStream salida =new ObjectOutputStream(new FileOutputStream(file))){
+            salida.writeObject(this);
+            salida.flush();
+        }
+    }
 
 }

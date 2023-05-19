@@ -12,21 +12,26 @@ import java.util.List;
 
 public class Main {
     public static final String FICHEROS_PLAZAS_SER = "./data/plazas.ser";
+    public static final String FICHEROS_ASPIRANTES_SER = "./data/aspirantes.ser";
+    public static final String FICHEROS_REPARTOS_SER = "./data/repartos.ser";
     public static final String FICHEROS_PLAZAS_TXT = "./data/plazas.txt";
     public static final boolean generarJSON=false;
+    public static final boolean generarSer=false;
 
     public static void main(String[] args) {
-
-        if (args.length==0){
-            Path directoryPath = Paths.get(Util.DOWNLOAD_PATH);
+        if (args.length<=1){
+            Path directoryPath;
+            if (args.length==0)
+                directoryPath = Paths.get(Util.DOWNLOAD_PATH);
+            else directoryPath = Paths.get(args[0].trim());
             try {
                 Files.walkFileTree(directoryPath, new SimpleFileVisitor<>() {
                     @Override
                     public FileVisitResult visitFile(Path file, BasicFileAttributes attrs) {
                         if (file.getFileName().toString().toLowerCase().endsWith(".pdf")) {
                             String fichero=file.getFileName().toString();
-                            String especialiadad=Comun.nombreArchivoSinExt(fichero).trim().substring(0,6);
-                            reparto(Util.DOWNLOAD_PATH+fichero,especialiadad);
+                            String especialidad=Comun.nombreArchivoSinExt(fichero).trim().substring(0,6);
+                            reparto(directoryPath+"/"+fichero,especialidad);
                         }
                         return FileVisitResult.CONTINUE;
                     }
@@ -55,6 +60,8 @@ public class Main {
             aspirantes.loadTXT(fichero);
             if (generarJSON)
                 aspirantesJSON(aspirantes, fichero);
+            if (generarSer)
+                aspirantesSer(aspirantes);
             Repartos repartos=new Repartos(aspirantes, plazas, especialidad);
             repartos.ejecuta();
             Path file = Paths.get(fichero);
@@ -64,10 +71,16 @@ public class Main {
             repartosExcel(rutaArchivo, nombreArchivo,ficherosGeneradosCSV);
             if (generarJSON) //Pa manuel
                 repartosJSON(rutaArchivo, nombreArchivo, repartos);
+            if (generarSer)
+                repartosSer(repartos);
         } catch (Exception e) {
             System.err.println(e.getMessage());
             //System.exit(-1);
         }
+    }
+
+    private static void aspirantesSer(Aspirantes aspirantes) throws IOException {
+        aspirantes.writeSer(FICHEROS_ASPIRANTES_SER);
     }
 
     private static Plazas getPlazas() {
@@ -106,7 +119,9 @@ public class Main {
         String fileRepartoJSON = rutaArchivo +"/"+ nombreArchivo.trim().substring(0,6)+".json";
         repartos.saveJSON(fileRepartoJSON);
     }
-
+    private static void repartosSer(Repartos repartos) throws IOException {
+        repartos.writeSer(FICHEROS_REPARTOS_SER);
+    }
     public static void repartosExcel(Path rutaArchivo, String nombreArchivo,List<String> archivosCSV) throws IOException{
         String fileRepartoExcel = rutaArchivo +"/Reparto_"+ nombreArchivo.replaceAll("\\.txt$", ".xlsx");
         Comun.csvToExcel(fileRepartoExcel,archivosCSV);

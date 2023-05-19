@@ -30,3 +30,5 @@ bin/
 .DS_Store
 
 ficheros/
+data/aspirantes.ser
+data/repartos.ser

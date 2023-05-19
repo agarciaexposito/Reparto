@@ -1,9 +1,10 @@
 package modelo;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Reparto {
+public class Reparto implements Serializable {
     private String autonomia="";
     private int plazas=0;
     private boolean libre=false;

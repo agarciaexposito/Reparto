@@ -1,6 +1,8 @@
 package modelo;
 
-public class Eleccion {
+import java.io.Serializable;
+
+public class Eleccion implements Serializable {
     private int orden=0;
     private float nota=0;
     private String autonomia="";

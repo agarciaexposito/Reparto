@@ -1,9 +1,10 @@
 package modelo;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Aspirante {
+public class Aspirante implements Serializable {
     private String dni="";
     private String nombre="";
     private float notaNacional=0;

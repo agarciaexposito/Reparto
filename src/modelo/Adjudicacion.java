@@ -1,6 +1,8 @@
 package modelo;
 
-public class Adjudicacion {
+import java.io.Serializable;
+
+public class Adjudicacion implements Serializable {
     private final int pos;
 
     private final int numEleccion;
