@@ -1201,6 +1201,7 @@ CANTABRIA
                                                                                2         1
 
   590227   SISTEMAS Y APLICACIONES INFORMÁTICAS                                1         7
+                                                                               2         1
 
   592011   INGLÉS                                               1         7
 
