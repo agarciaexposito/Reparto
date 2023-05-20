@@ -37,6 +37,8 @@ public class Aspirante implements Serializable {
     private int meses=0;
     private int dias=0;
     private final List<Eleccion> elecciones = new ArrayList<>();
+
+    private boolean euskera =false;
     private boolean asignado=false;
 
     public String getDni() {
@@ -287,6 +289,14 @@ public class Aspirante implements Serializable {
         this.asignado = asignado;
     }
 
+    public boolean isEuskera() {
+        return euskera;
+    }
+
+    public void setEuskera(boolean euskera) {
+        this.euskera = euskera;
+    }
+
     public List<Eleccion> getElecciones() {
         return new ArrayList<>(elecciones); // por qué hice una copia preventiva??
         // ahora tengo que comentarla para poder hacer el reparto de los discapacitados pues tengo que borrarlo
@@ -304,6 +314,7 @@ public class Aspirante implements Serializable {
         cad.append(String.format("2.1: %f 2.2: %f 2.3: %f 2.4 %f 2.5 %f\n", nota21, nota22, nota23, nota24, nota25));
         cad.append(String.format("3.1: %f 3.2: %f\n", nota31, nota32));
         cad.append(String.format("Años %d meses: %d días: %d\n", anos, meses, dias));
+        cad.append(String.format("Concursa por Euskera: %s\n", euskera ?"SI":"no"));
         cad.append(String.format("Obtiene plaza: %s\n", asignado?"SI":"no"));
         for (Eleccion eleccion:elecciones){
             cad.append(eleccion.toString()).append("\n");
@@ -318,7 +329,7 @@ public class Aspirante implements Serializable {
                 " 2.3, 2.3.1, 2.3.2, " +
                 " 2.4, 2.4.1, 2.4.2, 2.4.3, 2.4.4, 2.4.5, " +
                 " 2.5, " +
-                "Nota 3, 3.1, 3.2";
+                "Nota 3, 3.1, 3.2, EUSKERA";
     }
     public String toCSV(){
         return String.format("%s, %s, %s, %d, %d, %d, " +
@@ -326,13 +337,13 @@ public class Aspirante implements Serializable {
                         "%s, %s, %s, %s, %s, %s, " +
                         "%s, %s, %s, "+
                         "%s, %s, %s, %s, %s, %s, " +
-                        "%s, %s, %s, %s",
+                        "%s, %s, %s, %s, %s",
                 notaConPunto(notaNacional),dni,nombre.replace(',','.'),anos,meses,dias,
                 notaConPunto(nota1),notaConPunto(nota11),notaConPunto(nota12),notaConPunto(nota13),notaConPunto(nota14),
                 notaConPunto(nota2),notaConPunto(nota21),notaConPunto(nota22),notaConPunto(nota221),notaConPunto(nota222),notaConPunto(nota223),
                 notaConPunto(nota23), notaConPunto(nota231),notaConPunto(nota232),
                 notaConPunto(nota24), notaConPunto(nota241), notaConPunto(nota242), notaConPunto(nota243), notaConPunto(nota244), notaConPunto(nota245),
-                notaConPunto(nota25), notaConPunto(nota3),notaConPunto(nota31),notaConPunto(nota32));
+                notaConPunto(nota25), notaConPunto(nota3),notaConPunto(nota31),notaConPunto(nota32), euskera?"SI":"no");
     }
     public static String notaConPunto(float nota){
         return String.format("%.4f",nota).replace(',','.');

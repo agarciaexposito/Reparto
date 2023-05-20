@@ -6,9 +6,12 @@ import modelo.Plazas;
 import modelo.Repartos;
 
 import java.io.IOException;
+import java.nio.charset.StandardCharsets;
 import java.nio.file.*;
 import java.nio.file.attribute.BasicFileAttributes;
+import java.util.ArrayList;
 import java.util.List;
+import java.util.Set;
 
 public class Main {
     public static final String FICHEROS_PLAZAS_SER = "./data/plazas.ser";
@@ -17,6 +20,7 @@ public class Main {
     public static final String FICHEROS_PLAZAS_TXT = "./data/plazas.txt";
     public static final boolean generarJSON=false;
     public static final boolean generarSer=false;
+    private static int numFile=0;
 
     public static void main(String[] args) {
         if (args.length<=1){
@@ -30,8 +34,7 @@ public class Main {
                     public FileVisitResult visitFile(Path file, BasicFileAttributes attrs) {
                         if (file.getFileName().toString().toLowerCase().endsWith(".pdf")) {
                             String fichero=file.getFileName().toString();
-                            String especialidad=Comun.nombreArchivoSinExt(fichero).trim().substring(0,6);
-                            reparto(directoryPath+"/"+fichero,especialidad);
+                            reparto(directoryPath+"/"+fichero);
                         }
                         return FileVisitResult.CONTINUE;
                     }
@@ -43,40 +46,56 @@ public class Main {
             int cont = 0;
             while (cont < args.length) {
                 String fichero = args[cont++];
-                String especialidad = args[cont++];
-                reparto(fichero, especialidad);
+                reparto(fichero);
             }
         }
     }
 
-    private static void reparto(String fichero, String especialidad) {
-        Plazas plazas = getPlazas();
-        Aspirantes aspirantes=new Aspirantes();
+    private static void reparto(String file) {
         try {
-            if (Comun.extension(fichero).equalsIgnoreCase("pdf")){
-                Comun.pdfToTxt(fichero);
-                fichero = fichero.toLowerCase().replaceAll("\\.pdf$", ".txt");
+            System.out.printf("%d$%s\n",numFile++,file);
+            if (Comun.extension(file).equalsIgnoreCase("pdf")){
+                String fileOut=file.toLowerCase().replaceAll("\\.pdf$", "-Temp.txt");
+                Comun.pdfToTxt(file,fileOut);
+                file = fileOut;
             }
-            aspirantes.loadTXT(fichero);
-            if (generarJSON)
-                aspirantesJSON(aspirantes, fichero);
-            if (generarSer)
-                aspirantesSer(aspirantes);
-            Repartos repartos=new Repartos(aspirantes, plazas, especialidad);
-            repartos.ejecuta();
-            Path file = Paths.get(fichero);
-            Path rutaArchivo = file.getParent();
-            String nombreArchivo = file.getFileName().toString();
-            List<String> ficherosGeneradosCSV=repartosCSV(rutaArchivo, nombreArchivo, repartos);
-            repartosExcel(rutaArchivo, nombreArchivo,ficherosGeneradosCSV);
-            if (generarJSON) //Pa manuel
-                repartosJSON(rutaArchivo, nombreArchivo, repartos);
-            if (generarSer)
-                repartosSer(repartos);
+            /* solo uno
+            String fichero = file;
+            String especialidad=fichero.trim().substring(0,6);
+            repartoEspecialidad(fichero, especialidad);
+             */
+            Set<String> ficheros=Comun.troceaTXTEnEspecialidades(file);
+            for (String fichero:ficheros) {
+                String especialidad=Comun.nombreArchivoSinExt(fichero).trim().substring(0,6);
+                repartoEspecialidad(fichero, especialidad);
+            }
         } catch (Exception e) {
             System.err.println(e.getMessage());
             //System.exit(-1);
         }
+    }
+
+
+
+    private static void repartoEspecialidad(String fichero, String especialidad) throws IOException {
+        Plazas plazas = getPlazas();
+        Aspirantes aspirantes=new Aspirantes();
+        aspirantes.loadTXT(fichero);
+        if (generarJSON)
+            aspirantesJSON(aspirantes, fichero);
+        if (generarSer)
+            aspirantesSer(aspirantes);
+        Repartos repartos=new Repartos(aspirantes, plazas, especialidad);
+        repartos.ejecuta();
+        Path file = Paths.get(fichero);
+        Path rutaArchivo = file.getParent();
+        String nombreArchivo = file.getFileName().toString();
+        List<String> ficherosGeneradosCSV=repartosCSV(rutaArchivo, nombreArchivo, repartos);
+        repartosExcel(rutaArchivo, nombreArchivo,ficherosGeneradosCSV);
+        //if (generarJSON) //Pa manuel
+            repartosJSON(rutaArchivo, nombreArchivo, repartos);
+        if (generarSer)
+            repartosSer(repartos);
     }
 
     private static void aspirantesSer(Aspirantes aspirantes) throws IOException {
@@ -123,7 +142,7 @@ public class Main {
         repartos.writeSer(FICHEROS_REPARTOS_SER);
     }
     public static void repartosExcel(Path rutaArchivo, String nombreArchivo,List<String> archivosCSV) throws IOException{
-        String fileRepartoExcel = rutaArchivo +"/Reparto_"+ nombreArchivo.replaceAll("\\.txt$", ".xlsx");
+        String fileRepartoExcel = rutaArchivo +"/Reparto"+ nombreArchivo.replaceAll("\\.txt$", ".xlsx");
         Comun.csvToExcel(fileRepartoExcel,archivosCSV);
     }
     public static void creaCarpetaFicheros() throws IOException {

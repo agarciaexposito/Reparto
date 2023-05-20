@@ -27,8 +27,13 @@ public class Aspirantes implements Serializable {
         Aspirante aspirante = null;
         boolean capturarElecciones = false;
         boolean capturaLineaDespuesTotal=false;
+        boolean capturadoEuskera=false;  // cuando se captura una vez ya todos los que hay debajo son de euskera
         for (String linea:lineas) {
             try {
+                if (Util.isLineaEuskera(linea)){
+                    capturadoEuskera=true;
+                    continue;
+                }
                 if (Comun.isVacia(linea)) {
                     if (aspirante != null)
                         aspirantes.add(aspirante);
@@ -41,6 +46,7 @@ public class Aspirantes implements Serializable {
                     if (aspirante != null)      // 1º añadido para hacer funcionar PDFBOX
                         aspirantes.add(aspirante);
                     aspirante = new Aspirante();
+                    aspirante.setEuskera(capturadoEuskera);
                     String[] trozo = Util.troceaLineaNombre(linea);
                     aspirante.setDni(trozo[0]);
                     aspirante.setNombre(trozo[1]);

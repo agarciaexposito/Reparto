@@ -20,6 +20,13 @@ public class Util {
 
     public static final String REGEX_TROCEA_ANTIG=REGEX_ANTIG+"\\s+(\\d+)\\s.*\\s(\\d+)\\s.*\\s(\\d+)\\s.*";
 
+    public static final String REGEX_EUSKERA = ".*\\s\\(EUSKERA\\)\\s.*";
+
+    public static final String REGEX_ESPECIALIDAD="[0-9]{6}\\s.*";
+
+    public static final String REGEX_TROCEA_ESPECIALIDAD="\\s*([0-9]{6})\\s+([A-ZÑÇÁÉÍÓÚ/:,\\s\\-\\(\\)]+)\\.*";
+    public static final String REGEX_TROCEA_ESPECIALIDAD_EUSKERA="\\s*([0-9]{6})\\s+([A-ZÑÇÁÉÍÓÚ/:,\\s\\-\\(\\)]+)\\s\\(EUSKERA\\)\\s.*";
+
 
     // Fichero de baremación
     public static boolean isNombre(String linea){
@@ -37,7 +44,34 @@ public class Util {
     public static boolean isLineaAntiguedad(String linea){
         return linea.trim().contains(REGEX_ANTIG);
     }
-
+    public static boolean isLineaEuskera(String linea) { return linea.trim().matches(REGEX_EUSKERA);}
+    public static boolean isLineaEspecialidad(String linea) {
+        return linea.trim().matches(REGEX_ESPECIALIDAD);
+    }
+    public static String[] troceaLineaEspecialidad(String linea){
+        Pattern pattern = Pattern.compile(REGEX_TROCEA_ESPECIALIDAD);
+        Matcher matcher = pattern.matcher(linea.trim());
+        if (matcher.matches()) {
+            String[] trozos={"",""};
+            for (int i = 0; i < 2; i++) {
+                trozos[i] = matcher.group(i+1).trim();
+            }
+            return trozos;
+        }
+        return null;
+    }
+    public static String[] troceaLineaEspecialidadEuskera(String linea){
+        Pattern pattern = Pattern.compile(REGEX_TROCEA_ESPECIALIDAD_EUSKERA);
+        Matcher matcher = pattern.matcher(linea.trim());
+        if (matcher.matches()) {
+            String[] trozos={"",""};
+            for (int i = 0; i < 2; i++) {
+                trozos[i] = matcher.group(i+1).trim();
+            }
+            return trozos;
+        }
+        return null;
+    }
     public static String[] troceaLineaAntigueada(String linea){
         Pattern pattern = Pattern.compile(REGEX_TROCEA_ANTIG);
         Matcher matcher = pattern.matcher(linea.trim());

@@ -14,6 +14,4 @@ Hay dos formas de usarlo:
 1. Poner en la carpeta descargas los ficheros de la [web del ministerio](https://www.educacionyfp.gob.es/contenidos/profesorado/no-universitarios/oposiciones-y-ofertas-trabajo/convocatoria-estabilizacion.html) se puede descargar todos usando el programa testing DescargarPDFs
 2. La ejecución de la app necesita de la carpeta data el archivo [plazas.txt](https://github.com/agarciaexposito/Reparto/blob/master/data/plazas.txt) o el archivo [plazas.ser](https://github.com/agarciaexposito/Reparto/blob/master/data/plazas.ser)
 # No contempla:
-- El reparto de plazas de Navarra que tengan como requisito el Eukera
-- Pendiente de repartir las plazas que sobre del turno D
-- Incorporar ficheros de otras especialidades donde el PDF contiene varias. Ver esos casos e intentar abordarlos.
+

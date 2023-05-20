@@ -17,11 +17,14 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.nio.file.StandardOpenOption;
 
+import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
 
 import java.net.URL;
 import java.nio.channels.Channels;
 import java.nio.channels.ReadableByteChannel;
+import java.util.Set;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -32,6 +35,9 @@ public class Comun {
     }
     public static final String REGEX_LINEA_VACIA="^\\s*$";
     public static final String REGEX_LINEA_PAGINA=".*Página.*";
+
+    public static final String NAVARRA_D_K ="Navarra_D_K";
+    public static final String NAVARRA_L_K ="Navarra_L_K";
     public static final String[] AUTONOMIA={
             "Andalucía","Aragón","Asturias","Illes Balears",
             "Cantabria","Castilla-La Mancha","Castilla y León","Ceuta",
@@ -67,14 +73,8 @@ public class Comun {
         }
     }
 
-    public static void pdfsToTxts (List<String> archivosPDF) throws IOException{
-        for (String file:archivosPDF) {
-            pdfToTxt(file);
-        }
-    }
-
-    public static void pdfToTxt(String file) throws IOException {
-        try (PDDocument document = PDDocument.load(new File(file))) {
+    public static void pdfToTxt(String in,String out) throws IOException {
+        try (PDDocument document = PDDocument.load(new File(in))) {
             // Crear un objeto PDFTextStripper para extraer el texto
             PDFTextStripper stripper = new PDFTextStripper();
             // establecer orden por posición
@@ -83,10 +83,9 @@ public class Comun {
             //stripper.setWordSeparator(" ");
             // Obtener el texto del documento
             String texto = stripper.getText(document);
-            String fileTXT= file.toLowerCase().replaceAll("\\.pdf$", ".txt");
             // Imprimir el texto
-            Files.deleteIfExists(Paths.get(fileTXT));
-            Files.write(Paths.get(fileTXT), texto.getBytes(StandardCharsets.UTF_8), StandardOpenOption.CREATE);
+            Files.deleteIfExists(Paths.get(out));
+            Files.write(Paths.get(out), texto.getBytes(StandardCharsets.UTF_8), StandardOpenOption.CREATE);
         }
     }
 
@@ -148,5 +147,68 @@ por lo que deberías utilizar esta solución con precaución y solo en entornos 
         Path carpeta = Paths.get(folder);
         if (!Files.exists(carpeta))
             Files.createDirectories(carpeta);
+    }
+
+    public static Set<String> troceaTXTEnEspecialidades(String file) throws IOException {
+        Set<String> ficheros = new HashSet<>();
+        String rutaArchivo=rutaArchivo(file);
+        Path path = Paths.get(file);
+        List<String> lineas = Files.readAllLines(path, StandardCharsets.UTF_8);
+        String especialidad = "";
+        Path pathWrite=null;
+        for (String linea:lineas) {
+            /*if (Util.isLineaEuskera(linea)) {
+                String[] trozo = Util.troceaLineaEspecialidadEuskera(linea);
+                if (!trozo[0].trim().equals(especialidad)) {
+                    especialidad = trozo[0].trim();
+                    String nombreArchivo=rutaArchivo + "/" + especialidad + "-E-" + repasaNombreFichero(trozo[1].trim()) + ".txt";
+                    pathWrite = creaTxt(linea, nombreArchivo);
+                    ficheros.add(pathWrite.toString());
+                    continue;
+                }
+            }*/
+            if (Util.isLineaEspecialidad(linea)) {
+                String[] trozo;
+                if (Util.isLineaEuskera(linea))
+                    trozo=Util.troceaLineaEspecialidadEuskera(linea);
+                else trozo= Util.troceaLineaEspecialidad(linea);
+                if (trozo == null) {
+                    System.out.println("sin trocear " + linea + " Fichero: " + file+" ultima espe; "+especialidad+" ficheros: "+ficheros );
+                    continue;
+                }
+                if (!trozo[0].trim().equals(especialidad)) {
+                    especialidad = trozo[0].trim();
+                    String nombreArchivo=rutaArchivo + "/" + especialidad + "-" + repasaNombreFichero(trozo[1].trim()) + ".txt";
+                    pathWrite = creaTxt(linea, nombreArchivo);
+                    ficheros.add(pathWrite.toString());
+                    continue;
+                }
+            }
+            if (pathWrite!=null)
+                Files.writeString(pathWrite, linea+"\n", StandardOpenOption.APPEND);
+        }
+        return ficheros;
+    }
+
+    private static Path creaTxt( String linea, String nombreArchivo) throws IOException {
+        Path pathWrite;
+        pathWrite = Path.of(nombreArchivo);
+        if (Files.exists(pathWrite))
+            Files.delete(pathWrite);
+        Files.writeString(pathWrite, linea+"\n", StandardOpenOption.CREATE);
+        return pathWrite;
+    }
+
+    public static String repasaNombreFichero(String cadena){
+        String cadenaMinisculas = cadena.toLowerCase();
+        String cadenaSinTildes = cadenaMinisculas
+                .replaceAll("[áäâà]", "a")
+                .replaceAll("[éëêè]", "e")
+                .replaceAll("[íïîì]", "i")
+                .replaceAll("[óöôò]", "o")
+                .replaceAll("[úüûù]", "u")
+                .replaceAll(" ","-")
+                .replaceAll("[ñç/:,]","");
+        return cadenaSinTildes;
     }
 }
