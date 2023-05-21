@@ -13,5 +13,5 @@ Hay dos formas de usarlo:
 ## La segunda por contenido de la carpeta descargas:
 1. Poner en la carpeta descargas los ficheros de la [web del ministerio](https://www.educacionyfp.gob.es/contenidos/profesorado/no-universitarios/oposiciones-y-ofertas-trabajo/convocatoria-estabilizacion.html) se puede descargar todos usando el programa testing DescargarPDFs
 2. La ejecución de la app necesita de la carpeta data el archivo [plazas.txt](https://github.com/agarciaexposito/Reparto/blob/master/data/plazas.txt) o el archivo [plazas.ser](https://github.com/agarciaexposito/Reparto/blob/master/data/plazas.ser)
-# No contempla:
+# Se ha incluido la posibilidad de realizar una ordenación por especialiad, comunidad y turno. modificar en el Main el atributo generarReparto=false
 

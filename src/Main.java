@@ -1,15 +1,11 @@
 
 import helper.Comun;
 import helper.Util;
-import modelo.Aspirantes;
-import modelo.Plazas;
-import modelo.Repartos;
+import modelo.*;
 
 import java.io.IOException;
-import java.nio.charset.StandardCharsets;
 import java.nio.file.*;
 import java.nio.file.attribute.BasicFileAttributes;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
 
@@ -21,6 +17,7 @@ public class Main {
     public static final boolean generarJSON=false;
     public static final boolean generarSer=false;
     private static int numFile=0;
+    private static final boolean generarReparto =true;  // con false hago una ordenación de todos
 
     public static void main(String[] args) {
         if (args.length<=1){
@@ -85,14 +82,17 @@ public class Main {
             aspirantesJSON(aspirantes, fichero);
         if (generarSer)
             aspirantesSer(aspirantes);
-        Repartos repartos=new Repartos(aspirantes, plazas, especialidad);
+        AbstractRepartos repartos;
+        if (generarReparto)
+            repartos = new Repartos(aspirantes, plazas, especialidad);
+        else repartos = new Distribucion(aspirantes,plazas,especialidad);
         repartos.ejecuta();
         Path file = Paths.get(fichero);
         Path rutaArchivo = file.getParent();
         String nombreArchivo = file.getFileName().toString();
         List<String> ficherosGeneradosCSV=repartosCSV(rutaArchivo, nombreArchivo, repartos);
         repartosExcel(rutaArchivo, nombreArchivo,ficherosGeneradosCSV);
-        //if (generarJSON) //Pa manuel
+        if (generarJSON) //Pa manuel
             repartosJSON(rutaArchivo, nombreArchivo, repartos);
         if (generarSer)
             repartosSer(repartos);
@@ -127,18 +127,18 @@ public class Main {
         aspirantes.saveJSON(fileJSON);
     }
 
-    private static List<String> repartosCSV(Path rutaArchivo, String nombreArchivo, Repartos repartos) throws IOException {
+    private static List<String> repartosCSV(Path rutaArchivo, String nombreArchivo, AbstractRepartos repartos) throws IOException {
         String fileRepartoCSV = rutaArchivo +"/"+ nombreArchivo.replaceAll("\\.txt$", ".csv");
         return repartos.saveCSV(fileRepartoCSV);
     }
 
-    private static void repartosJSON(Path rutaArchivo, String nombreArchivo, Repartos repartos) throws IOException {
+    private static void repartosJSON(Path rutaArchivo, String nombreArchivo, AbstractRepartos repartos) throws IOException {
         //String fileRepartoJSON = rutaArchivo +"/Reparto_"+ nombreArchivo.replaceAll("\\.txt$", ".json");
         // modificado para Manuel
         String fileRepartoJSON = rutaArchivo +"/"+ nombreArchivo.trim().substring(0,6)+".json";
         repartos.saveJSON(fileRepartoJSON);
     }
-    private static void repartosSer(Repartos repartos) throws IOException {
+    private static void repartosSer(AbstractRepartos repartos) throws IOException {
         repartos.writeSer(FICHEROS_REPARTOS_SER);
     }
     public static void repartosExcel(Path rutaArchivo, String nombreArchivo,List<String> archivosCSV) throws IOException{

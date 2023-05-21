@@ -58,6 +58,10 @@ public class Reparto implements Serializable {
         return anadido;
     }
 
+    public boolean forceAdd(Aspirante aspirante,Eleccion eleccion){
+       return adjudicaciones.add(new Adjudicacion(adjudicaciones.size() + 1, aspirante, eleccion.getOrden(), eleccion.isLibre()?'L':'D'));
+    }
+
     public boolean isCompleto(){
         return plazas == adjudicaciones.size();
     }
