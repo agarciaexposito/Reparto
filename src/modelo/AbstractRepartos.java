@@ -50,6 +50,43 @@ public abstract class AbstractRepartos {
         // close writer
         writer.close();
     }
+    public List<String> saveCSVHojaResumen(String file) throws IOException {
+        List<String> ficherosGenerados= new ArrayList<>();
+        int total49=0;
+        int total21=0;
+        int totalPlazas=0;
+        Path ficheroResumen= crearResumenCSV(file);
+        ficherosGenerados.add(ficheroResumen.toString());
+        for (String autonomia:autonomias.keySet()) {
+            int cont49=0;
+            int cont21=0;
+            Reparto reparto = autonomias.get(autonomia);
+            int contPlazas=reparto.getPlazas();
+            Path fichero=crearArchivoCSV(file,reparto);
+            for (Adjudicacion adjudicacion:reparto.getAdjudicaciones()) {
+                if (adjudicacion.getNumEleccion()==1){
+                    if (adjudicacion.isNota11MayorIgual4_9())
+                        cont49++;
+                    if (adjudicacion.isNota11MayorIgual2_1())
+                        cont21++;
+                }
+                String lineaCSV = adjudicacion.toCSV()+"\n";
+                Files.write(fichero, lineaCSV.getBytes(StandardCharsets.UTF_8), StandardOpenOption.APPEND);
+            }
+            total49+=cont49;
+            total21+=cont21;
+            totalPlazas+=contPlazas;
+            ficherosGenerados.add(fichero.toString());
+            String lineaResumen = String.format("%s; %d; %d; %d\n",autonomia,contPlazas,cont49,cont21);
+            Files.write(ficheroResumen, lineaResumen.getBytes(StandardCharsets.UTF_8), StandardOpenOption.APPEND);
+        }
+
+        String nombreArchivo = ficheroResumen.getFileName().toString();
+        String soloNombreArchivo = nombreArchivo.substring(0, nombreArchivo.lastIndexOf("."));
+        String lineaResumen = String.format("%s; %d; %d; %d\n",soloNombreArchivo,totalPlazas,total49,total21);
+        Files.write(ficheroResumen, lineaResumen.getBytes(StandardCharsets.UTF_8), StandardOpenOption.APPEND);
+        return ficherosGenerados;
+    }
 
     public List<String> saveCSV(String file) throws IOException {
         List<String> ficherosGenerados= new ArrayList<>();
@@ -70,6 +107,21 @@ public abstract class AbstractRepartos {
         String nombreArchivo = Paths.get(file).getFileName().toString();
         String soloNombreArchivo = nombreArchivo.substring(0, nombreArchivo.lastIndexOf("."));
         nombreArchivo = String.format("%s-%s%s (%d).csv",reparto.getAutonomia(),reparto.isLibre()?"L":"D",reparto.isEuskera()?"-K":"",reparto.getPlazas());
+        Path carpeta=Paths.get(rutaArchivo+"/"+soloNombreArchivo+"/");
+        if (!Files.exists(carpeta))
+            Files.createDirectories(carpeta);
+        Path fichero=Paths.get(rutaArchivo+"/"+soloNombreArchivo+"/"+nombreArchivo);
+        Files.deleteIfExists(fichero);
+        Files.write(fichero, cabecera.getBytes(StandardCharsets.UTF_8), StandardOpenOption.CREATE);
+        return fichero;
+    }
+
+    public static Path crearResumenCSV(String file) throws IOException {
+        String cabecera=String.format("%s; %s; %s; %s\n","AUTONOMÍA", "D.A. Sexta","D.A. Octava","Directiva 1999/70/CE");
+        Path rutaArchivo = Paths.get(file).getParent();
+        String nombreArchivo = Paths.get(file).getFileName().toString();
+        String soloNombreArchivo = nombreArchivo.substring(0, nombreArchivo.lastIndexOf("."));
+        nombreArchivo = soloNombreArchivo+".csv";
         Path carpeta=Paths.get(rutaArchivo+"/"+soloNombreArchivo+"/");
         if (!Files.exists(carpeta))
             Files.createDirectories(carpeta);

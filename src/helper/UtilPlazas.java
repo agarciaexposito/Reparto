@@ -8,9 +8,9 @@ public class UtilPlazas {
 
     //Expresiones regulares para el fichero de plazas
 /*
-    private static final String letrasPermitidasSinEspacio="[A-ZÑÇÁÉÍÓÚ]";
-    private static final String letrasPermitidasConEspacio ="[A-ZÑÇÁÉÍÓÚ\\s]";
-    public static final String REGEX_LINEA_AUTONOMIA="^[A-Z][A-ZÑÇÁÉÍÓÚ\\s-]+$";
+    private static final String letrasPermitidasSinEspacio="[A-ZÑÇÁÉÍÓÚÜ]";
+    private static final String letrasPermitidasConEspacio ="[A-ZÑÇÁÉÍÓÚÜ\\s]";
+    public static final String REGEX_LINEA_AUTONOMIA="^[A-Z][A-ZÑÇÁÉÍÓÚÜ\\s-]+$";
     public static final String REGEX_LINEA_ESPECIALIDAD="^\\d{6}\\s+"+ letrasPermitidasConEspacio +"+\\d\\s+\\d+$";
     public static final String REGEX_TROCEA_ESPECIALIDAD="^(\\d{6})\\s+("+letrasPermitidasSinEspacio+letrasPermitidasSinEspacio+"*)(\\d)\\s+(\\d+)$";
     public static final String REGEX_LINEA_ESPECIALIDAD_SIN_NOMBRE="^\\d\\s+\\d+$";
@@ -25,14 +25,14 @@ public class UtilPlazas {
 
 
     //Expresiones regulares para el fichero de plazas
-    public static final String REGEX_LINEA_AUTONOMIA="^[A-Z][A-ZÑÇÁÉÍÓÚ\\s-]+$";
-    public static final String REGEX_LINEA_ESPECIALIDAD="^\\d{6}\\s+[A-ZÑÇÁÉÍÓÚ,:\\s/\\(\\)\\-]+\\d\\s+\\d+$";
-    public static final String REGEX_TROCEA_ESPECIALIDAD="^(\\d{6})\\s+([A-ZÑÇÁÉÍÓÚ][A-ZÑÇÁÉÍÓÚ,:\\s/\\(\\)\\-]*)(\\d)\\s+(\\d+)$";
+    public static final String REGEX_LINEA_AUTONOMIA="^[A-Z][A-ZÑÇÁÉÍÓÚÜ\\s-]+$";
+    public static final String REGEX_LINEA_ESPECIALIDAD="^\\d{6}\\s+[A-ZÑÇÁÉÍÓÚÜ,:\\s/\\(\\)\\-]+\\d\\s+\\d+$";
+    public static final String REGEX_TROCEA_ESPECIALIDAD="^(\\d{6})\\s+([A-ZÑÇÁÉÍÓÚÜ][A-ZÑÇÁÉÍÓÚÜ,:\\s/\\(\\)\\-]*)(\\d)\\s+(\\d+)$";
     public static final String REGEX_LINEA_ESPECIALIDAD_SIN_NOMBRE="^\\d\\s+\\d+$";
 
     public static final String REGEX_TROCEA_ESPECIALIDAD_SIN_NOMBRE="^(\\d)\\s+(\\d+)$";
-    public static final String REGE_LINEA_ESPECIALIDAD_NAVARRA="^\\d{6}\\s+[A-ZÑÇÁÉÍÓÚ,:\\s/\\(\\)\\-]+\\d\\s+\\d+\\s+\\d+$";
-    public static final String REGEX_TROCEA_ESPECIALIDAD_NAVARRA="^(\\d{6})\\s+([A-ZÑÇÁÉÍÓÚ][A-ZÑÇÁÉÍÓÚ,:\\s/\\(\\)\\-]*)(\\d)\\s+(\\d+)\\s+(\\d+)$";
+    public static final String REGE_LINEA_ESPECIALIDAD_NAVARRA="^\\d{6}\\s+[A-ZÑÇÁÉÍÓÚÜ,:\\s/\\(\\)\\-]+\\d\\s+\\d+\\s+\\d+$";
+    public static final String REGEX_TROCEA_ESPECIALIDAD_NAVARRA="^(\\d{6})\\s+([A-ZÑÇÁÉÍÓÚÜ][A-ZÑÇÁÉÍÓÚÜ,:\\s/\\(\\)\\-]*)(\\d)\\s+(\\d+)\\s+(\\d+)$";
     public static final String REGE_LINEA_ESPECIALIDAD_SIN_NOMBRE_NAVARRA="^\\d\\s+\\d+\\s+\\d+$";
     public static final String REGEX_TROCEA_ESPECIALIDAD_SIN_NOMBRE_NAVARRA="^(\\d)\\s+(\\d+)\\s+(\\d+)$";
 

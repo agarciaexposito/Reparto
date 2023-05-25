@@ -11,7 +11,7 @@ public class Util {
 
     //Expresiones regulares para el fichero de Baremación
     public static final String REGEX_DNI="\\*{4,5}[0-9A-Z]+";
-    public static final String REGEX_NOMBRE="\\s[A-ZÑÇÁÉÍÓÚ][A-ZÑÇÁÉÍÓÚ\\s,]+"; //solo para dentro de la línea donde esté el nombre
+    public static final String REGEX_NOMBRE="\\s[A-ZÑÇÁÉÍÓÚÀÈÌÒÙÜ][A-ZÑÇÁÉÍÓÚÀÈÌÒÙÜ\\-\\s,]+"; //solo para dentro de la línea donde esté el nombre
     public static final String PROTECCION="*********         *** No se publica por protección de datos ***";
     public static final String PROTECCION2=".*No se publica por protección de datos.*";
     public static final String REGEX_TOTAL="^TOTAL:\\s*.*";
@@ -24,8 +24,8 @@ public class Util {
 
     public static final String REGEX_ESPECIALIDAD="[0-9]{6}\\s.*";
 
-    public static final String REGEX_TROCEA_ESPECIALIDAD="\\s*([0-9]{6})\\s+([A-ZÑÇÁÉÍÓÚ/:,\\s\\-\\(\\)]+)\\.*";
-    public static final String REGEX_TROCEA_ESPECIALIDAD_EUSKERA="\\s*([0-9]{6})\\s+([A-ZÑÇÁÉÍÓÚ/:,\\s\\-\\(\\)]+)\\s\\(EUSKERA\\)\\s.*";
+    public static final String REGEX_TROCEA_ESPECIALIDAD="\\s*([0-9]{6})\\s+([A-ZÑÇÁÉÍÓÚÜ/:,\\s\\-\\(\\)]+)\\.*";
+    public static final String REGEX_TROCEA_ESPECIALIDAD_EUSKERA="\\s*([0-9]{6})\\s+([A-ZÑÇÁÉÍÓÚÜ/:,\\s\\-\\(\\)]+)\\s\\(EUSKERA\\)\\s.*";
 
 
     // Fichero de baremación

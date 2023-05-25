@@ -1,0 +1,10 @@
+#
+#Mon Ma 17 20:30:36 CEST 2023
+
+driver=org.sqlite.JDBC
+url=jdbc:sqlite:sqlite/meritos.db"
+
+#driver=com.mysql.cj.jdbc.Driver
+#url=jdbc\:mysql\://192.168.1.68\:3306/BIBLIOTECA
+user=
+pwd=

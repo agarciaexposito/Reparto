@@ -323,16 +323,35 @@ public class Aspirante implements Serializable {
     }
 
     public static String cabeceraCSV(){
-        return "Nota, DNI, NOMBRE, AÑOS, MESES, DÍAS, " +
+        return "Nota; DNI; NOMBRE; AÑOS; MESES; DÍAS; " +
+                "Nota 1; 1.1; 1.2; 1.3; 1.4; " +
+                "Nota 2; 2.1; 2.2; 2.2.1; 2.2.2; 2.2.3; " +
+                " 2.3; 2.3.1; 2.3.2; " +
+                " 2.4; 2.4.1; 2.4.2; 2.4.3; 2.4.4; 2.4.5; " +
+                " 2.5; " +
+                "Nota 3; 3.1; 3.2; EUSKERA";
+        /*return "Nota, DNI, NOMBRE, AÑOS, MESES, DÍAS, " +
                 "Nota 1, 1.1, 1.2, 1.3, 1.4, " +
                 "Nota 2, 2.1, 2.2, 2.2.1, 2.2.2, 2.2.3, " +
                 " 2.3, 2.3.1, 2.3.2, " +
                 " 2.4, 2.4.1, 2.4.2, 2.4.3, 2.4.4, 2.4.5, " +
                 " 2.5, " +
-                "Nota 3, 3.1, 3.2, EUSKERA";
+                "Nota 3, 3.1, 3.2, EUSKERA";*/
     }
     public String toCSV(){
-        return String.format("%s, %s, %s, %d, %d, %d, " +
+        return String.format("%.4f; %s; %s; %d; %d; %d; " +
+                        "%.4f; %.4f; %.4f; %.4f; %.4f; " +
+                        "%.4f; %.4f; %.4f; %.4f; %.4f; %.4f; " +
+                        "%.4f; %.4f; %.4f; "+
+                        "%.4f; %.4f; %.4f; %.4f; %.4f; %.4f; " +
+                        "%.4f; %.4f; %.4f; %.4f; %s",
+                notaNacional,dni,nombre,anos,meses,dias,
+                nota1,nota11,nota12,nota13,nota14,
+                nota2,nota21,nota22,nota221,nota222,nota223,
+                nota23, nota231,nota232,
+                nota24, nota241, nota242, nota243, nota244, nota245,
+                nota25, nota3,nota31,nota32, euskera?"SI":"no");
+        /*return String.format("%s, %s, %s, %d, %d, %d, " +
                         "%s, %s, %s, %s, %s, " +
                         "%s, %s, %s, %s, %s, %s, " +
                         "%s, %s, %s, "+
@@ -343,7 +362,7 @@ public class Aspirante implements Serializable {
                 notaConPunto(nota2),notaConPunto(nota21),notaConPunto(nota22),notaConPunto(nota221),notaConPunto(nota222),notaConPunto(nota223),
                 notaConPunto(nota23), notaConPunto(nota231),notaConPunto(nota232),
                 notaConPunto(nota24), notaConPunto(nota241), notaConPunto(nota242), notaConPunto(nota243), notaConPunto(nota244), notaConPunto(nota245),
-                notaConPunto(nota25), notaConPunto(nota3),notaConPunto(nota31),notaConPunto(nota32), euskera?"SI":"no");
+                notaConPunto(nota25), notaConPunto(nota3),notaConPunto(nota31),notaConPunto(nota32), euskera?"SI":"no");*/
     }
     public static String notaConPunto(float nota){
         return String.format("%.4f",nota).replace(',','.');

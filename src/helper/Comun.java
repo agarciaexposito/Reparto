@@ -49,7 +49,7 @@ public class Comun {
         return linea.matches(REGEX_LINEA_VACIA) || linea.matches(REGEX_LINEA_PAGINA) ;
     }
 
-    public static void csvToExcel(String nombreArchivoExcel, List<String> archivosCSV) throws IOException {
+    public static void csvToExcel(String nombreArchivoExcel, List<String> archivosCSV, String separador) throws IOException {
         XSSFWorkbook libroExcel = new XSSFWorkbook();
         for (String archivoCSV : archivosCSV) {
             XSSFSheet hoja = libroExcel.createSheet(nombreArchivoSinExt(archivoCSV));
@@ -58,7 +58,7 @@ public class Comun {
                 String[] filas = contenido.split("\\r?\\n");
 
                 for (int i = 0; i < filas.length; i++) {
-                    String[] columnas = filas[i].split(",");
+                    String[] columnas = filas[i].split(separador);
                     Row fila = hoja.createRow(i);
                     for (int j = 0; j < columnas.length; j++) {
                         Cell celda = fila.createCell(j);

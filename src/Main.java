@@ -17,7 +17,10 @@ public class Main {
     public static final boolean generarJSON=false;
     public static final boolean generarSer=false;
     private static int numFile=0;
-    private static final boolean generarReparto =true;  // con false hago una ordenación de todos
+    private static final boolean generarReparto =false;  // con falso hago una ordenación de todos
+    private static final boolean hojaResumen = true; // para mostrar una hoja resumen con la vulnearción de las disposiciones tanto la D.A. Sexta, D.A. Octava como Directiva 1999/70/CE
+
+
 
     public static void main(String[] args) {
         if (args.length<=1){
@@ -31,7 +34,7 @@ public class Main {
                     public FileVisitResult visitFile(Path file, BasicFileAttributes attrs) {
                         if (file.getFileName().toString().toLowerCase().endsWith(".pdf")) {
                             String fichero=file.getFileName().toString();
-                            reparto(directoryPath+"/"+fichero);
+                            carga(directoryPath+"/"+fichero);
                         }
                         return FileVisitResult.CONTINUE;
                     }
@@ -43,12 +46,12 @@ public class Main {
             int cont = 0;
             while (cont < args.length) {
                 String fichero = args[cont++];
-                reparto(fichero);
+                carga(fichero);
             }
         }
     }
 
-    private static void reparto(String file) {
+    private static void carga(String file) {
         try {
             System.out.printf("%d$%s\n",numFile++,file);
             if (Comun.extension(file).equalsIgnoreCase("pdf")){
@@ -56,15 +59,10 @@ public class Main {
                 Comun.pdfToTxt(file,fileOut);
                 file = fileOut;
             }
-            /* solo uno
-            String fichero = file;
-            String especialidad=fichero.trim().substring(0,6);
-            repartoEspecialidad(fichero, especialidad);
-             */
             Set<String> ficheros=Comun.troceaTXTEnEspecialidades(file);
             for (String fichero:ficheros) {
                 String especialidad=Comun.nombreArchivoSinExt(fichero).trim().substring(0,6);
-                repartoEspecialidad(fichero, especialidad);
+                cargaEspecialidad(fichero, especialidad);
             }
         } catch (Exception e) {
             System.err.println(e.getMessage());
@@ -72,9 +70,7 @@ public class Main {
         }
     }
 
-
-
-    private static void repartoEspecialidad(String fichero, String especialidad) throws IOException {
+    private static void cargaEspecialidad(String fichero, String especialidad) throws IOException {
         Plazas plazas = getPlazas();
         Aspirantes aspirantes=new Aspirantes();
         aspirantes.loadTXT(fichero);
@@ -129,7 +125,9 @@ public class Main {
 
     private static List<String> repartosCSV(Path rutaArchivo, String nombreArchivo, AbstractRepartos repartos) throws IOException {
         String fileRepartoCSV = rutaArchivo +"/"+ nombreArchivo.replaceAll("\\.txt$", ".csv");
-        return repartos.saveCSV(fileRepartoCSV);
+        if (hojaResumen)
+            return repartos.saveCSVHojaResumen(fileRepartoCSV);
+        else return repartos.saveCSV(fileRepartoCSV);
     }
 
     private static void repartosJSON(Path rutaArchivo, String nombreArchivo, AbstractRepartos repartos) throws IOException {
@@ -142,8 +140,11 @@ public class Main {
         repartos.writeSer(FICHEROS_REPARTOS_SER);
     }
     public static void repartosExcel(Path rutaArchivo, String nombreArchivo,List<String> archivosCSV) throws IOException{
-        String fileRepartoExcel = rutaArchivo +"/Reparto"+ nombreArchivo.replaceAll("\\.txt$", ".xlsx");
-        Comun.csvToExcel(fileRepartoExcel,archivosCSV);
+        String fileRepartoExcel;
+        if (generarReparto)
+            fileRepartoExcel = rutaArchivo +" /Reparto_" + nombreArchivo.replaceAll("\\.txt$", ".xlsx");
+        else fileRepartoExcel = rutaArchivo + "/" + nombreArchivo.replaceAll("\\.txt$", ".xlsx");
+        Comun.csvToExcel(fileRepartoExcel,archivosCSV,";");
     }
     public static void creaCarpetaFicheros() throws IOException {
         Comun.creaCarpeta("./ficheros");
