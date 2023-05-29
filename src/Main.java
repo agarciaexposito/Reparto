@@ -131,7 +131,7 @@ public class Main {
     }
 
     private static void repartosJSON(Path rutaArchivo, String nombreArchivo, AbstractRepartos repartos) throws IOException {
-        //String fileRepartoJSON = rutaArchivo +"/Reparto_"+ nombreArchivo.replaceAll("\\.txt$", ".json");
+        //String fileRepartoJSON = rutaArchivo +"/AdjProv_"+ nombreArchivo.replaceAll("\\.txt$", ".json");
         // modificado para Manuel
         String fileRepartoJSON = rutaArchivo +"/"+ nombreArchivo.trim().substring(0,6)+".json";
         repartos.saveJSON(fileRepartoJSON);
@@ -142,7 +142,7 @@ public class Main {
     public static void repartosExcel(Path rutaArchivo, String nombreArchivo,List<String> archivosCSV) throws IOException{
         String fileRepartoExcel;
         if (generarReparto)
-            fileRepartoExcel = rutaArchivo +" /Reparto_" + nombreArchivo.replaceAll("\\.txt$", ".xlsx");
+            fileRepartoExcel = rutaArchivo +"/AdjProv_" + nombreArchivo.replaceAll("\\.txt$", ".xlsx");
         else fileRepartoExcel = rutaArchivo + "/" + nombreArchivo.replaceAll("\\.txt$", ".xlsx");
         Comun.csvToExcel(fileRepartoExcel,archivosCSV,";");
     }

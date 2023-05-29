@@ -14,7 +14,7 @@ public class Distribucion extends AbstractRepartos {
     private void repartoDePlazas() {
         for (Aspirante aspirante : aspirantes.getAspirantes()) {
             for (Eleccion eleccion : aspirante.getElecciones()) { // esto esta en el orden natural de lectura que coincide con el orden de elección
-                if (!eleccion.isRechazado()) {
+                if (!eleccion.idDescartado(aspirante.getNotaNacional())) {
                     Reparto reparto;
                     if (!eleccion.isLibre()) { // si fuese discapacitado
                         if (aspirante.isEuskera())

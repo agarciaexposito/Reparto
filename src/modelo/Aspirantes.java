@@ -10,9 +10,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.nio.file.StandardOpenOption;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
+import java.util.*;
 
 
 public class Aspirantes implements Serializable {
@@ -37,7 +35,7 @@ public class Aspirantes implements Serializable {
                 }
                 if (Comun.isVacia(linea)) {
                     if (aspirante != null)
-                        aspirantes.add(aspirante);
+                        addAspirante(aspirante);
                     aspirante = null;
                     capturaLineaDespuesTotal=false;
                     capturarElecciones = false;
@@ -45,7 +43,7 @@ public class Aspirantes implements Serializable {
                 }
                 if (Util.isNombre(linea)) {//2º cambio en el orden para hacer funcioanr pdfBOX
                     if (aspirante != null)      // 1º añadido para hacer funcionar PDFBOX
-                        aspirantes.add(aspirante);
+                        addAspirante(aspirante);
                     aspirante = new Aspirante();
                     aspirante.setEuskera(capturadoEuskera);
                     String[] trozo = Util.troceaLineaNombre(linea);
@@ -188,11 +186,38 @@ public class Aspirantes implements Serializable {
             }
         }
         if (aspirante!=null) {
-            aspirantes.add(aspirante);
+            addAspirante(aspirante);
         }
         ordenado = false;
     }
 
+
+    // se ha detectado que hay aspirantes con distintas notas en las elecciones,
+    // para que el reparto sea correcto, se me ha ocurrido ponerles a esas elecciones como rechazadas
+    // y duplicarlas con notaNacional a la que tiene en esa elección y el resto de elecciones con distinta nota a rechazada
+    private void addAspirante(Aspirante aspirante){
+        // añado el aspirante con la nota nacional
+        aspirantes.add(aspirante);
+        // repaso el aspirante por si tiene otras notas distintas en alguna autonomía
+        Set<Float> notasDistintas=new HashSet<>();
+        for (Eleccion eleccion:aspirante.getElecciones()) {
+            if (eleccion.getNota()!=aspirante.getNotaNacional())
+                notasDistintas.add(eleccion.getNota()); // al ser un Set solo se añaden las distintas
+        }
+        for (Float nota:notasDistintas){
+            //System.out.printf("Añadiendo nota %.4f actualmente:%s\n",nota,aspirante.info());
+            Aspirante clonAspirante = null;
+            try {
+                clonAspirante = (Aspirante) aspirante.clone();
+            } catch (CloneNotSupportedException e) {
+                System.err.printf("Problemas clonando a %s\n",aspirante.info());
+            }
+            clonAspirante.setNotaNacional(nota);
+            aspirantes.add(clonAspirante);
+            //System.out.printf("Nuevo añadido %s\n",clonAspirante.info());
+        }
+
+    }
     private void addElecciones(Aspirante aspirante, String[] elecciones) {
         int cont = 1;
         Eleccion eleccion=null;

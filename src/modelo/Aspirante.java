@@ -4,7 +4,7 @@ import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Aspirante implements Serializable {
+public class Aspirante implements Serializable, Cloneable {
     private String dni="";
     private String nombre="";
     private float notaNacional=0;
@@ -36,13 +36,23 @@ public class Aspirante implements Serializable {
     private int anos=0;
     private int meses=0;
     private int dias=0;
-    private final List<Eleccion> elecciones = new ArrayList<>();
+    private List<Eleccion> elecciones = new ArrayList<>();
 
     private boolean euskera =false;
     private boolean asignado=false;
 
     public String getDni() {
         return dni;
+    }
+
+    @Override
+    public Object clone() throws CloneNotSupportedException {
+        Aspirante aspirante = (Aspirante) super.clone();
+        aspirante.elecciones = new ArrayList<>();
+        for (Eleccion eleccion:elecciones) {
+            aspirante.elecciones.add((Eleccion) eleccion.clone());
+        }
+        return aspirante;
     }
 
     public void setDni(String dni) {
@@ -306,7 +316,10 @@ public class Aspirante implements Serializable {
     public void add(Eleccion eleccion){
         elecciones.add(eleccion);
     }
-
+    public String info() {
+        StringBuilder cad = new StringBuilder(String.format("%f %s %s\n", notaNacional, dni, nombre));
+        return cad.toString();
+    }
     @Override
     public String toString() {
         StringBuilder cad = new StringBuilder(String.format("%f %s %s 1: %f 2: %f 3: %f\n", notaNacional, dni, nombre, nota1, nota2, nota3));

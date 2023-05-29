@@ -12,10 +12,6 @@ import java.nio.file.StandardOpenOption;
 import java.util.*;
 
  public class Repartos extends AbstractRepartos implements Serializable {
-    private Aspirantes aspirantes;
-    private Map<String,Reparto> autonomias = new TreeMap<>();
-
-
     public Repartos(Aspirantes aspirantes,Plazas plazas, String especialid) {
         super(aspirantes,plazas,especialid);
     }
@@ -55,7 +51,7 @@ import java.util.*;
                 if (aspirante.getElecciones().size()>1)
                     System.out.printf("Euskera: %s\n",aspirante);
                 for (Eleccion eleccion : aspirante.getElecciones()) { // esto esta en el orden natural de lectura que coincide con el orden de elección
-                    if (!eleccion.isRechazado()) {
+                    if (!eleccion.idDescartado(aspirante.getNotaNacional())) {
                         Reparto reparto;
                         if (!eleccion.isLibre()) { // si fuese discapacitado
                             reparto = autonomias.get(eleccion.getAutonomia() + "_D_K");
@@ -76,7 +72,7 @@ import java.util.*;
                  break;
              if (!aspirante.isAsignado() && !aspirante.isEuskera()) {
                  for (Eleccion eleccion : aspirante.getElecciones()) { // esto esta en el orden natural de lectura que coincide con el orden de elección
-                     if (!eleccion.isRechazado()) {
+                     if (!eleccion.idDescartado(aspirante.getNotaNacional())) {
                          Reparto reparto;
                          if (!eleccion.isLibre()) { // si fuese discapacitado
                              reparto = autonomias.get(eleccion.getAutonomia() + "_D");
