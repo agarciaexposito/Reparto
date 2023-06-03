@@ -1,10 +1,13 @@
 package modelo;
 
+import java.io.Serial;
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
 public class Aspirante implements Serializable, Cloneable {
+    @Serial
+    private static final long serialVersionUID = -5105395931741959845L;
     private String dni="";
     private String nombre="";
     private float notaNacional=0;
@@ -44,6 +47,7 @@ public class Aspirante implements Serializable, Cloneable {
     public String getDni() {
         return dni;
     }
+
 
     @Override
     public Object clone() throws CloneNotSupportedException {
@@ -379,5 +383,9 @@ public class Aspirante implements Serializable, Cloneable {
     }
     public static String notaConPunto(float nota){
         return String.format("%.4f",nota).replace(',','.');
+    }
+
+    public String infoCotejo() {
+        return String.format("DNI='%s', origen='Desconocido', nombre='%s', nota=%.4f, euskera=%b",dni,nombre,notaNacional,euskera);
     }
 }

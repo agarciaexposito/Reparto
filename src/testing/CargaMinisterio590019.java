@@ -1,15 +1,13 @@
 package testing;
 
 import helper.Comun;
-import helper.Util;
 
 import java.io.IOException;
 
-public class DescargarPDFs {
+public class CargaMinisterio590019 {
     public static void main(String[] args) {
-
         try {
-            Comun.descargarPDFs(Util.URL,args[0]);
+            Comun.cargaEspecialidadMinsterio("./ministerio/590019-tecnologia.txt","590019");
         } catch (IOException e) {
             throw new RuntimeException(e);
         }

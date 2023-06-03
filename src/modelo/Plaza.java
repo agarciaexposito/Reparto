@@ -1,8 +1,11 @@
 package modelo;
 
+import java.io.Serial;
 import java.io.Serializable;
 
 public class Plaza implements Serializable {
+    @Serial
+    private static final long serialVersionUID = 2921508854173464819L;
     private String autonomia="";
     private int especialidad=500000;
     private String descripcion="";

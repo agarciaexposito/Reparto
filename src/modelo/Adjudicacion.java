@@ -1,8 +1,11 @@
 package modelo;
 
+import java.io.Serial;
 import java.io.Serializable;
 
 public class Adjudicacion implements Serializable {
+    @Serial
+    private static final long serialVersionUID = 2171693841497723947L;
     private final int pos;
 
     private final int numEleccion;
@@ -10,10 +13,19 @@ public class Adjudicacion implements Serializable {
     private final Aspirante adjudicadoA;
 
     public Adjudicacion(int pos, Aspirante adjudicadoA,int numEleccion,char turno) {
+
         this.pos = pos;
         this.adjudicadoA = adjudicadoA;
         this.numEleccion = numEleccion;
         this.turno = turno;
+    }
+
+    public int getPos() {
+        return pos;
+    }
+
+    public Aspirante getAdjudicadoA() {
+        return adjudicadoA;
     }
 
     public int getNumEleccion() {

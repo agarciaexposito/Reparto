@@ -9,13 +9,17 @@ import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.nio.file.StandardOpenOption;
 import java.util.*;
 
 
 public class Aspirantes implements Serializable {
+    private String especialidad;
     private boolean ordenado = false;
     private List<Aspirante> aspirantes=new ArrayList<>();
+
+    public Aspirantes(String especialidad) {
+        this.especialidad = especialidad;
+    }
 
     public List<Aspirante> getAspirantes() {
         return aspirantes;
@@ -263,6 +267,7 @@ public class Aspirantes implements Serializable {
         try (ObjectInputStream entrada = new ObjectInputStream(new FileInputStream(file))) {
             Object a = entrada.readObject();
             if (a instanceof Aspirantes) {
+                this.especialidad = ((Aspirantes) a).especialidad;
                 this.ordenado = ((Aspirantes) a).ordenado;
                 this.aspirantes = ((Aspirantes) a).aspirantes;
             }

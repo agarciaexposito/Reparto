@@ -12,7 +12,10 @@ import java.nio.file.StandardOpenOption;
 import java.util.*;
 
  public class Repartos extends AbstractRepartos implements Serializable {
-    public Repartos(Aspirantes aspirantes,Plazas plazas, String especialid) {
+     @Serial
+     private static final long serialVersionUID = 8715488067680341543L;
+
+     public Repartos(Aspirantes aspirantes, Plazas plazas, String especialid) {
         super(aspirantes,plazas,especialid);
     }
     public boolean isCompleto(){

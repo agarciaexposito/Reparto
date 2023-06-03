@@ -1,6 +1,7 @@
 package modelo;
 
 import com.google.gson.Gson;
+import helper.Comun;
 
 import java.io.*;
 import java.nio.charset.StandardCharsets;
@@ -13,10 +14,15 @@ import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
 
-public abstract class AbstractRepartos {
+public abstract class AbstractRepartos implements Serializable{
+
+    @Serial
+    private static final long serialVersionUID = -2637206352538027355L;
+    protected String especialidad;
     protected Aspirantes aspirantes;
     protected Map<String,Reparto> autonomias = new TreeMap<>();
     public AbstractRepartos(Aspirantes aspirantes,Plazas plazas, String especialid) {
+        this.especialidad = especialid;
         this.aspirantes = aspirantes;
         int especialidad=Integer.parseInt(especialid);
         plazas.ordenarPorEspecialidad();
@@ -27,11 +33,15 @@ public abstract class AbstractRepartos {
                 reparto.setAutonomia(plaza.getAutonomia());
                 reparto.setPlazas(plaza.getNumero());
                 reparto.setEuskera(plaza.isEuskera());
-                this.autonomias.put(plaza.getAutonomia()+(plaza.isLibre()?"_L":"_D")+(plaza.isEuskera()?"_K":""), reparto);
+                this.autonomias.put(Comun.keyAutonomia(plaza.getAutonomia(),plaza.isLibre(),plaza.isEuskera()), reparto);
             }
         }
     }
     public abstract void ejecuta();
+
+    public Map<String, Reparto> getAutonomias() {
+        return autonomias;
+    }
 
     @Override
     public String toString() {
@@ -130,12 +140,12 @@ public abstract class AbstractRepartos {
         Files.write(fichero, cabecera.getBytes(StandardCharsets.UTF_8), StandardOpenOption.CREATE);
         return fichero;
     }
-    public void readSer(String file) throws Exception{
+    public static AbstractRepartos readSer(String especialidad) throws Exception{
+		String file = Comun.PATH_RESULT +"/"+especialidad.trim()+"-adj_prov.ser";
         try (ObjectInputStream entrada = new ObjectInputStream(new FileInputStream(file))) {
             Object r = entrada.readObject();
             if (r instanceof AbstractRepartos) {
-                this.autonomias = ((AbstractRepartos) r).autonomias;
-                this.aspirantes = ((AbstractRepartos) r).aspirantes;
+                return (AbstractRepartos) r;
             }
             else throw new Exception(String.format("El archivo %s no contiene los repartos, bórrelo",file));
         }

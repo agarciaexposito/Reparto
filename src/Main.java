@@ -1,152 +1,129 @@
 
 import helper.Comun;
-import helper.Util;
 import modelo.*;
 
 import java.io.IOException;
 import java.nio.file.*;
 import java.nio.file.attribute.BasicFileAttributes;
 import java.util.List;
+import java.util.Scanner;
 import java.util.Set;
 
+import static helper.Comun.*;
+
 public class Main {
-    public static final String FICHEROS_PLAZAS_SER = "./data/plazas.ser";
-    public static final String FICHEROS_ASPIRANTES_SER = "./data/aspirantes.ser";
-    public static final String FICHEROS_REPARTOS_SER = "./data/repartos.ser";
-    public static final String FICHEROS_PLAZAS_TXT = "./data/plazas.txt";
-    public static final boolean generarJSON=false;
-    public static final boolean generarSer=false;
-    private static int numFile=0;
-    private static final boolean generarReparto =false;  // con falso hago una ordenación de todos
-    private static final boolean hojaResumen = true; // para mostrar una hoja resumen con la vulnearción de las disposiciones tanto la D.A. Sexta, D.A. Octava como Directiva 1999/70/CE
 
 
+    private static final Scanner sc = new Scanner(System.in);
+    private static final int MIN_OP_MENU=-3;
+    private static final int MAX_OP_MENU=5;
 
     public static void main(String[] args) {
-        if (args.length<=1){
-            Path directoryPath;
-            if (args.length==0)
-                directoryPath = Paths.get(Util.DOWNLOAD_PATH);
-            else directoryPath = Paths.get(args[0].trim());
-            try {
-                Files.walkFileTree(directoryPath, new SimpleFileVisitor<>() {
-                    @Override
-                    public FileVisitResult visitFile(Path file, BasicFileAttributes attrs) {
-                        if (file.getFileName().toString().toLowerCase().endsWith(".pdf")) {
-                            String fichero=file.getFileName().toString();
-                            carga(directoryPath+"/"+fichero);
-                        }
-                        return FileVisitResult.CONTINUE;
-                    }
-                });
-            } catch (IOException e) {
-                System.err.println(e.getMessage());
+        switch (args.length) {
+            case 0 -> cargaMenu();
+            case 1 -> {
+                Path directoryPath = Paths.get(args[0].trim());
+                cargaDirectorio(directoryPath);
             }
-        } else {
-            int cont = 0;
-            while (cont < args.length) {
-                String fichero = args[cont++];
-                carga(fichero);
+            default -> {
+                int cont = 0;
+                while (cont < args.length) {
+                    String fichero = args[cont++];
+                    cargaFichero(fichero);
+                }
             }
         }
     }
-
-    private static void carga(String file) {
+    private static int leeOpcion() {
+        String opcion = null;
         try {
-            System.out.printf("%d$%s\n",numFile++,file);
-            if (Comun.extension(file).equalsIgnoreCase("pdf")){
-                String fileOut=file.toLowerCase().replaceAll("\\.pdf$", "-Temp.txt");
-                Comun.pdfToTxt(file,fileOut);
-                file = fileOut;
+            opcion = sc.nextLine();
+            int  valor=Integer.parseInt(opcion);
+            if (valor<MIN_OP_MENU || valor>MAX_OP_MENU) {
+                return -1;
             }
-            Set<String> ficheros=Comun.troceaTXTEnEspecialidades(file);
-            for (String fichero:ficheros) {
-                String especialidad=Comun.nombreArchivoSinExt(fichero).trim().substring(0,6);
-                cargaEspecialidad(fichero, especialidad);
-            }
+            return valor;
         } catch (Exception e) {
-            System.err.println(e.getMessage());
-            //System.exit(-1);
+            return -1;
         }
     }
 
-    private static void cargaEspecialidad(String fichero, String especialidad) throws IOException {
-        Plazas plazas = getPlazas();
-        Aspirantes aspirantes=new Aspirantes();
-        aspirantes.loadTXT(fichero);
-        if (generarJSON)
-            aspirantesJSON(aspirantes, fichero);
-        if (generarSer)
-            aspirantesSer(aspirantes);
-        AbstractRepartos repartos;
-        if (generarReparto)
-            repartos = new Repartos(aspirantes, plazas, especialidad);
-        else repartos = new Distribucion(aspirantes,plazas,especialidad);
-        repartos.ejecuta();
-        Path file = Paths.get(fichero);
-        Path rutaArchivo = file.getParent();
-        String nombreArchivo = file.getFileName().toString();
-        List<String> ficherosGeneradosCSV=repartosCSV(rutaArchivo, nombreArchivo, repartos);
-        repartosExcel(rutaArchivo, nombreArchivo,ficherosGeneradosCSV);
-        if (generarJSON) //Pa manuel
-            repartosJSON(rutaArchivo, nombreArchivo, repartos);
-        if (generarSer)
-            repartosSer(repartos);
-    }
-
-    private static void aspirantesSer(Aspirantes aspirantes) throws IOException {
-        aspirantes.writeSer(FICHEROS_ASPIRANTES_SER);
-    }
-
-    private static Plazas getPlazas() {
-        Plazas plazas=new Plazas();
-        try {
-            if (Files.exists(Paths.get(FICHEROS_PLAZAS_SER)))
-                plazas.readSer(FICHEROS_PLAZAS_SER);
-            else {
-                plazas.loadTXT(FICHEROS_PLAZAS_TXT);
-                plazas.writeSer(FICHEROS_PLAZAS_SER);
-            }
-            creaCarpetaFicheros();
-            if (generarJSON)
-                plazas.saveJSON("./ficheros/plazas.json");
-
-        } catch (Exception e) {
-            System.err.println(e.getMessage());
-            System.exit(-1);
+    public static int leeValor(){
+        String s = sc.nextLine();
+        if (s.matches("[0-9]+"))
+            return Integer.parseInt(s);
+        else {
+            System.out.printf("Se espera un valor numérico (%s), vuelva a introducirlo\n",s);
+            return leeValor();
         }
-        return plazas;
     }
 
-    private static void aspirantesJSON(Aspirantes aspirantes, String fichero) throws IOException {
-        String fileJSON = fichero.replaceAll("\\.txt$", ".json");
-        aspirantes.saveJSON(fileJSON);
+    private static double leeCantidad() {
+        String s = sc.nextLine();
+        if (Comun.isDouble(s))
+            return Double.parseDouble(s);
+        else {
+            System.out.println("Error en formato del número, tiene que ser 99.99: ");
+            return leeCantidad();
+        }
     }
 
-    private static List<String> repartosCSV(Path rutaArchivo, String nombreArchivo, AbstractRepartos repartos) throws IOException {
-        String fileRepartoCSV = rutaArchivo +"/"+ nombreArchivo.replaceAll("\\.txt$", ".csv");
-        if (hojaResumen)
-            return repartos.saveCSVHojaResumen(fileRepartoCSV);
-        else return repartos.saveCSV(fileRepartoCSV);
+    private static void menu() {
+        System.out.printf("-3. %s generar JSONs%n",generarJSON?"DESACTIVAR":"ACTIVAR");
+        System.out.printf("-2. %s generar SERs%n",generarSer?"DESACTIVAR":"ACTIVAR");
+        System.out.printf("-1. %s generar EXCELs%n",generarExcels?"DESACTIVAR":"ACTIVAR");
+        System.out.println("1: Adjudicación provisional");
+        System.out.println("2: Ordenación");
+        System.out.println("3. Cargar PDFs adjud. prov. (./ministerio)");
+        System.out.println("4. Comparar adjud. mía con la del ministerio (una especialidad)");
+        System.out.println("5. Comparar adjud. mía con la del ministerio (todas->./result vs ./result/ministerio)");
+        System.out.println("0. Salir");
+        System.out.print("Opción a realizar: ");
     }
 
-    private static void repartosJSON(Path rutaArchivo, String nombreArchivo, AbstractRepartos repartos) throws IOException {
-        //String fileRepartoJSON = rutaArchivo +"/AdjProv_"+ nombreArchivo.replaceAll("\\.txt$", ".json");
-        // modificado para Manuel
-        String fileRepartoJSON = rutaArchivo +"/"+ nombreArchivo.trim().substring(0,6)+".json";
-        repartos.saveJSON(fileRepartoJSON);
+    public static void cargaMenu() {
+        int operacion;
+        do {
+            menu();
+            operacion = leeOpcion();
+            ejecuta(operacion);
+        } while (operacion!=0);
     }
-    private static void repartosSer(AbstractRepartos repartos) throws IOException {
-        repartos.writeSer(FICHEROS_REPARTOS_SER);
+
+    private static void ejecuta(int operacion) {
+        switch (operacion) {
+            case -3 -> generarJSON = !generarJSON;
+            case -2 -> generarSer = !generarSer;
+            case -1 -> generarExcels = !generarExcels;
+            case 0 -> {
+                System.out.println("Hasta pronto, que tenga un buen día!! .");
+                System.exit(0);
+            }
+            case 1, 2 -> {
+                generarAdjudicacion = (operacion == 1);
+                System.out.print("Carpeta con solicitudes (PDFs del ministerio día 11 Mayo): ");
+                Path directoryPath = Paths.get(sc.nextLine().trim());
+                cargaDirectorio(directoryPath);
+            }
+            case 3 -> cargarTodasLasAdjudDirectorioMinisterio();
+            case 4 -> {
+                System.out.print("Introduzca código de especialidad: ");
+                int especialidad = leeValor();
+                cotejarDatosMinisterio(especialidad);
+            }
+            case 5 -> {
+                List<Integer> especialidades = generarListaEspecialidades(Paths.get(PATH_RESULT_MINISTERIO));
+                int cont=1;
+                for (int especialidad:especialidades) {
+                    System.out.printf("%d. Generando diferencias para especialidad: %d\n",cont++,especialidad);
+                    cotejarDatosMinisterio(especialidad);
+                }
+            }
+            default -> msgOpcionIncorrecta();
+        }
     }
-    public static void repartosExcel(Path rutaArchivo, String nombreArchivo,List<String> archivosCSV) throws IOException{
-        String fileRepartoExcel;
-        if (generarReparto)
-            fileRepartoExcel = rutaArchivo +"/AdjProv_" + nombreArchivo.replaceAll("\\.txt$", ".xlsx");
-        else fileRepartoExcel = rutaArchivo + "/" + nombreArchivo.replaceAll("\\.txt$", ".xlsx");
-        Comun.csvToExcel(fileRepartoExcel,archivosCSV,";");
-    }
-    public static void creaCarpetaFicheros() throws IOException {
-        Comun.creaCarpeta("./ficheros");
+
+    private static void msgOpcionIncorrecta() {
+        System.out.printf("Rango de valores válidos (%d-%d)\n",MIN_OP_MENU,MAX_OP_MENU);
     }
 }

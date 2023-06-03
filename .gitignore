@@ -30,5 +30,7 @@ bin/
 .DS_Store
 
 ficheros/
-data/aspirantes.ser
-data/repartos.ser
+result/
+data/[0-9]*
+ministerio/
+

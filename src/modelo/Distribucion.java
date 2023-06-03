@@ -1,6 +1,12 @@
 package modelo;
 
-public class Distribucion extends AbstractRepartos {
+import java.io.Serial;
+import java.io.Serializable;
+
+public class Distribucion extends AbstractRepartos implements Serializable {
+    @Serial
+    private static final long serialVersionUID = 6325128202505063014L;
+
     public Distribucion(Aspirantes aspirantes, Plazas plazas, String especialidad) {
         super(aspirantes, plazas, especialidad);
     }

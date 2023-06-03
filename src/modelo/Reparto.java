@@ -1,14 +1,18 @@
 package modelo;
 
+import java.io.Serial;
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
 public class Reparto implements Serializable {
+    @Serial
+    private static final long serialVersionUID = 2560205481722679890L;
     private String autonomia="";
     private int plazas=0;
     private boolean libre=false;
     private boolean euskera=false;
+
 
     private final List<Adjudicacion> adjudicaciones = new ArrayList<>();
 
